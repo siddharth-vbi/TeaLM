@@ -1,0 +1,4797 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<UNK>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "<PAD>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "<BOS>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "<EOS>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": null,
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "<UNK>",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<UNK>": 0,
+      "<PAD>": 1,
+      "<BOS>": 2,
+      "<EOS>": 3,
+      "\n": 4,
+      " ": 5,
+      "'": 6,
+      ",": 7,
+      "-": 8,
+      ".": 9,
+      "A": 10,
+      "B": 11,
+      "C": 12,
+      "D": 13,
+      "E": 14,
+      "F": 15,
+      "G": 16,
+      "H": 17,
+      "I": 18,
+      "J": 19,
+      "K": 20,
+      "L": 21,
+      "M": 22,
+      "N": 23,
+      "O": 24,
+      "P": 25,
+      "R": 26,
+      "S": 27,
+      "T": 28,
+      "U": 29,
+      "V": 30,
+      "W": 31,
+      "Y": 32,
+      "Z": 33,
+      "a": 34,
+      "b": 35,
+      "c": 36,
+      "d": 37,
+      "e": 38,
+      "f": 39,
+      "g": 40,
+      "h": 41,
+      "i": 42,
+      "j": 43,
+      "k": 44,
+      "l": 45,
+      "m": 46,
+      "n": 47,
+      "o": 48,
+      "p": 49,
+      "q": 50,
+      "r": 51,
+      "s": 52,
+      "t": 53,
+      "u": 54,
+      "v": 55,
+      "w": 56,
+      "x": 57,
+      "y": 58,
+      "z": 59,
+      "ä": 60,
+      "ç": 61,
+      "é": 62,
+      "ñ": 63,
+      "ó": 64,
+      "ı": 65,
+      " a": 66,
+      "d ": 67,
+      "er": 68,
+      "e ": 69,
+      "in": 70,
+      " c": 71,
+      "on": 72,
+      "or": 73,
+      "it": 74,
+      "ed ": 75,
+      ", ": 76,
+      "es": 77,
+      "is": 78,
+      " an": 79,
+      "t ": 80,
+      "ea": 81,
+      "om": 82,
+      ". ": 83,
+      " and ": 84,
+      "y ": 85,
+      "la": 86,
+      "ic": 87,
+      "ha": 88,
+      "al": 89,
+      "en": 90,
+      ".\n": 91,
+      " t": 92,
+      "an": 93,
+      ". I": 94,
+      "at": 95,
+      "il": 96,
+      "ith": 97,
+      "with": 98,
+      " s": 99,
+      "ar": 100,
+      "ing": 101,
+      " f": 102,
+      ". It ": 103,
+      "re": 104,
+      "vor": 105,
+      " b": 106,
+      "lavor": 107,
+      " is": 108,
+      "ee": 109,
+      "ro": 110,
+      " m": 111,
+      "ru": 112,
+      "ly ": 113,
+      "mon": 114,
+      "ra": 115,
+      "ion": 116,
+      "wee": 117,
+      " com": 118,
+      "of": 119,
+      "th": 120,
+      "ed with": 121,
+      "has": 122,
+      "ilk": 123,
+      " p": 124,
+      " tea": 125,
+      "bin": 126,
+      "as": 127,
+      "rom": 128,
+      "weet": 129,
+      "us": 130,
+      "de ": 131,
+      "ver": 132,
+      "ol": 133,
+      "ruit": 134,
+      "has a": 135,
+      ", and ": 136,
+      "le": 137,
+      " is a": 138,
+      " or": 139,
+      " flavor": 140,
+      "oc": 141,
+      "flavor": 142,
+      "ater": 143,
+      "ag": 144,
+      "ade ": 145,
+      " w": 146,
+      "ever": 147,
+      "e c": 148,
+      "li": 149,
+      "ter": 150,
+      "everag": 151,
+      ", s": 152,
+      "rea": 153,
+      " combin": 154,
+      ". It is": 155,
+      "ch": 156,
+      "pic": 157,
+      ". It has a": 158,
+      "oth": 159,
+      " with": 160,
+      "res": 161,
+      "ally ": 162,
+      " d": 163,
+      "am": 164,
+      " g": 165,
+      "ed": 166,
+      ", or": 167,
+      "ream": 168,
+      "he ": 169,
+      "ur": 170,
+      "pp": 171,
+      "ang": 172,
+      " in": 173,
+      "ent": 174,
+      "ju": 175,
+      "tea": 176,
+      "ri": 177,
+      "juic": 178,
+      " arom": 179,
+      ". It": 180,
+      ", c": 181,
+      "ut": 182,
+      " can": 183,
+      "el": 184,
+      "ta": 185,
+      "od": 186,
+      "ber": 187,
+      "milk": 188,
+      " common": 189,
+      "ink": 190,
+      "ong": 191,
+      " milk": 192,
+      "s.\n": 193,
+      "erv": 194,
+      " con": 195,
+      "ener": 196,
+      "gh": 197,
+      "from": 198,
+      "dit": 199,
+      "off": 200,
+      " fruit": 201,
+      "e is": 202,
+      "her": 203,
+      "rink": 204,
+      "sweet": 205,
+      "uc": 206,
+      " combines": 207,
+      " as": 208,
+      " st": 209,
+      "everage ": 210,
+      "ed b": 211,
+      "rac": 212,
+      "fruit": 213,
+      "ation": 214,
+      " sweet": 215,
+      "le ": 216,
+      "lemon": 217,
+      "ly": 218,
+      "other": 219,
+      " of": 220,
+      "Tea": 221,
+      "par": 222,
+      "um": 223,
+      " cha": 224,
+      "erved ": 225,
+      "ess": 226,
+      " and c": 227,
+      "racter": 228,
+      "reen": 229,
+      "di": 230,
+      " the ": 231,
+      "offe": 232,
+      "ti": 233,
+      "y, ": 234,
+      "herb": 235,
+      "ombin": 236,
+      "end": 237,
+      "ing ": 238,
+      "un": 239,
+      "resh": 240,
+      "ast": 241,
+      " al": 242,
+      "ed with ": 243,
+      " commonly ": 244,
+      "mo": 245,
+      "served ": 246,
+      "ade from": 247,
+      " water": 248,
+      "ex": 249,
+      "ry ": 250,
+      "water": 251,
+      "ck": 252,
+      "so": 253,
+      "ut ": 254,
+      " car": 255,
+      " aroma": 256,
+      "tain": 257,
+      "lor": 258,
+      "lack": 259,
+      "dition": 260,
+      "loral": 261,
+      "ist": 262,
+      "inger": 263,
+      ". It can": 264,
+      "ligh": 265,
+      " juic": 266,
+      "ve": 267,
+      "ango": 268,
+      " n": 269,
+      " be ": 270,
+      "oco": 271,
+      "enerally ": 272,
+      "itru": 273,
+      "e combin": 274,
+      " character": 275,
+      "itrus": 276,
+      "ow": 277,
+      "ed c": 278,
+      " pro": 279,
+      "ci": 280,
+      "bon": 281,
+      "bas": 282,
+      "ot": 283,
+      "ten": 284,
+      "radition": 285,
+      "st": 286,
+      "ext": 287,
+      "duc": 288,
+      "ool": 289,
+      "ure": 290,
+      "pical": 291,
+      "lu": 292,
+      "to": 293,
+      "gar": 294,
+      "fus": 295,
+      " cream": 296,
+      "lat": 297,
+      "ropical": 298,
+      "herbal": 299,
+      " other": 300,
+      "e, ": 301,
+      " and": 302,
+      "repar": 303,
+      ", and s": 304,
+      ". T": 305,
+      "lend": 306,
+      "pro": 307,
+      "ugar": 308,
+      "roast": 309,
+      " Tea": 310,
+      "drink": 311,
+      "ff": 312,
+      "ma": 313,
+      "si": 314,
+      "ice": 315,
+      "weet ": 316,
+      "offee ": 317,
+      "mooth": 318,
+      "rong": 319,
+      "-li": 320,
+      "yru": 321,
+      " ch": 322,
+      "pices": 323,
+      "berry ": 324,
+      "light": 325,
+      "yrup": 326,
+      " S": 327,
+      "fresh": 328,
+      " made from": 329,
+      "ocon": 330,
+      "reen tea": 331,
+      "-lik": 332,
+      " lemon": 333,
+      "ir": 334,
+      "yo": 335,
+      "arm": 336,
+      "ingre": 337,
+      " infus": 338,
+      " contain": 339,
+      "e is a": 340,
+      "ingredi": 341,
+      " C": 342,
+      "made ": 343,
+      "ves": 344,
+      " and is": 345,
+      "alt": 346,
+      " tradition": 347,
+      "floral": 348,
+      "ness": 349,
+      "ul": 350,
+      " aci": 351,
+      "olor": 352,
+      "ingredient": 353,
+      " beverage ": 354,
+      "flavor.\n": 355,
+      "lack tea": 356,
+      "-bas": 357,
+      "s, ": 358,
+      "ear": 359,
+      "y b": 360,
+      "ocolat": 361,
+      "raw": 362,
+      ", sweet": 363,
+      " carbon": 364,
+      ". The ": 365,
+      " re": 366,
+      "gur": 367,
+      "id": 368,
+      "ot ": 369,
+      "hak": 370,
+      "exture": 371,
+      " infusion": 372,
+      "et": 373,
+      "pres": 374,
+      " tha": 375,
+      "atic": 376,
+      " flavored with": 377,
+      " aromatic": 378,
+      " strong": 379,
+      "oconut ": 380,
+      " us": 381,
+      "erm": 382,
+      "int": 383,
+      " an ": 384,
+      "Le": 385,
+      "clu": 386,
+      "les": 387,
+      "led": 388,
+      "pple ": 389,
+      "oda": 390,
+      "Lemon": 391,
+      "co": 392,
+      "e.\n": 393,
+      "lea": 394,
+      "nut": 395,
+      "e s": 396,
+      "yogur": 397,
+      " r": 398,
+      "tar": 399,
+      "y.\n": 400,
+      " citrus": 401,
+      "hol": 402,
+      "y t": 403,
+      " blend": 404,
+      ". It can be ": 405,
+      "moothi": 406,
+      "lightly ": 407,
+      "prepar": 408,
+      "ed in": 409,
+      "ed tea": 410,
+      " and s": 411,
+      "ill": 412,
+      "illed": 413,
+      "istic": 414,
+      "presso": 415,
+      "eti": 416,
+      "iat": 417,
+      "one": 418,
+      ". It is commonly ": 419,
+      "ries": 420,
+      " and can": 421,
+      " carbonat": 422,
+      "erment": 423,
+      " ha": 424,
+      "soc": 425,
+      "illa": 426,
+      "Milk": 427,
+      "generally ": 428,
+      "sum": 429,
+      "es a": 430,
+      "anilla": 431,
+      "amel": 432,
+      " generally ": 433,
+      ", or other": 434,
+      "veg": 435,
+      "clude ": 436,
+      "cohol": 437,
+      "sociat": 438,
+      "for": 439,
+      "gra": 440,
+      "os": 441,
+      "sion": 442,
+      "espresso": 443,
+      "ally": 444,
+      " to": 445,
+      " or ": 446,
+      " warm": 447,
+      " combined with": 448,
+      "e combines": 449,
+      " ingredient": 450,
+      "der": 451,
+      "ve ": 452,
+      "ed s": 453,
+      " th": 454,
+      ". It has": 455,
+      "often": 456,
+      "old ": 457,
+      " flavor.\n": 458,
+      " wh": 459,
+      " associat": 460,
+      "ed beverage ": 461,
+      " and a": 462,
+      "leaves": 463,
+      "yogurt": 464,
+      " k": 465,
+      "dam": 466,
+      "qu": 467,
+      "ran": 468,
+      "wh": 469,
+      " coffee ": 470,
+      " black tea": 471,
+      " drink": 472,
+      " acidit": 473,
+      "etal": 474,
+      "green tea": 475,
+      "hone": 476,
+      "low": 477,
+      "s. ": 478,
+      "y, and ": 479,
+      "inea": 480,
+      "ed or": 481,
+      ", b": 482,
+      "ese ": 483,
+      " and m": 484,
+      "lan": 485,
+      "ich": 486,
+      "ick": 487,
+      " fresh": 488,
+      " commonly": 489,
+      "aff": 490,
+      "ood": 491,
+      "inn": 492,
+      ", fruit": 493,
+      " mango": 494,
+      " ginger": 495,
+      " include ": 496,
+      " produc": 497,
+      "produc": 498,
+      "freshing": 499,
+      " than": 500,
+      "nutt": 501,
+      "y texture": 502,
+      "cha": 503,
+      "ds": 504,
+      "e or": 505,
+      "e juic": 506,
+      "es.\n": 507,
+      " tropical": 508,
+      " su": 509,
+      " spices": 510,
+      " beverag": 511,
+      "vegetal": 512,
+      "damom": 513,
+      "hot ": 514,
+      "made from": 515,
+      "shak": 516,
+      "var": 517,
+      "int ": 518,
+      "ros": 519,
+      "using": 520,
+      " often": 521,
+      "unch": 522,
+      " also": 523,
+      "herbal infusion": 524,
+      "at ": 525,
+      "amon": 526,
+      "ix": 527,
+      "ed milk": 528,
+      "each": 529,
+      "ometi": 530,
+      ". C": 531,
+      " and sweet": 532,
+      " floral": 533,
+      ". It ma": 534,
+      ". It generally ": 535,
+      " is an ": 536,
+      "e con": 537,
+      "chilled": 538,
+      ", cream": 539,
+      "innamon": 540,
+      "ometim": 541,
+      " P": 542,
+      "Water": 543,
+      "ai": 544,
+      "ap": 545,
+      "em": 546,
+      "over": 547,
+      "tropical": 548,
+      " app": 549,
+      "inc": 550,
+      "ine": 551,
+      " coconut ": 552,
+      "ommon": 553,
+      "rew": 554,
+      "ch as": 555,
+      " with ": 556,
+      "ed as": 557,
+      "berries": 558,
+      "coholic": 559,
+      "Ch": 560,
+      "gion": 561,
+      "ib": 562,
+      "ou": 563,
+      "ry": 564,
+      "vanilla": 565,
+      ", m": 566,
+      "ana": 567,
+      "ild ": 568,
+      "flavored with": 569,
+      " cont": 570,
+      " characteristic": 571,
+      "oolong": 572,
+      "-like ": 573,
+      " such as": 574,
+      "ometimes": 575,
+      "In": 576,
+      "Mango": 577,
+      "but": 578,
+      "ble ": 579,
+      "ginger": 580,
+      "ss": 581,
+      "wood": 582,
+      " color": 583,
+      "itter": 584,
+      " and has a": 585,
+      "anana": 586,
+      " sweet ": 587,
+      "lim": 588,
+      " with milk": 589,
+      " dist": 590,
+      ". It combines": 591,
+      "earth": 592,
+      "y be ": 593,
+      "rawberry ": 594,
+      "Fruit": 595,
+      "cess": 596,
+      "fir": 597,
+      "im": 598,
+      "kl": 599,
+      "ually ": 600,
+      " ad": 601,
+      "e with": 602,
+      "is a": 603,
+      "atur": 604,
+      "eep": 605,
+      "old": 606,
+      "e cream": 607,
+      " consum": 608,
+      "sweeten": 609,
+      "parkl": 610,
+      " aroma.\n": 611,
+      " not": 612,
+      "ocoa": 613,
+      "tart ": 614,
+      "honey": 615,
+      " is an herbal infusion": 616,
+      "ec": 617,
+      "eer": 618,
+      "epp": 619,
+      "mer": 620,
+      "ish": 621,
+      "ice cream": 622,
+      "haracter": 623,
+      " syrup": 624,
+      "refreshing": 625,
+      "rap": 626,
+      ", sugar": 627,
+      ". It is generally ": 628,
+      ", car": 629,
+      "Indi": 630,
+      " roast": 631,
+      "efir": 632,
+      "ed drink": 633,
+      "ican": 634,
+      "al ": 635,
+      " is tea": 636,
+      " made ": 637,
+      " mint": 638,
+      " prepar": 639,
+      " is a ": 640,
+      " flavored with ": 641,
+      "ed.\n": 642,
+      "ed beverag": 643,
+      "served chilled": 644,
+      "ocolate ": 645,
+      " thick": 646,
+      " associated with ": 647,
+      "-f": 648,
+      "Ginger": 649,
+      "beverag": 650,
+      "eg": 651,
+      "ep": 652,
+      "op": 653,
+      "ub": 654,
+      " ar": 655,
+      "isk": 656,
+      "ent ": 657,
+      "att": 658,
+      "ock": 659,
+      " sty": 660,
+      " character.\n": 661,
+      "ffer": 662,
+      "lower": 663,
+      "ineapple ": 664,
+      ". It generally has a": 665,
+      " is an herbal infusion made from": 666,
+      " ice": 667,
+      "Ic": 668,
+      "Latt": 669,
+      "avor": 670,
+      "beverage ": 671,
+      "ron": 672,
+      "y and ": 673,
+      "eel": 674,
+      "reat": 675,
+      "che": 676,
+      " green tea": 677,
+      "ed, ": 678,
+      "ribut": 679,
+      "tail": 680,
+      "ucha": 681,
+      "ed by ": 682,
+      "ing on": 683,
+      "sty": 684,
+      "ooler": 685,
+      "made with": 686,
+      "oda is a": 687,
+      "Lemonade ": 688,
+      "epend": 689,
+      "ocktail": 690,
+      "Drink": 691,
+      "bucha": 692,
+      "mal": 693,
+      "ts": 694,
+      "e tea": 695,
+      "ombucha": 696,
+      "har": 697,
+      "any ": 698,
+      "atcha": 699,
+      " mix": 700,
+      "version": 701,
+      ". It has a cream": 702,
+      "offee": 703,
+      " sweetness": 704,
+      "tive": 705,
+      " chill": 706,
+      " traditionally ": 707,
+      "moothie combines": 708,
+      "over ice": 709,
+      "epending on": 710,
+      " K": 711,
+      " h": 712,
+      " la": 713,
+      " espresso": 714,
+      "St": 715,
+      "ad": 716,
+      "brew": 717,
+      "cent": 718,
+      "ferment": 719,
+      "iz": 720,
+      "nes": 721,
+      "pri": 722,
+      "ssi": 723,
+      "vid": 724,
+      "warm": 725,
+      "ild": 726,
+      " spic": 727,
+      "ark": 728,
+      " ferment": 729,
+      " bas": 730,
+      " tea is a": 731,
+      "lue": 732,
+      " Tea is a": 733,
+      "vari": 734,
+      "epper": 735,
+      "ness.\n": 736,
+      " A": 737,
+      " B": 738,
+      " it": 739,
+      "-flavor": 740,
+      "Mint ": 741,
+      "dic": 742,
+      "e a": 743,
+      "pir": 744,
+      "ern": 745,
+      " cold ": 746,
+      ", p": 747,
+      "es, ": 748,
+      "y flavor.\n": 749,
+      "hai": 750,
+      "ily ": 751,
+      " sugar": 752,
+      " ma": 753,
+      "oft ": 754,
+      "liqu": 755,
+      " combination": 756,
+      "ange ": 757,
+      "team": 758,
+      "ombines": 759,
+      " juice": 760,
+      " lemonade ": 761,
+      "grain": 762,
+      " ingredients": 763,
+      "affron": 764,
+      " contribut": 765,
+      " distinc": 766,
+      "served chilled.\n": 767,
+      "Iced ": 768,
+      " G": 769,
+      "-er": 770,
+      "-tart ": 771,
+      "fil": 772,
+      "gn": 773,
+      "nut ": 774,
+      "s and ": 775,
+      "u-er": 776,
+      " a c": 777,
+      "on-": 778,
+      "ed for": 779,
+      ", lemon": 780,
+      "region": 781,
+      " plan": 782,
+      ". It has a sweet": 783,
+      " deep": 784,
+      " grap": 785,
+      " caramel": 786,
+      " juice, ": 787,
+      " nut": 788,
+      ", and slightly ": 789,
+      " chocolat": 790,
+      " acidic": 791,
+      "-based beverage ": 792,
+      "Milkshak": 793,
+      "parkling": 794,
+      "oda is a carbonat": 795,
+      "versions": 796,
+      "u-erh": 797,
+      " ic": 798,
+      ", aromatic": 799,
+      "eth": 800,
+      "iffer": 801,
+      "lo": 802,
+      "mar": 803,
+      "mel": 804,
+      "ox": 805,
+      "rat": 806,
+      "tion": 807,
+      "tur": 808,
+      " cocoa": 809,
+      " cocktail": 810,
+      "ed water": 811,
+      ", floral": 812,
+      "isc": 813,
+      ". D": 814,
+      "lar": 815,
+      "lain": 816,
+      "lative": 817,
+      "anese ": 818,
+      "ile ": 819,
+      " salt": 820,
+      "art": 821,
+      " for": 822,
+      " mild ": 823,
+      "mond ": 824,
+      "ras": 825,
+      "assion": 826,
+      " or other": 827,
+      ", citrus": 828,
+      " of ": 829,
+      " chai": 830,
+      " and cream": 831,
+      "offee is": 832,
+      "served hot ": 833,
+      "owder": 834,
+      ", and sometimes": 835,
+      "made b": 836,
+      " and can be ": 837,
+      " have ": 838,
+      "affe": 839,
+      "e juice": 840,
+      ". Common": 841,
+      "Chocolate ": 842,
+      " characteristics.\n": 843,
+      "style ": 844,
+      "epending on the ": 845,
+      "Strawberry ": 846,
+      "primar": 847,
+      "latively ": 848,
+      " M": 849,
+      " ligh": 850,
+      "-style ": 851,
+      "Car": 852,
+      "Coconut ": 853,
+      "combines": 854,
+      "hin": 855,
+      "id ": 856,
+      "lus": 857,
+      "s. It is": 858,
+      "sweet ": 859,
+      "ty": 860,
+      "tradition": 861,
+      "y aroma": 862,
+      "y contain": 863,
+      " creat": 864,
+      "ed to": 865,
+      "ed using": 866,
+      ", milk": 867,
+      ", ginger": 868,
+      " and ma": 869,
+      "y flavor": 870,
+      "alt ": 871,
+      "ens": 872,
+      "anth": 873,
+      "ilut": 874,
+      "ing a": 875,
+      " ber": 876,
+      " bro": 877,
+      " many ": 878,
+      "ed with water": 879,
+      " peach": 880,
+      "ash": 881,
+      "flavored with ": 882,
+      "amp": 883,
+      ", or ": 884,
+      ". It commonly ": 885,
+      "odern": 886,
+      "berry": 887,
+      "ucum": 888,
+      "esser": 889,
+      " cardamom": 890,
+      "ve a": 891,
+      "e combined with": 892,
+      "own": 893,
+      "ed coffee ": 894,
+      " and is commonly ": 895,
+      "ulp": 896,
+      " commonly consum": 897,
+      " and sweetener": 898,
+      " apple": 899,
+      "ibisc": 900,
+      "oolong tea": 901,
+      "haracteristic": 902,
+      "Indian": 903,
+      "-fre": 904,
+      "ubble ": 905,
+      " are ": 906,
+      "Lemonade combines": 907,
+      "pirit": 908,
+      "affeine": 909,
+      "lush": 910,
+      "ucumber": 911,
+      "ibiscus": 912,
+      ", al": 913,
+      "Jap": 914,
+      "Ros": 915,
+      "cold": 916,
+      "ger": 917,
+      "mango": 918,
+      "nown": 919,
+      "oo": 920,
+      "plain": 921,
+      "y, s": 922,
+      " ag": 923,
+      "e of": 924,
+      "ina": 925,
+      ", wh": 926,
+      " and b": 927,
+      "han": 928,
+      "alcoholic": 929,
+      " served ": 930,
+      " smal": 931,
+      "arbon": 932,
+      " black": 933,
+      " meth": 934,
+      ", and c": 935,
+      " is a f": 936,
+      " orang": 937,
+      ", spices": 938,
+      ", salt": 939,
+      ". It is sweet": 940,
+      "pically ": 941,
+      " green": 942,
+      "ed and ": 943,
+      "righ": 944,
+      "elic": 945,
+      " straw": 946,
+      "umin": 947,
+      "herbs": 948,
+      " alcoholic": 949,
+      "served over ice": 950,
+      " natur": 951,
+      " process": 952,
+      " Tea is": 953,
+      "-like": 954,
+      "e is a milk": 955,
+      " Chin": 956,
+      " and is often": 957,
+      ". The tea": 958,
+      " that ": 959,
+      " usually ": 960,
+      "tart": 961,
+      "preparation": 962,
+      "rose ": 963,
+      "unch combines": 964,
+      "e consum": 965,
+      "airy ": 966,
+      " styles": 967,
+      "on-alcoholic": 968,
+      "served hot or": 969,
+      " small": 970,
+      " leaves": 971,
+      ", and": 972,
+      "Al": 973,
+      "Pineapple ": 974,
+      "green": 975,
+      "ian": 976,
+      "oam": 977,
+      "oun": 978,
+      "ua": 979,
+      "vel": 980,
+      "y, sweet": 981,
+      "ins": 982,
+      "ine ": 983,
+      " coffe": 984,
+      "y with": 985,
+      " texture": 986,
+      "and": 987,
+      " smoothi": 988,
+      "ings": 989,
+      " from": 990,
+      " be consum": 991,
+      " is k": 992,
+      "rou": 993,
+      "rag": 994,
+      " tea is": 995,
+      "usually ": 996,
+      "pple": 997,
+      "berr": 998,
+      "sweetness": 999
+    },
+    "merges": [
+      [
+        " ",
+        "a"
+      ],
+      [
+        "d",
+        " "
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "e",
+        " "
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        " ",
+        "c"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "o",
+        "r"
+      ],
+      [
+        "i",
+        "t"
+      ],
+      [
+        "e",
+        "d "
+      ],
+      [
+        ",",
+        " "
+      ],
+      [
+        "e",
+        "s"
+      ],
+      [
+        "i",
+        "s"
+      ],
+      [
+        " a",
+        "n"
+      ],
+      [
+        "t",
+        " "
+      ],
+      [
+        "e",
+        "a"
+      ],
+      [
+        "o",
+        "m"
+      ],
+      [
+        ".",
+        " "
+      ],
+      [
+        " an",
+        "d "
+      ],
+      [
+        "y",
+        " "
+      ],
+      [
+        "l",
+        "a"
+      ],
+      [
+        "i",
+        "c"
+      ],
+      [
+        "h",
+        "a"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        ".",
+        "\n"
+      ],
+      [
+        " ",
+        "t"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        ". ",
+        "I"
+      ],
+      [
+        "a",
+        "t"
+      ],
+      [
+        "i",
+        "l"
+      ],
+      [
+        "it",
+        "h"
+      ],
+      [
+        "w",
+        "ith"
+      ],
+      [
+        " ",
+        "s"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "in",
+        "g"
+      ],
+      [
+        " ",
+        "f"
+      ],
+      [
+        ". I",
+        "t "
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "v",
+        "or"
+      ],
+      [
+        " ",
+        "b"
+      ],
+      [
+        "la",
+        "vor"
+      ],
+      [
+        " ",
+        "is"
+      ],
+      [
+        "e",
+        "e"
+      ],
+      [
+        "r",
+        "o"
+      ],
+      [
+        " ",
+        "m"
+      ],
+      [
+        "r",
+        "u"
+      ],
+      [
+        "l",
+        "y "
+      ],
+      [
+        "m",
+        "on"
+      ],
+      [
+        "r",
+        "a"
+      ],
+      [
+        "i",
+        "on"
+      ],
+      [
+        "w",
+        "ee"
+      ],
+      [
+        " c",
+        "om"
+      ],
+      [
+        "o",
+        "f"
+      ],
+      [
+        "t",
+        "h"
+      ],
+      [
+        "ed ",
+        "with"
+      ],
+      [
+        "ha",
+        "s"
+      ],
+      [
+        "il",
+        "k"
+      ],
+      [
+        " ",
+        "p"
+      ],
+      [
+        " t",
+        "ea"
+      ],
+      [
+        "b",
+        "in"
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "r",
+        "om"
+      ],
+      [
+        "wee",
+        "t"
+      ],
+      [
+        "u",
+        "s"
+      ],
+      [
+        "d",
+        "e "
+      ],
+      [
+        "v",
+        "er"
+      ],
+      [
+        "o",
+        "l"
+      ],
+      [
+        "ru",
+        "it"
+      ],
+      [
+        "has",
+        " a"
+      ],
+      [
+        ",",
+        " and "
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        " is",
+        " a"
+      ],
+      [
+        " ",
+        "or"
+      ],
+      [
+        " f",
+        "lavor"
+      ],
+      [
+        "o",
+        "c"
+      ],
+      [
+        "f",
+        "lavor"
+      ],
+      [
+        "at",
+        "er"
+      ],
+      [
+        "a",
+        "g"
+      ],
+      [
+        "a",
+        "de "
+      ],
+      [
+        " ",
+        "w"
+      ],
+      [
+        "e",
+        "ver"
+      ],
+      [
+        "e ",
+        "c"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "t",
+        "er"
+      ],
+      [
+        "ever",
+        "ag"
+      ],
+      [
+        ", ",
+        "s"
+      ],
+      [
+        "r",
+        "ea"
+      ],
+      [
+        " com",
+        "bin"
+      ],
+      [
+        ". It ",
+        "is"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "p",
+        "ic"
+      ],
+      [
+        ". It ",
+        "has a"
+      ],
+      [
+        "o",
+        "th"
+      ],
+      [
+        " ",
+        "with"
+      ],
+      [
+        "r",
+        "es"
+      ],
+      [
+        "al",
+        "ly "
+      ],
+      [
+        " ",
+        "d"
+      ],
+      [
+        "a",
+        "m"
+      ],
+      [
+        " ",
+        "g"
+      ],
+      [
+        "e",
+        "d"
+      ],
+      [
+        ", ",
+        "or"
+      ],
+      [
+        "rea",
+        "m"
+      ],
+      [
+        "h",
+        "e "
+      ],
+      [
+        "u",
+        "r"
+      ],
+      [
+        "p",
+        "p"
+      ],
+      [
+        "an",
+        "g"
+      ],
+      [
+        " ",
+        "in"
+      ],
+      [
+        "en",
+        "t"
+      ],
+      [
+        "j",
+        "u"
+      ],
+      [
+        "t",
+        "ea"
+      ],
+      [
+        "r",
+        "i"
+      ],
+      [
+        "ju",
+        "ic"
+      ],
+      [
+        " a",
+        "rom"
+      ],
+      [
+        ". I",
+        "t"
+      ],
+      [
+        ",",
+        " c"
+      ],
+      [
+        "u",
+        "t"
+      ],
+      [
+        " c",
+        "an"
+      ],
+      [
+        "e",
+        "l"
+      ],
+      [
+        "t",
+        "a"
+      ],
+      [
+        "o",
+        "d"
+      ],
+      [
+        "b",
+        "er"
+      ],
+      [
+        "m",
+        "ilk"
+      ],
+      [
+        " com",
+        "mon"
+      ],
+      [
+        "in",
+        "k"
+      ],
+      [
+        "on",
+        "g"
+      ],
+      [
+        " m",
+        "ilk"
+      ],
+      [
+        "s",
+        ".\n"
+      ],
+      [
+        "er",
+        "v"
+      ],
+      [
+        " c",
+        "on"
+      ],
+      [
+        "en",
+        "er"
+      ],
+      [
+        "g",
+        "h"
+      ],
+      [
+        "f",
+        "rom"
+      ],
+      [
+        "d",
+        "it"
+      ],
+      [
+        "of",
+        "f"
+      ],
+      [
+        " f",
+        "ruit"
+      ],
+      [
+        "e ",
+        "is"
+      ],
+      [
+        "h",
+        "er"
+      ],
+      [
+        "r",
+        "ink"
+      ],
+      [
+        "s",
+        "weet"
+      ],
+      [
+        "u",
+        "c"
+      ],
+      [
+        " combin",
+        "es"
+      ],
+      [
+        " a",
+        "s"
+      ],
+      [
+        " s",
+        "t"
+      ],
+      [
+        "everag",
+        "e "
+      ],
+      [
+        "ed ",
+        "b"
+      ],
+      [
+        "ra",
+        "c"
+      ],
+      [
+        "f",
+        "ruit"
+      ],
+      [
+        "at",
+        "ion"
+      ],
+      [
+        " s",
+        "weet"
+      ],
+      [
+        "l",
+        "e "
+      ],
+      [
+        "le",
+        "mon"
+      ],
+      [
+        "l",
+        "y"
+      ],
+      [
+        "oth",
+        "er"
+      ],
+      [
+        " ",
+        "of"
+      ],
+      [
+        "T",
+        "ea"
+      ],
+      [
+        "p",
+        "ar"
+      ],
+      [
+        "u",
+        "m"
+      ],
+      [
+        " c",
+        "ha"
+      ],
+      [
+        "erv",
+        "ed "
+      ],
+      [
+        "es",
+        "s"
+      ],
+      [
+        " and ",
+        "c"
+      ],
+      [
+        "rac",
+        "ter"
+      ],
+      [
+        "re",
+        "en"
+      ],
+      [
+        "d",
+        "i"
+      ],
+      [
+        " t",
+        "he "
+      ],
+      [
+        "off",
+        "e"
+      ],
+      [
+        "t",
+        "i"
+      ],
+      [
+        "y",
+        ", "
+      ],
+      [
+        "her",
+        "b"
+      ],
+      [
+        "om",
+        "bin"
+      ],
+      [
+        "en",
+        "d"
+      ],
+      [
+        "ing",
+        " "
+      ],
+      [
+        "u",
+        "n"
+      ],
+      [
+        "res",
+        "h"
+      ],
+      [
+        "as",
+        "t"
+      ],
+      [
+        " a",
+        "l"
+      ],
+      [
+        "ed with",
+        " "
+      ],
+      [
+        " common",
+        "ly "
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "s",
+        "erved "
+      ],
+      [
+        "ade ",
+        "from"
+      ],
+      [
+        " w",
+        "ater"
+      ],
+      [
+        "e",
+        "x"
+      ],
+      [
+        "r",
+        "y "
+      ],
+      [
+        "w",
+        "ater"
+      ],
+      [
+        "c",
+        "k"
+      ],
+      [
+        "s",
+        "o"
+      ],
+      [
+        "u",
+        "t "
+      ],
+      [
+        " c",
+        "ar"
+      ],
+      [
+        " arom",
+        "a"
+      ],
+      [
+        "ta",
+        "in"
+      ],
+      [
+        "l",
+        "or"
+      ],
+      [
+        "la",
+        "ck"
+      ],
+      [
+        "dit",
+        "ion"
+      ],
+      [
+        "lor",
+        "al"
+      ],
+      [
+        "is",
+        "t"
+      ],
+      [
+        "ing",
+        "er"
+      ],
+      [
+        ". It",
+        " can"
+      ],
+      [
+        "li",
+        "gh"
+      ],
+      [
+        " ",
+        "juic"
+      ],
+      [
+        "v",
+        "e"
+      ],
+      [
+        "ang",
+        "o"
+      ],
+      [
+        " ",
+        "n"
+      ],
+      [
+        " b",
+        "e "
+      ],
+      [
+        "oc",
+        "o"
+      ],
+      [
+        "ener",
+        "ally "
+      ],
+      [
+        "it",
+        "ru"
+      ],
+      [
+        "e c",
+        "ombin"
+      ],
+      [
+        " cha",
+        "racter"
+      ],
+      [
+        "itru",
+        "s"
+      ],
+      [
+        "o",
+        "w"
+      ],
+      [
+        "ed ",
+        "c"
+      ],
+      [
+        " p",
+        "ro"
+      ],
+      [
+        "c",
+        "i"
+      ],
+      [
+        "b",
+        "on"
+      ],
+      [
+        "b",
+        "as"
+      ],
+      [
+        "o",
+        "t"
+      ],
+      [
+        "t",
+        "en"
+      ],
+      [
+        "ra",
+        "dition"
+      ],
+      [
+        "s",
+        "t"
+      ],
+      [
+        "ex",
+        "t"
+      ],
+      [
+        "d",
+        "uc"
+      ],
+      [
+        "o",
+        "ol"
+      ],
+      [
+        "u",
+        "re"
+      ],
+      [
+        "pic",
+        "al"
+      ],
+      [
+        "l",
+        "u"
+      ],
+      [
+        "t",
+        "o"
+      ],
+      [
+        "g",
+        "ar"
+      ],
+      [
+        "f",
+        "us"
+      ],
+      [
+        " c",
+        "ream"
+      ],
+      [
+        "la",
+        "t"
+      ],
+      [
+        "ro",
+        "pical"
+      ],
+      [
+        "herb",
+        "al"
+      ],
+      [
+        " ",
+        "other"
+      ],
+      [
+        "e",
+        ", "
+      ],
+      [
+        " an",
+        "d"
+      ],
+      [
+        "re",
+        "par"
+      ],
+      [
+        ", and ",
+        "s"
+      ],
+      [
+        ". ",
+        "T"
+      ],
+      [
+        "l",
+        "end"
+      ],
+      [
+        "p",
+        "ro"
+      ],
+      [
+        "u",
+        "gar"
+      ],
+      [
+        "ro",
+        "ast"
+      ],
+      [
+        " ",
+        "Tea"
+      ],
+      [
+        "d",
+        "rink"
+      ],
+      [
+        "f",
+        "f"
+      ],
+      [
+        "m",
+        "a"
+      ],
+      [
+        "s",
+        "i"
+      ],
+      [
+        "ic",
+        "e"
+      ],
+      [
+        "wee",
+        "t "
+      ],
+      [
+        "offe",
+        "e "
+      ],
+      [
+        "mo",
+        "oth"
+      ],
+      [
+        "r",
+        "ong"
+      ],
+      [
+        "-",
+        "li"
+      ],
+      [
+        "y",
+        "ru"
+      ],
+      [
+        " c",
+        "h"
+      ],
+      [
+        "pic",
+        "es"
+      ],
+      [
+        "ber",
+        "ry "
+      ],
+      [
+        "ligh",
+        "t"
+      ],
+      [
+        "yru",
+        "p"
+      ],
+      [
+        " ",
+        "S"
+      ],
+      [
+        "f",
+        "resh"
+      ],
+      [
+        " m",
+        "ade from"
+      ],
+      [
+        "oc",
+        "on"
+      ],
+      [
+        "reen",
+        " tea"
+      ],
+      [
+        "-li",
+        "k"
+      ],
+      [
+        " ",
+        "lemon"
+      ],
+      [
+        "i",
+        "r"
+      ],
+      [
+        "y",
+        "o"
+      ],
+      [
+        "ar",
+        "m"
+      ],
+      [
+        "ing",
+        "re"
+      ],
+      [
+        " in",
+        "fus"
+      ],
+      [
+        " con",
+        "tain"
+      ],
+      [
+        "e is",
+        " a"
+      ],
+      [
+        "ingre",
+        "di"
+      ],
+      [
+        " ",
+        "C"
+      ],
+      [
+        "m",
+        "ade "
+      ],
+      [
+        "v",
+        "es"
+      ],
+      [
+        " and ",
+        "is"
+      ],
+      [
+        "al",
+        "t"
+      ],
+      [
+        " t",
+        "radition"
+      ],
+      [
+        "f",
+        "loral"
+      ],
+      [
+        "n",
+        "ess"
+      ],
+      [
+        "u",
+        "l"
+      ],
+      [
+        " a",
+        "ci"
+      ],
+      [
+        "ol",
+        "or"
+      ],
+      [
+        "ingredi",
+        "ent"
+      ],
+      [
+        " b",
+        "everage "
+      ],
+      [
+        "flavor",
+        ".\n"
+      ],
+      [
+        "lack",
+        " tea"
+      ],
+      [
+        "-",
+        "bas"
+      ],
+      [
+        "s",
+        ", "
+      ],
+      [
+        "ea",
+        "r"
+      ],
+      [
+        "y ",
+        "b"
+      ],
+      [
+        "oco",
+        "lat"
+      ],
+      [
+        "ra",
+        "w"
+      ],
+      [
+        ", s",
+        "weet"
+      ],
+      [
+        " car",
+        "bon"
+      ],
+      [
+        ". T",
+        "he "
+      ],
+      [
+        " ",
+        "re"
+      ],
+      [
+        "g",
+        "ur"
+      ],
+      [
+        "i",
+        "d"
+      ],
+      [
+        "o",
+        "t "
+      ],
+      [
+        "ha",
+        "k"
+      ],
+      [
+        "ext",
+        "ure"
+      ],
+      [
+        " infus",
+        "ion"
+      ],
+      [
+        "e",
+        "t"
+      ],
+      [
+        "p",
+        "res"
+      ],
+      [
+        " t",
+        "ha"
+      ],
+      [
+        "at",
+        "ic"
+      ],
+      [
+        " flavor",
+        "ed with"
+      ],
+      [
+        " arom",
+        "atic"
+      ],
+      [
+        " st",
+        "rong"
+      ],
+      [
+        "ocon",
+        "ut "
+      ],
+      [
+        " ",
+        "us"
+      ],
+      [
+        "er",
+        "m"
+      ],
+      [
+        "in",
+        "t"
+      ],
+      [
+        " an",
+        " "
+      ],
+      [
+        "L",
+        "e"
+      ],
+      [
+        "c",
+        "lu"
+      ],
+      [
+        "l",
+        "es"
+      ],
+      [
+        "le",
+        "d"
+      ],
+      [
+        "pp",
+        "le "
+      ],
+      [
+        "od",
+        "a"
+      ],
+      [
+        "Le",
+        "mon"
+      ],
+      [
+        "c",
+        "o"
+      ],
+      [
+        "e",
+        ".\n"
+      ],
+      [
+        "l",
+        "ea"
+      ],
+      [
+        "n",
+        "ut"
+      ],
+      [
+        "e ",
+        "s"
+      ],
+      [
+        "yo",
+        "gur"
+      ],
+      [
+        " ",
+        "r"
+      ],
+      [
+        "t",
+        "ar"
+      ],
+      [
+        "y",
+        ".\n"
+      ],
+      [
+        " c",
+        "itrus"
+      ],
+      [
+        "h",
+        "ol"
+      ],
+      [
+        "y ",
+        "t"
+      ],
+      [
+        " b",
+        "lend"
+      ],
+      [
+        ". It can",
+        " be "
+      ],
+      [
+        "mooth",
+        "i"
+      ],
+      [
+        "light",
+        "ly "
+      ],
+      [
+        "p",
+        "repar"
+      ],
+      [
+        "ed ",
+        "in"
+      ],
+      [
+        "ed ",
+        "tea"
+      ],
+      [
+        " and ",
+        "s"
+      ],
+      [
+        "il",
+        "l"
+      ],
+      [
+        "il",
+        "led"
+      ],
+      [
+        "ist",
+        "ic"
+      ],
+      [
+        "pres",
+        "so"
+      ],
+      [
+        "e",
+        "ti"
+      ],
+      [
+        "i",
+        "at"
+      ],
+      [
+        "on",
+        "e"
+      ],
+      [
+        ". It is",
+        " commonly "
+      ],
+      [
+        "ri",
+        "es"
+      ],
+      [
+        " and c",
+        "an"
+      ],
+      [
+        " carbon",
+        "at"
+      ],
+      [
+        "erm",
+        "ent"
+      ],
+      [
+        " ",
+        "ha"
+      ],
+      [
+        "s",
+        "oc"
+      ],
+      [
+        "il",
+        "la"
+      ],
+      [
+        "M",
+        "ilk"
+      ],
+      [
+        "g",
+        "enerally "
+      ],
+      [
+        "s",
+        "um"
+      ],
+      [
+        "es",
+        " a"
+      ],
+      [
+        "an",
+        "illa"
+      ],
+      [
+        "am",
+        "el"
+      ],
+      [
+        " g",
+        "enerally "
+      ],
+      [
+        ", or",
+        " other"
+      ],
+      [
+        "ve",
+        "g"
+      ],
+      [
+        "clu",
+        "de "
+      ],
+      [
+        "co",
+        "hol"
+      ],
+      [
+        "soc",
+        "iat"
+      ],
+      [
+        "f",
+        "or"
+      ],
+      [
+        "g",
+        "ra"
+      ],
+      [
+        "o",
+        "s"
+      ],
+      [
+        "s",
+        "ion"
+      ],
+      [
+        "es",
+        "presso"
+      ],
+      [
+        "al",
+        "ly"
+      ],
+      [
+        " t",
+        "o"
+      ],
+      [
+        " or",
+        " "
+      ],
+      [
+        " w",
+        "arm"
+      ],
+      [
+        " combin",
+        "ed with"
+      ],
+      [
+        "e combin",
+        "es"
+      ],
+      [
+        " ",
+        "ingredient"
+      ],
+      [
+        "d",
+        "er"
+      ],
+      [
+        "v",
+        "e "
+      ],
+      [
+        "ed ",
+        "s"
+      ],
+      [
+        " t",
+        "h"
+      ],
+      [
+        ". It ",
+        "has"
+      ],
+      [
+        "of",
+        "ten"
+      ],
+      [
+        "ol",
+        "d "
+      ],
+      [
+        " flavor",
+        ".\n"
+      ],
+      [
+        " w",
+        "h"
+      ],
+      [
+        " as",
+        "sociat"
+      ],
+      [
+        "ed b",
+        "everage "
+      ],
+      [
+        " and",
+        " a"
+      ],
+      [
+        "lea",
+        "ves"
+      ],
+      [
+        "yogur",
+        "t"
+      ],
+      [
+        " ",
+        "k"
+      ],
+      [
+        "d",
+        "am"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "r",
+        "an"
+      ],
+      [
+        "w",
+        "h"
+      ],
+      [
+        " c",
+        "offee "
+      ],
+      [
+        " b",
+        "lack tea"
+      ],
+      [
+        " d",
+        "rink"
+      ],
+      [
+        " aci",
+        "dit"
+      ],
+      [
+        "et",
+        "al"
+      ],
+      [
+        "g",
+        "reen tea"
+      ],
+      [
+        "h",
+        "one"
+      ],
+      [
+        "l",
+        "ow"
+      ],
+      [
+        "s",
+        ". "
+      ],
+      [
+        "y",
+        ", and "
+      ],
+      [
+        "in",
+        "ea"
+      ],
+      [
+        "ed ",
+        "or"
+      ],
+      [
+        ", ",
+        "b"
+      ],
+      [
+        "es",
+        "e "
+      ],
+      [
+        " and ",
+        "m"
+      ],
+      [
+        "la",
+        "n"
+      ],
+      [
+        "ic",
+        "h"
+      ],
+      [
+        "ic",
+        "k"
+      ],
+      [
+        " f",
+        "resh"
+      ],
+      [
+        " common",
+        "ly"
+      ],
+      [
+        "a",
+        "ff"
+      ],
+      [
+        "o",
+        "od"
+      ],
+      [
+        "in",
+        "n"
+      ],
+      [
+        ", ",
+        "fruit"
+      ],
+      [
+        " m",
+        "ango"
+      ],
+      [
+        " g",
+        "inger"
+      ],
+      [
+        " in",
+        "clude "
+      ],
+      [
+        " pro",
+        "duc"
+      ],
+      [
+        "pro",
+        "duc"
+      ],
+      [
+        "fresh",
+        "ing"
+      ],
+      [
+        " tha",
+        "n"
+      ],
+      [
+        "nut",
+        "t"
+      ],
+      [
+        "y t",
+        "exture"
+      ],
+      [
+        "c",
+        "ha"
+      ],
+      [
+        "d",
+        "s"
+      ],
+      [
+        "e ",
+        "or"
+      ],
+      [
+        "e ",
+        "juic"
+      ],
+      [
+        "es",
+        ".\n"
+      ],
+      [
+        " t",
+        "ropical"
+      ],
+      [
+        " s",
+        "u"
+      ],
+      [
+        " s",
+        "pices"
+      ],
+      [
+        " b",
+        "everag"
+      ],
+      [
+        "veg",
+        "etal"
+      ],
+      [
+        "dam",
+        "om"
+      ],
+      [
+        "h",
+        "ot "
+      ],
+      [
+        "m",
+        "ade from"
+      ],
+      [
+        "s",
+        "hak"
+      ],
+      [
+        "v",
+        "ar"
+      ],
+      [
+        "in",
+        "t "
+      ],
+      [
+        "ro",
+        "s"
+      ],
+      [
+        "us",
+        "ing"
+      ],
+      [
+        " of",
+        "ten"
+      ],
+      [
+        "un",
+        "ch"
+      ],
+      [
+        " al",
+        "so"
+      ],
+      [
+        "herbal",
+        " infusion"
+      ],
+      [
+        "a",
+        "t "
+      ],
+      [
+        "a",
+        "mon"
+      ],
+      [
+        "i",
+        "x"
+      ],
+      [
+        "ed ",
+        "milk"
+      ],
+      [
+        "ea",
+        "ch"
+      ],
+      [
+        "om",
+        "eti"
+      ],
+      [
+        ". ",
+        "C"
+      ],
+      [
+        " and ",
+        "sweet"
+      ],
+      [
+        " f",
+        "loral"
+      ],
+      [
+        ". It ",
+        "ma"
+      ],
+      [
+        ". It ",
+        "generally "
+      ],
+      [
+        " is",
+        " an "
+      ],
+      [
+        "e c",
+        "on"
+      ],
+      [
+        "ch",
+        "illed"
+      ],
+      [
+        ", c",
+        "ream"
+      ],
+      [
+        "inn",
+        "amon"
+      ],
+      [
+        "ometi",
+        "m"
+      ],
+      [
+        " ",
+        "P"
+      ],
+      [
+        "W",
+        "ater"
+      ],
+      [
+        "a",
+        "i"
+      ],
+      [
+        "a",
+        "p"
+      ],
+      [
+        "e",
+        "m"
+      ],
+      [
+        "o",
+        "ver"
+      ],
+      [
+        "t",
+        "ropical"
+      ],
+      [
+        " a",
+        "pp"
+      ],
+      [
+        "in",
+        "c"
+      ],
+      [
+        "in",
+        "e"
+      ],
+      [
+        " c",
+        "oconut "
+      ],
+      [
+        "om",
+        "mon"
+      ],
+      [
+        "re",
+        "w"
+      ],
+      [
+        "ch",
+        " as"
+      ],
+      [
+        " with",
+        " "
+      ],
+      [
+        "ed",
+        " as"
+      ],
+      [
+        "ber",
+        "ries"
+      ],
+      [
+        "cohol",
+        "ic"
+      ],
+      [
+        "C",
+        "h"
+      ],
+      [
+        "g",
+        "ion"
+      ],
+      [
+        "i",
+        "b"
+      ],
+      [
+        "o",
+        "u"
+      ],
+      [
+        "r",
+        "y"
+      ],
+      [
+        "v",
+        "anilla"
+      ],
+      [
+        ", ",
+        "m"
+      ],
+      [
+        "an",
+        "a"
+      ],
+      [
+        "il",
+        "d "
+      ],
+      [
+        "flavor",
+        "ed with"
+      ],
+      [
+        " con",
+        "t"
+      ],
+      [
+        " character",
+        "istic"
+      ],
+      [
+        "ool",
+        "ong"
+      ],
+      [
+        "-lik",
+        "e "
+      ],
+      [
+        " su",
+        "ch as"
+      ],
+      [
+        "ometim",
+        "es"
+      ],
+      [
+        "I",
+        "n"
+      ],
+      [
+        "M",
+        "ango"
+      ],
+      [
+        "b",
+        "ut"
+      ],
+      [
+        "b",
+        "le "
+      ],
+      [
+        "g",
+        "inger"
+      ],
+      [
+        "s",
+        "s"
+      ],
+      [
+        "w",
+        "ood"
+      ],
+      [
+        " c",
+        "olor"
+      ],
+      [
+        "it",
+        "ter"
+      ],
+      [
+        " and ",
+        "has a"
+      ],
+      [
+        "an",
+        "ana"
+      ],
+      [
+        " s",
+        "weet "
+      ],
+      [
+        "li",
+        "m"
+      ],
+      [
+        " with",
+        " milk"
+      ],
+      [
+        " d",
+        "ist"
+      ],
+      [
+        ". It",
+        " combines"
+      ],
+      [
+        "ear",
+        "th"
+      ],
+      [
+        "y b",
+        "e "
+      ],
+      [
+        "raw",
+        "berry "
+      ],
+      [
+        "F",
+        "ruit"
+      ],
+      [
+        "c",
+        "ess"
+      ],
+      [
+        "f",
+        "ir"
+      ],
+      [
+        "i",
+        "m"
+      ],
+      [
+        "k",
+        "l"
+      ],
+      [
+        "u",
+        "ally "
+      ],
+      [
+        " a",
+        "d"
+      ],
+      [
+        "e ",
+        "with"
+      ],
+      [
+        "is",
+        " a"
+      ],
+      [
+        "at",
+        "ur"
+      ],
+      [
+        "ee",
+        "p"
+      ],
+      [
+        "ol",
+        "d"
+      ],
+      [
+        "e c",
+        "ream"
+      ],
+      [
+        " con",
+        "sum"
+      ],
+      [
+        "sweet",
+        "en"
+      ],
+      [
+        "par",
+        "kl"
+      ],
+      [
+        " aroma",
+        ".\n"
+      ],
+      [
+        " n",
+        "ot"
+      ],
+      [
+        "oco",
+        "a"
+      ],
+      [
+        "tar",
+        "t "
+      ],
+      [
+        "hone",
+        "y"
+      ],
+      [
+        " is an ",
+        "herbal infusion"
+      ],
+      [
+        "e",
+        "c"
+      ],
+      [
+        "e",
+        "er"
+      ],
+      [
+        "e",
+        "pp"
+      ],
+      [
+        "m",
+        "er"
+      ],
+      [
+        "is",
+        "h"
+      ],
+      [
+        "ic",
+        "e cream"
+      ],
+      [
+        "ha",
+        "racter"
+      ],
+      [
+        " s",
+        "yrup"
+      ],
+      [
+        "re",
+        "freshing"
+      ],
+      [
+        "ra",
+        "p"
+      ],
+      [
+        ", s",
+        "ugar"
+      ],
+      [
+        ". It is",
+        " generally "
+      ],
+      [
+        ", c",
+        "ar"
+      ],
+      [
+        "In",
+        "di"
+      ],
+      [
+        " ",
+        "roast"
+      ],
+      [
+        "e",
+        "fir"
+      ],
+      [
+        "ed ",
+        "drink"
+      ],
+      [
+        "ic",
+        "an"
+      ],
+      [
+        "al",
+        " "
+      ],
+      [
+        " is",
+        " tea"
+      ],
+      [
+        " m",
+        "ade "
+      ],
+      [
+        " m",
+        "int"
+      ],
+      [
+        " p",
+        "repar"
+      ],
+      [
+        " is a",
+        " "
+      ],
+      [
+        " flavor",
+        "ed with "
+      ],
+      [
+        "ed",
+        ".\n"
+      ],
+      [
+        "ed b",
+        "everag"
+      ],
+      [
+        "served ",
+        "chilled"
+      ],
+      [
+        "ocolat",
+        "e "
+      ],
+      [
+        " th",
+        "ick"
+      ],
+      [
+        " associat",
+        "ed with "
+      ],
+      [
+        "-",
+        "f"
+      ],
+      [
+        "G",
+        "inger"
+      ],
+      [
+        "b",
+        "everag"
+      ],
+      [
+        "e",
+        "g"
+      ],
+      [
+        "e",
+        "p"
+      ],
+      [
+        "o",
+        "p"
+      ],
+      [
+        "u",
+        "b"
+      ],
+      [
+        " a",
+        "r"
+      ],
+      [
+        "is",
+        "k"
+      ],
+      [
+        "en",
+        "t "
+      ],
+      [
+        "at",
+        "t"
+      ],
+      [
+        "oc",
+        "k"
+      ],
+      [
+        " st",
+        "y"
+      ],
+      [
+        " character",
+        ".\n"
+      ],
+      [
+        "ff",
+        "er"
+      ],
+      [
+        "low",
+        "er"
+      ],
+      [
+        "inea",
+        "pple "
+      ],
+      [
+        ". It generally ",
+        "has a"
+      ],
+      [
+        " is an herbal infusion",
+        " made from"
+      ],
+      [
+        " ",
+        "ice"
+      ],
+      [
+        "I",
+        "c"
+      ],
+      [
+        "L",
+        "att"
+      ],
+      [
+        "a",
+        "vor"
+      ],
+      [
+        "b",
+        "everage "
+      ],
+      [
+        "r",
+        "on"
+      ],
+      [
+        "y",
+        " and "
+      ],
+      [
+        "ee",
+        "l"
+      ],
+      [
+        "rea",
+        "t"
+      ],
+      [
+        "ch",
+        "e"
+      ],
+      [
+        " g",
+        "reen tea"
+      ],
+      [
+        "ed",
+        ", "
+      ],
+      [
+        "ri",
+        "but"
+      ],
+      [
+        "ta",
+        "il"
+      ],
+      [
+        "uc",
+        "ha"
+      ],
+      [
+        "ed b",
+        "y "
+      ],
+      [
+        "ing ",
+        "on"
+      ],
+      [
+        "st",
+        "y"
+      ],
+      [
+        "ool",
+        "er"
+      ],
+      [
+        "made ",
+        "with"
+      ],
+      [
+        "oda",
+        " is a"
+      ],
+      [
+        "Lemon",
+        "ade "
+      ],
+      [
+        "ep",
+        "end"
+      ],
+      [
+        "ock",
+        "tail"
+      ],
+      [
+        "D",
+        "rink"
+      ],
+      [
+        "b",
+        "ucha"
+      ],
+      [
+        "m",
+        "al"
+      ],
+      [
+        "t",
+        "s"
+      ],
+      [
+        "e ",
+        "tea"
+      ],
+      [
+        "om",
+        "bucha"
+      ],
+      [
+        "ha",
+        "r"
+      ],
+      [
+        "an",
+        "y "
+      ],
+      [
+        "at",
+        "cha"
+      ],
+      [
+        " m",
+        "ix"
+      ],
+      [
+        "ver",
+        "sion"
+      ],
+      [
+        ". It has a",
+        " cream"
+      ],
+      [
+        "off",
+        "ee"
+      ],
+      [
+        " sweet",
+        "ness"
+      ],
+      [
+        "ti",
+        "ve"
+      ],
+      [
+        " ch",
+        "ill"
+      ],
+      [
+        " tradition",
+        "ally "
+      ],
+      [
+        "moothi",
+        "e combines"
+      ],
+      [
+        "over",
+        " ice"
+      ],
+      [
+        "epend",
+        "ing on"
+      ],
+      [
+        " ",
+        "K"
+      ],
+      [
+        " ",
+        "h"
+      ],
+      [
+        " ",
+        "la"
+      ],
+      [
+        " ",
+        "espresso"
+      ],
+      [
+        "S",
+        "t"
+      ],
+      [
+        "a",
+        "d"
+      ],
+      [
+        "b",
+        "rew"
+      ],
+      [
+        "c",
+        "ent"
+      ],
+      [
+        "f",
+        "erment"
+      ],
+      [
+        "i",
+        "z"
+      ],
+      [
+        "n",
+        "es"
+      ],
+      [
+        "p",
+        "ri"
+      ],
+      [
+        "s",
+        "si"
+      ],
+      [
+        "v",
+        "id"
+      ],
+      [
+        "w",
+        "arm"
+      ],
+      [
+        "il",
+        "d"
+      ],
+      [
+        " s",
+        "pic"
+      ],
+      [
+        "ar",
+        "k"
+      ],
+      [
+        " f",
+        "erment"
+      ],
+      [
+        " b",
+        "as"
+      ],
+      [
+        " tea",
+        " is a"
+      ],
+      [
+        "lu",
+        "e"
+      ],
+      [
+        " Tea",
+        " is a"
+      ],
+      [
+        "var",
+        "i"
+      ],
+      [
+        "epp",
+        "er"
+      ],
+      [
+        "nes",
+        "s.\n"
+      ],
+      [
+        " ",
+        "A"
+      ],
+      [
+        " ",
+        "B"
+      ],
+      [
+        " ",
+        "it"
+      ],
+      [
+        "-",
+        "flavor"
+      ],
+      [
+        "M",
+        "int "
+      ],
+      [
+        "d",
+        "ic"
+      ],
+      [
+        "e",
+        " a"
+      ],
+      [
+        "p",
+        "ir"
+      ],
+      [
+        "er",
+        "n"
+      ],
+      [
+        " c",
+        "old "
+      ],
+      [
+        ", ",
+        "p"
+      ],
+      [
+        "es",
+        ", "
+      ],
+      [
+        "y ",
+        "flavor.\n"
+      ],
+      [
+        "ha",
+        "i"
+      ],
+      [
+        "il",
+        "y "
+      ],
+      [
+        " s",
+        "ugar"
+      ],
+      [
+        " m",
+        "a"
+      ],
+      [
+        "of",
+        "t "
+      ],
+      [
+        "li",
+        "qu"
+      ],
+      [
+        " combin",
+        "ation"
+      ],
+      [
+        "ang",
+        "e "
+      ],
+      [
+        "tea",
+        "m"
+      ],
+      [
+        "ombin",
+        "es"
+      ],
+      [
+        " juic",
+        "e"
+      ],
+      [
+        " lemon",
+        "ade "
+      ],
+      [
+        "gra",
+        "in"
+      ],
+      [
+        " ingredient",
+        "s"
+      ],
+      [
+        "aff",
+        "ron"
+      ],
+      [
+        " cont",
+        "ribut"
+      ],
+      [
+        " dist",
+        "inc"
+      ],
+      [
+        "served chilled",
+        ".\n"
+      ],
+      [
+        "Ic",
+        "ed "
+      ],
+      [
+        " ",
+        "G"
+      ],
+      [
+        "-",
+        "er"
+      ],
+      [
+        "-",
+        "tart "
+      ],
+      [
+        "f",
+        "il"
+      ],
+      [
+        "g",
+        "n"
+      ],
+      [
+        "n",
+        "ut "
+      ],
+      [
+        "s",
+        " and "
+      ],
+      [
+        "u",
+        "-er"
+      ],
+      [
+        " a",
+        " c"
+      ],
+      [
+        "on",
+        "-"
+      ],
+      [
+        "ed ",
+        "for"
+      ],
+      [
+        ", ",
+        "lemon"
+      ],
+      [
+        "re",
+        "gion"
+      ],
+      [
+        " p",
+        "lan"
+      ],
+      [
+        ". It has a",
+        " sweet"
+      ],
+      [
+        " d",
+        "eep"
+      ],
+      [
+        " g",
+        "rap"
+      ],
+      [
+        " car",
+        "amel"
+      ],
+      [
+        " juic",
+        "e, "
+      ],
+      [
+        " n",
+        "ut"
+      ],
+      [
+        ", and s",
+        "lightly "
+      ],
+      [
+        " ch",
+        "ocolat"
+      ],
+      [
+        " aci",
+        "dic"
+      ],
+      [
+        "-bas",
+        "ed beverage "
+      ],
+      [
+        "Milk",
+        "shak"
+      ],
+      [
+        "parkl",
+        "ing"
+      ],
+      [
+        "oda is a",
+        " carbonat"
+      ],
+      [
+        "version",
+        "s"
+      ],
+      [
+        "u-er",
+        "h"
+      ],
+      [
+        " ",
+        "ic"
+      ],
+      [
+        ",",
+        " aromatic"
+      ],
+      [
+        "e",
+        "th"
+      ],
+      [
+        "i",
+        "ffer"
+      ],
+      [
+        "l",
+        "o"
+      ],
+      [
+        "m",
+        "ar"
+      ],
+      [
+        "m",
+        "el"
+      ],
+      [
+        "o",
+        "x"
+      ],
+      [
+        "r",
+        "at"
+      ],
+      [
+        "t",
+        "ion"
+      ],
+      [
+        "t",
+        "ur"
+      ],
+      [
+        " c",
+        "ocoa"
+      ],
+      [
+        " c",
+        "ocktail"
+      ],
+      [
+        "ed ",
+        "water"
+      ],
+      [
+        ", ",
+        "floral"
+      ],
+      [
+        "is",
+        "c"
+      ],
+      [
+        ". ",
+        "D"
+      ],
+      [
+        "la",
+        "r"
+      ],
+      [
+        "la",
+        "in"
+      ],
+      [
+        "la",
+        "tive"
+      ],
+      [
+        "an",
+        "ese "
+      ],
+      [
+        "il",
+        "e "
+      ],
+      [
+        " s",
+        "alt"
+      ],
+      [
+        "ar",
+        "t"
+      ],
+      [
+        " f",
+        "or"
+      ],
+      [
+        " m",
+        "ild "
+      ],
+      [
+        "mon",
+        "d "
+      ],
+      [
+        "ra",
+        "s"
+      ],
+      [
+        "as",
+        "sion"
+      ],
+      [
+        " or",
+        " other"
+      ],
+      [
+        ", c",
+        "itrus"
+      ],
+      [
+        " of",
+        " "
+      ],
+      [
+        " cha",
+        "i"
+      ],
+      [
+        " and c",
+        "ream"
+      ],
+      [
+        "offe",
+        "e is"
+      ],
+      [
+        "served ",
+        "hot "
+      ],
+      [
+        "ow",
+        "der"
+      ],
+      [
+        ", and s",
+        "ometimes"
+      ],
+      [
+        "made ",
+        "b"
+      ],
+      [
+        " and can",
+        " be "
+      ],
+      [
+        " ha",
+        "ve "
+      ],
+      [
+        "aff",
+        "e"
+      ],
+      [
+        "e juic",
+        "e"
+      ],
+      [
+        ". C",
+        "ommon"
+      ],
+      [
+        "Ch",
+        "ocolate "
+      ],
+      [
+        " characteristic",
+        "s.\n"
+      ],
+      [
+        "sty",
+        "le "
+      ],
+      [
+        "epending on",
+        " the "
+      ],
+      [
+        "St",
+        "rawberry "
+      ],
+      [
+        "pri",
+        "mar"
+      ],
+      [
+        "lative",
+        "ly "
+      ],
+      [
+        " ",
+        "M"
+      ],
+      [
+        " ",
+        "ligh"
+      ],
+      [
+        "-",
+        "style "
+      ],
+      [
+        "C",
+        "ar"
+      ],
+      [
+        "C",
+        "oconut "
+      ],
+      [
+        "c",
+        "ombines"
+      ],
+      [
+        "h",
+        "in"
+      ],
+      [
+        "i",
+        "d "
+      ],
+      [
+        "l",
+        "us"
+      ],
+      [
+        "s",
+        ". It is"
+      ],
+      [
+        "s",
+        "weet "
+      ],
+      [
+        "t",
+        "y"
+      ],
+      [
+        "t",
+        "radition"
+      ],
+      [
+        "y",
+        " aroma"
+      ],
+      [
+        "y",
+        " contain"
+      ],
+      [
+        " c",
+        "reat"
+      ],
+      [
+        "ed ",
+        "to"
+      ],
+      [
+        "ed ",
+        "using"
+      ],
+      [
+        ", ",
+        "milk"
+      ],
+      [
+        ", ",
+        "ginger"
+      ],
+      [
+        " and ",
+        "ma"
+      ],
+      [
+        "y ",
+        "flavor"
+      ],
+      [
+        "al",
+        "t "
+      ],
+      [
+        "en",
+        "s"
+      ],
+      [
+        "an",
+        "th"
+      ],
+      [
+        "il",
+        "ut"
+      ],
+      [
+        "ing",
+        " a"
+      ],
+      [
+        " b",
+        "er"
+      ],
+      [
+        " b",
+        "ro"
+      ],
+      [
+        " m",
+        "any "
+      ],
+      [
+        "ed with",
+        " water"
+      ],
+      [
+        " p",
+        "each"
+      ],
+      [
+        "as",
+        "h"
+      ],
+      [
+        "flavor",
+        "ed with "
+      ],
+      [
+        "am",
+        "p"
+      ],
+      [
+        ", or",
+        " "
+      ],
+      [
+        ". It",
+        " commonly "
+      ],
+      [
+        "od",
+        "ern"
+      ],
+      [
+        "ber",
+        "ry"
+      ],
+      [
+        "uc",
+        "um"
+      ],
+      [
+        "ess",
+        "er"
+      ],
+      [
+        " car",
+        "damom"
+      ],
+      [
+        "ve",
+        " a"
+      ],
+      [
+        "e combin",
+        "ed with"
+      ],
+      [
+        "ow",
+        "n"
+      ],
+      [
+        "ed c",
+        "offee "
+      ],
+      [
+        " and is",
+        " commonly "
+      ],
+      [
+        "ul",
+        "p"
+      ],
+      [
+        " commonly",
+        " consum"
+      ],
+      [
+        " and sweet",
+        "ener"
+      ],
+      [
+        " app",
+        "le"
+      ],
+      [
+        "ib",
+        "isc"
+      ],
+      [
+        "oolong",
+        " tea"
+      ],
+      [
+        "haracter",
+        "istic"
+      ],
+      [
+        "Indi",
+        "an"
+      ],
+      [
+        "-f",
+        "re"
+      ],
+      [
+        "ub",
+        "ble "
+      ],
+      [
+        " ar",
+        "e "
+      ],
+      [
+        "Lemonade ",
+        "combines"
+      ],
+      [
+        "pir",
+        "it"
+      ],
+      [
+        "affe",
+        "ine"
+      ],
+      [
+        "lus",
+        "h"
+      ],
+      [
+        "ucum",
+        "ber"
+      ],
+      [
+        "ibisc",
+        "us"
+      ],
+      [
+        ",",
+        " al"
+      ],
+      [
+        "J",
+        "ap"
+      ],
+      [
+        "R",
+        "os"
+      ],
+      [
+        "c",
+        "old"
+      ],
+      [
+        "g",
+        "er"
+      ],
+      [
+        "m",
+        "ango"
+      ],
+      [
+        "n",
+        "own"
+      ],
+      [
+        "o",
+        "o"
+      ],
+      [
+        "p",
+        "lain"
+      ],
+      [
+        "y",
+        ", s"
+      ],
+      [
+        " a",
+        "g"
+      ],
+      [
+        "e ",
+        "of"
+      ],
+      [
+        "in",
+        "a"
+      ],
+      [
+        ", ",
+        "wh"
+      ],
+      [
+        " and ",
+        "b"
+      ],
+      [
+        "ha",
+        "n"
+      ],
+      [
+        "al",
+        "coholic"
+      ],
+      [
+        " s",
+        "erved "
+      ],
+      [
+        " s",
+        "mal"
+      ],
+      [
+        "ar",
+        "bon"
+      ],
+      [
+        " b",
+        "lack"
+      ],
+      [
+        " m",
+        "eth"
+      ],
+      [
+        ", and ",
+        "c"
+      ],
+      [
+        " is a",
+        " f"
+      ],
+      [
+        " or",
+        "ang"
+      ],
+      [
+        ", s",
+        "pices"
+      ],
+      [
+        ", s",
+        "alt"
+      ],
+      [
+        ". It is",
+        " sweet"
+      ],
+      [
+        "pic",
+        "ally "
+      ],
+      [
+        " g",
+        "reen"
+      ],
+      [
+        "ed",
+        " and "
+      ],
+      [
+        "ri",
+        "gh"
+      ],
+      [
+        "el",
+        "ic"
+      ],
+      [
+        " st",
+        "raw"
+      ],
+      [
+        "um",
+        "in"
+      ],
+      [
+        "herb",
+        "s"
+      ],
+      [
+        " al",
+        "coholic"
+      ],
+      [
+        "served ",
+        "over ice"
+      ],
+      [
+        " n",
+        "atur"
+      ],
+      [
+        " pro",
+        "cess"
+      ],
+      [
+        " Tea",
+        " is"
+      ],
+      [
+        "-lik",
+        "e"
+      ],
+      [
+        "e is a",
+        " milk"
+      ],
+      [
+        " C",
+        "hin"
+      ],
+      [
+        " and is",
+        " often"
+      ],
+      [
+        ". The ",
+        "tea"
+      ],
+      [
+        " tha",
+        "t "
+      ],
+      [
+        " us",
+        "ually "
+      ],
+      [
+        "tar",
+        "t"
+      ],
+      [
+        "prepar",
+        "ation"
+      ],
+      [
+        "ros",
+        "e "
+      ],
+      [
+        "unch",
+        " combines"
+      ],
+      [
+        "e con",
+        "sum"
+      ],
+      [
+        "ai",
+        "ry "
+      ],
+      [
+        " sty",
+        "les"
+      ],
+      [
+        "on-",
+        "alcoholic"
+      ],
+      [
+        "served hot ",
+        "or"
+      ],
+      [
+        " smal",
+        "l"
+      ],
+      [
+        " ",
+        "leaves"
+      ],
+      [
+        ",",
+        " and"
+      ],
+      [
+        "A",
+        "l"
+      ],
+      [
+        "P",
+        "ineapple "
+      ],
+      [
+        "g",
+        "reen"
+      ],
+      [
+        "i",
+        "an"
+      ],
+      [
+        "o",
+        "am"
+      ],
+      [
+        "o",
+        "un"
+      ],
+      [
+        "u",
+        "a"
+      ],
+      [
+        "v",
+        "el"
+      ],
+      [
+        "y",
+        ", sweet"
+      ],
+      [
+        "in",
+        "s"
+      ],
+      [
+        "in",
+        "e "
+      ],
+      [
+        " c",
+        "offe"
+      ],
+      [
+        "y ",
+        "with"
+      ],
+      [
+        " t",
+        "exture"
+      ],
+      [
+        "an",
+        "d"
+      ],
+      [
+        " s",
+        "moothi"
+      ],
+      [
+        "ing",
+        "s"
+      ],
+      [
+        " f",
+        "rom"
+      ],
+      [
+        " b",
+        "e consum"
+      ],
+      [
+        " is",
+        " k"
+      ],
+      [
+        "ro",
+        "u"
+      ],
+      [
+        "ra",
+        "g"
+      ],
+      [
+        " tea",
+        " is"
+      ],
+      [
+        "us",
+        "ually "
+      ],
+      [
+        "pp",
+        "le"
+      ],
+      [
+        "ber",
+        "r"
+      ],
+      [
+        "sweet",
+        "ness"
+      ]
+    ]
+  }
+}

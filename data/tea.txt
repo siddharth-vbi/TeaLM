@@ -1,1 +1,1248 @@
-To make tea, boil water in a pan. Add tea leaves and let them boil for a few minutes. Add milk and sugar. Boil the tea again, then strain it into a cup and serve hot.Making tea is easy. Heat one cup of water, add a tea bag, and let it sit for three minutes. Remove the tea bag and add sugar or honey. Add milk if desired and enjoy.Start by boiling water in a saucepan. Add one teaspoon of black tea leaves. After two minutes, add half a cup of milk and sugar to taste. Let the tea simmer for another two minutes. Strain and serve.For ginger tea, boil water with a few slices of fresh ginger. Add tea leaves and let the mixture simmer. Add milk and sugar, then strain the tea into a cup.To make masala chai, boil water with ginger, cardamom, cinnamon, and cloves. Add tea leaves and let them cook for a minute. Add milk and sugar and simmer for a few more minutes. Strain the chai and serve hot.First, take a cup of water and bring it to a boil. Add a tea bag and steep for two to three minutes. Add milk and sugar according to your preference. Stir well before drinking.You can make tea without milk by boiling water and adding green tea leaves or a green tea bag. Let it steep for two to three minutes. Remove the tea leaves and add lemon or honey if you like.To prepare strong tea, use slightly more tea leaves and allow them to steep for a longer time. Add hot milk and sugar after brewing. Stir everything together and serve.For lemon tea, prepare black tea with hot water and let it steep for a few minutes. Remove the tea leaves and add fresh lemon juice. Add honey or sugar for sweetness.To make iced tea, brew black tea in hot water and let it cool. Add ice cubes, lemon slices, and sugar syrup. Stir well and serve cold.A basic cup of tea requires water, tea leaves, milk, and sugar. Boil the water, add the tea leaves, and let them steep. Add warm milk and sugar, then strain the tea into a cup.When making tea, avoid boiling the tea leaves for too long because the tea can become bitter. Brew the leaves for a few minutes and adjust the strength according to your taste.Tea can be made with different ingredients. Common additions include milk, sugar, ginger, cardamom, cinnamon, cloves, lemon, honey, and mint.To make mint tea, boil water and add fresh mint leaves. Let them steep for several minutes. Add honey if desired and serve warm.To make chai for two people, boil two cups of water. Add two teaspoons of tea leaves, sugar, and spices. Add one cup of milk and simmer until the tea reaches the desired strength. Strain into two cups.The first step in making tea is heating the water. Once the water is hot, add the tea and allow it to brew. Milk and sweetener can then be added based on personal preference.If using a tea bag, place it in a cup and pour boiling water over it. Let it steep for two to five minutes. Remove the bag and add milk, sugar, or honey.For a refreshing tea, brew black tea and allow it to cool. Add lemon juice, ice, and a little sugar. Garnish with a lemon slice and serve.Tea tastes different depending on brewing time. A short brewing time produces a lighter tea, while a longer brewing time produces a stronger flavor.After preparing tea, pour it carefully into a clean cup. Serve it immediately while it is warm.
+Tea varieties
+
+Black tea is a fully oxidized tea made from the leaves of the Camellia sinensis plant. It generally has a strong flavor, dark color, and noticeable aroma. Common examples include Assam, Darjeeling, Ceylon, Keemun, and English Breakfast. Black tea can be consumed plain or with milk, sugar, lemon, spices, or other flavorings. It is commonly served hot but can also be used to prepare iced tea.
+
+Assam tea is a black tea associated with the Assam region of India. It is known for its strong, malty, brisk, and full-bodied character. Assam tea is commonly used in breakfast tea blends and Indian milk tea. It pairs well with milk and sugar and is an important ingredient in many styles of masala chai.
+
+Darjeeling tea is a tea produced in the Darjeeling region of West Bengal, India. It is usually a black tea, although different processing styles can produce other types. Darjeeling tea is often described as aromatic, floral, fruity, and delicate. First-flush Darjeeling is harvested early in the season and is generally lighter and more floral, while later flushes can have a fuller and more rounded character.
+
+Nilgiri tea is produced in the Nilgiri Hills of southern India. It is generally a fragrant black tea with a clean, bright, and sometimes floral character. Nilgiri tea is suitable for both hot tea and iced tea. It is also used in tea blends because its flavor can remain noticeable when combined with other teas.
+
+Ceylon tea is tea produced in Sri Lanka, historically known as Ceylon. It is predominantly black tea and can vary significantly depending on the growing region and elevation. Ceylon tea can have citrus, floral, brisk, or full-bodied characteristics. It is commonly served with or without milk and is also widely used for iced tea.
+
+English Breakfast tea is a black tea blend designed to provide a strong, robust cup suitable for breakfast. Blends vary, but they often contain teas from regions such as Assam, Sri Lanka, Kenya, and other tea-producing countries. English Breakfast is commonly served with milk and sugar.
+
+Irish Breakfast tea is a strong black tea blend traditionally associated with Irish tea-drinking culture. It often has a robust and malty profile and can stand up well to milk. It is commonly served hot, with milk and sometimes sugar.
+
+Earl Grey is a flavored black tea traditionally characterized by bergamot citrus flavor. The base tea is commonly black tea, although green, white, oolong, and herbal versions also exist. Earl Grey has a distinctive citrusy, floral aroma and is often consumed plain or with milk, lemon, or sugar.
+
+Lady Grey is a lighter and more citrus-oriented variation of Earl Grey. It typically combines black tea with bergamot and additional citrus notes such as orange or lemon. It generally has a gentler flavor than traditional Earl Grey.
+
+Masala chai is a spiced tea preparation strongly associated with South Asian tea culture. It commonly contains black tea, milk, sugar, and spices such as cardamom, cinnamon, ginger, cloves, and black pepper. Recipes differ by household and region. The tea is usually prepared by simmering or boiling the ingredients together to produce a strong, sweet, aromatic drink.
+
+Chai is a broad term for tea in several languages, but in many English-speaking contexts it refers specifically to Indian-style spiced milk tea. Chai can be prepared using different combinations of black tea, milk, sweetener, and spices. The strength, sweetness, and spice mixture vary widely.
+
+Green tea is tea that is heated or otherwise processed soon after harvesting to limit oxidation. It generally has a lighter color and a fresher flavor than black tea. Depending on its origin and processing, green tea can taste grassy, vegetal, nutty, floral, sweet, or umami-like. It is commonly consumed without milk.
+
+Sencha is a Japanese green tea made from tea leaves that are generally steamed to prevent oxidation and then rolled and dried. It commonly has vegetal, grassy, fresh, and sometimes slightly sweet or umami flavors. Sencha is usually brewed with hot but not boiling water.
+
+Gyokuro is a Japanese shaded green tea. The plants are shaded before harvest, which changes the chemical composition and contributes to its strong umami character. Gyokuro is typically brewed carefully with relatively cooler water and is regarded as a premium Japanese tea style.
+
+Matcha is a finely ground Japanese green tea powder. Unlike ordinary steeped tea, matcha is traditionally whisked into water, meaning the powdered leaf is consumed as part of the drink. Matcha has a vivid green color and can have vegetal, umami, bitter, creamy, and slightly sweet characteristics. It is used in traditional tea preparation as well as modern lattes, desserts, and cold drinks.
+
+Hojicha is a Japanese roasted green tea. The roasting process gives it a brown color and a distinctive toasted, nutty, woody, and caramel-like aroma. Hojicha is often served hot and can also be used in cold beverages and desserts.
+
+Genmaicha is a Japanese green tea blended with roasted rice. Some versions also contain popped rice. The combination produces a characteristic toasted, nutty, savory, and slightly sweet flavor. Genmaicha is commonly served as an everyday tea.
+
+Longjing tea, also called Dragon Well tea, is a famous Chinese green tea associated with Zhejiang Province. The leaves are traditionally pan-fired, producing a flat leaf shape and a fresh, nutty, chestnut-like flavor. High-quality Longjing is often aromatic and smooth.
+
+Gunpowder tea is a Chinese-style green tea in which the leaves are rolled into small pellets. The compact shape helps preserve the tea and creates a distinctive appearance. It generally has a stronger, brisker flavor than some delicate green teas. Gunpowder tea is also used in North African mint tea preparations.
+
+Jasmine tea is tea scented or flavored with jasmine flowers. Green tea is a common base, although white, black, and oolong teas can also be used. The tea has a floral fragrance and can range from delicate to strongly aromatic depending on the production method.
+
+Jasmine green tea combines green tea with jasmine aroma. The tea generally has fresh vegetal notes from the green tea and a floral fragrance from jasmine. It is commonly served hot without milk.
+
+White tea is minimally processed tea made from young leaves and buds. It generally undergoes less processing and oxidation than black tea. White tea can have delicate floral, honey-like, fruity, or mildly grassy flavors. Examples include Silver Needle and White Peony.
+
+Silver Needle is a premium white tea made primarily from young unopened tea buds. It is traditionally associated with China. The resulting infusion is usually pale and delicate, with floral, honey-like, and subtle fruity notes.
+
+White Peony, also known as Bai Mudan, is a Chinese white tea generally made from young buds and leaves. Compared with Silver Needle, it tends to have a fuller flavor and can show floral, fruity, fresh, and slightly woody characteristics.
+
+Oolong tea is partially oxidized tea. Its oxidation level can range from relatively light to quite dark, creating a broad spectrum of flavors. Oolong can be floral, creamy, fruity, roasted, nutty, honey-like, or mineral-like. Major oolong-producing regions include China and Taiwan.
+
+Tieguanyin is a famous Chinese oolong tea associated with Fujian Province. Depending on processing style, it can have floral, creamy, roasted, or vegetal characteristics. Modern lightly roasted versions are often particularly aromatic and floral.
+
+Da Hong Pao is a famous Wuyi oolong from Fujian, China. It is generally roasted and can have complex roasted, mineral, woody, fruity, and nutty characteristics. The name is commonly translated as Big Red Robe.
+
+Dong Ding is a Taiwanese oolong traditionally associated with the Lugu region of Nantou County. It is commonly medium- or heavily roasted and can have toasted, nutty, creamy, fruity, and woody flavors.
+
+Milk oolong is a term used for certain oolong teas that have a naturally creamy or milky sensory character. Some commercial versions may be intentionally flavored, while traditional varieties can develop creamy impressions from the cultivar and processing. Milk oolong is usually smooth and aromatic.
+
+Pu-erh tea is a fermented or post-fermented tea traditionally associated with Yunnan Province in China. It is commonly divided into raw and ripe styles. Raw pu-erh can develop complex floral, fruity, herbal, woody, and earthy characteristics as it ages. Ripe pu-erh generally has darker, smoother, earthy, woody, and sometimes cocoa-like flavors.
+
+Sheng pu-erh is commonly called raw pu-erh. It undergoes a natural aging process after initial production and can change significantly over time. Younger sheng pu-erh may be fresh, bitter, floral, or fruity, while aged examples can become smoother and more complex.
+
+Shou pu-erh is commonly called ripe or cooked pu-erh. It undergoes accelerated microbial fermentation during production. The resulting tea is generally dark, smooth, earthy, woody, and mellow.
+
+Yellow tea is a relatively uncommon tea category. It undergoes a processing step known as yellowing, which gives the leaves and infusion a characteristic yellowish appearance. Yellow tea can have mellow, sweet, floral, nutty, and lightly vegetal characteristics.
+
+Lapsang Souchong is a Chinese black tea traditionally associated with the Wuyi Mountains. It is famous for its smoky aroma and flavor, traditionally produced through smoke drying. Depending on production, it can have pine-smoke, woody, resinous, sweet, and savory notes.
+
+Keemun tea is a Chinese black tea associated with Anhui Province. It is often aromatic and relatively smooth, with notes that may include fruit, malt, cocoa, flowers, or subtle smokiness. It is frequently used in tea blends.
+
+Yunnan black tea is black tea produced in Yunnan Province, China. It can have malty, sweet, floral, honey-like, fruity, and cocoa-like characteristics. Some varieties contain a significant proportion of golden buds.
+
+Rooibos is an herbal infusion made from the South African rooibos plant rather than Camellia sinensis. It naturally contains no caffeine. Rooibos is commonly described as smooth, sweet, nutty, woody, and slightly earthy. It can be served hot or cold and is often used as a base for flavored herbal drinks.
+
+Green rooibos is made from unoxidized rooibos plant material. It generally has a lighter, fresher, and more vegetal flavor than traditional red rooibos.
+
+Peppermint tea is an herbal infusion made from peppermint leaves. It has a strong cooling sensation and a fresh minty aroma. It is commonly consumed hot and is often served without milk.
+
+Spearmint tea is an herbal infusion made from spearmint leaves. It generally has a milder and sweeter mint flavor than peppermint tea. It can be served hot or chilled.
+
+Chamomile tea is an herbal infusion made from chamomile flowers. It has a mild floral, apple-like, and honey-like character. It is commonly consumed as a caffeine-free evening beverage.
+
+Hibiscus tea is an infusion made from hibiscus calyces. It produces a vivid red or deep ruby-colored drink with a tart, fruity, cranberry-like flavor. It is commonly served hot or cold and can be sweetened.
+
+Ginger tea is a beverage made by steeping fresh ginger, dried ginger, or ginger pieces in hot water. It has a warm, spicy, pungent flavor. Ginger tea can be combined with lemon, honey, mint, or other spices.
+
+Lemongrass tea is an herbal infusion made from lemongrass stalks or leaves. It has a fresh citrus-like aroma and a light, grassy flavor. It is commonly served hot or cold.
+
+Tulsi tea is an herbal infusion made from holy basil, also known as tulsi. It has an aromatic, herbal, peppery, and slightly clove-like character. It is commonly consumed in India either alone or blended with other herbs and tea leaves.
+
+Rose tea is an infusion made from rose petals or rose buds. It generally has a delicate floral aroma and mild flavor. Rose can also be blended with black, green, or white tea.
+
+Lavender tea is an herbal infusion made from lavender flowers. It has a strongly floral, aromatic, and slightly sweet flavor. Because the aroma can be intense, lavender is often blended with other herbs.
+
+Lemon tea is tea flavored with lemon juice, lemon slices, or lemon peel. It can be prepared using black tea, green tea, or herbal infusions. Lemon adds acidity and citrus aroma and is commonly combined with sugar or honey.
+
+Honey tea is tea sweetened with honey. It can refer to many different tea bases, including black tea, green tea, herbal tea, ginger tea, and lemon tea. The flavor depends on both the tea and the type of honey used.
+
+Iced tea is tea that is cooled and served cold, often over ice. It can be made from black tea, green tea, oolong tea, herbal tea, or blended tea. It may be served plain or flavored with lemon, peach, mint, berries, or other ingredients.
+
+Sweet tea is a style of iced tea that is heavily sweetened, particularly associated with the southern United States. The tea is generally brewed black tea that is sweetened while warm and then chilled.
+
+Peach tea is tea flavored with peach juice, peach syrup, peach pieces, or peach flavoring. It is often prepared as an iced tea and has a sweet, fruity character.
+
+Lemon iced tea is chilled tea flavored with lemon. It is commonly sweetened and served over ice. Black tea is frequently used as the base.
+
+Milk tea is tea combined with milk. It can refer to many regional beverages, including Indian chai, British-style tea with milk, Hong Kong milk tea, and bubble tea. The tea-to-milk ratio and preparation method vary substantially.
+
+Hong Kong milk tea is a strong milk tea traditionally associated with Hong Kong. It commonly uses a blend of black teas and evaporated or condensed milk. It is known for a strong tea flavor and creamy texture.
+
+Thai tea is a sweet, creamy tea beverage associated with Thailand. A typical preparation uses strongly brewed tea combined with sweetened condensed milk and evaporated milk or another dairy ingredient. It is often served over ice and may contain spices or flavoring.
+
+Bubble tea is a Taiwanese beverage category combining tea with milk or fruit flavors and chewy tapioca pearls or other toppings. It can be served hot or cold, but cold versions are especially common. Modern bubble tea shops offer many combinations of tea bases, sweetness levels, ice levels, toppings, and flavors.
+
+Brown sugar milk tea is a milk tea flavored with brown sugar syrup. It often has a caramel-like sweetness and may be served with tapioca pearls. It is generally served cold, although warm versions exist.
+
+Fruit tea is a tea-based beverage flavored with fruit, fruit juice, fruit syrup, or pieces of fruit. Common flavors include peach, lemon, mango, strawberry, passion fruit, and lychee. Fruit tea can be served hot or iced.
+
+Herbal tea is a broad category of beverages made by infusing herbs, flowers, spices, fruits, roots, or other plant materials in water. Technically, many herbal teas are tisanes rather than true teas because they do not contain Camellia sinensis leaves.
+
+Spiced tea is tea prepared with aromatic spices such as cinnamon, cardamom, cloves, ginger, star anise, nutmeg, or pepper. The term covers many regional preparations. Masala chai is one well-known example.
+
+Butter tea is a traditional tea beverage associated particularly with Tibetan and Himalayan cultures. It is traditionally made using strong tea, butter, and salt. The drink is rich, savory, warming, and quite different from sweet milk tea.
+
+Kashmiri kahwa is a traditional spiced tea associated with Kashmir. It commonly uses green tea, saffron, cardamom, cinnamon, nuts, and sometimes sugar or honey. It is aromatic and warming and is often served in small cups.
+
+Kashmiri pink tea, also called noon chai, is a traditional tea associated with Kashmir. It is commonly prepared using green tea, salt, baking soda, milk, and sometimes additional ingredients. The preparation process gives it a distinctive pink color and a salty, creamy taste.
+
+Moroccan mint tea is traditionally prepared with green tea, fresh mint, and sugar. It is commonly associated with Moroccan hospitality. The combination creates a sweet, refreshing, minty drink.
+
+Russian tea is a broad term used for tea traditions involving strong brewed tea, sometimes accompanied by lemon, sugar, jam, or other additions. Historical Russian tea culture is strongly associated with the samovar.
+
+Turkish tea is a strong black tea commonly prepared using a stacked double teapot called a çaydanlık. It is generally served in small tulip-shaped glasses and can be consumed plain or with sugar.
+
+Persian tea is commonly a black tea preparation served in Iranian tea culture. It is usually brewed strong and may be served with sugar, rock candy, saffron, cardamom, or other flavorings.
+
+South African rooibos tea is a caffeine-free herbal beverage made from rooibos. It can be consumed plain, with milk, with honey, or blended with spices and fruit flavors.
+
+Drink varieties
+
+Water is the most basic and widely consumed beverage. It may be consumed from natural sources after appropriate treatment or as commercially bottled or filtered water. Water contains no added calories when consumed plain and is essential for hydration.
+
+Mineral water is water containing naturally occurring minerals and dissolved substances. The mineral composition varies according to the source. It may be naturally carbonated or still.
+
+Sparkling water is water containing dissolved carbon dioxide, producing bubbles and a carbonated sensation. It can be naturally carbonated or artificially carbonated. It is commonly served plain or flavored.
+
+Soda water is carbonated water, often with added mineral salts. It is frequently used as a mixer in non-alcoholic and alcoholic drinks.
+
+Tonic water is a carbonated beverage traditionally containing quinine flavoring. Modern tonic water is generally sweetened and flavored and is commonly used as a mixer. It has a characteristic bitter taste.
+
+Lemon water is plain water flavored with lemon juice or lemon slices. It can be served cold, at room temperature, or warm. It is a simple beverage with a citrus aroma and acidic taste.
+
+Coconut water is the clear liquid found inside young green coconuts. It has a mild, slightly sweet flavor and contains naturally occurring electrolytes and minerals. It can be consumed chilled or used in smoothies and other beverages.
+
+Milk is a nutrient-containing dairy beverage produced by mammals, with cow's milk being one of the most commonly consumed forms. Milk can be consumed plain or used as an ingredient in tea, coffee, smoothies, milkshakes, desserts, and other drinks.
+
+Whole milk contains a relatively high proportion of milk fat compared with reduced-fat milk. It has a creamy texture and rich flavor.
+
+Low-fat milk contains less milk fat than whole milk. It has a lighter texture while retaining many of the characteristics of dairy milk.
+
+Skim milk has most of its milk fat removed. It has a relatively thin texture and lighter mouthfeel.
+
+Buttermilk traditionally refers to the liquid left after churning butter from cream, while modern commercial cultured buttermilk is commonly produced by fermenting milk. It has a tangy flavor and thick texture.
+
+Chaas is a traditional Indian yogurt-based drink commonly prepared by diluting yogurt with water and adding salt and spices. It is often flavored with roasted cumin, coriander, ginger, green chili, mint, or curry leaves. It is commonly served chilled.
+
+Lassi is a yogurt-based beverage associated with South Asia. It can be sweet, salty, savory, or fruit-flavored. Common varieties include mango lassi, sweet lassi, salted lassi, rose lassi, and plain lassi.
+
+Sweet lassi is a yogurt drink blended with water or milk and sweetener. It may contain cardamom, rose water, saffron, or fruit. It is usually served chilled.
+
+Salted lassi is a savory yogurt drink containing salt and often spices or herbs. It is generally thinner and more savory than sweet lassi.
+
+Mango lassi is a yogurt-based drink blended with mango pulp or mango pieces. It has a creamy texture and sweet tropical fruit flavor. It is commonly served chilled.
+
+Rose lassi is lassi flavored with rose syrup or rose water. It has a sweet floral aroma and pink or reddish color when colored syrup is used.
+
+Saffron lassi is lassi flavored with saffron. It may also contain cardamom, sugar, or nuts. The drink is creamy, aromatic, and mildly floral.
+
+Coffee is a beverage prepared from roasted coffee beans, which are the seeds of coffee cherries. Different preparation methods produce different flavors, strengths, textures, and aromas. Common coffee styles include espresso, Americano, cappuccino, latte, mocha, and cold brew.
+
+Espresso is a concentrated coffee beverage produced by forcing hot water through finely ground coffee under pressure. It has a concentrated flavor and is commonly served in small quantities. Espresso also forms the base of many milk and coffee beverages.
+
+Americano is generally made by combining espresso with hot water. It has a lighter concentration than straight espresso while retaining espresso-derived flavors.
+
+Long black is a coffee beverage generally prepared by adding espresso to hot water. The preparation order differs from an Americano in many traditions, which can affect the crema and presentation.
+
+Cappuccino is an espresso-based milk beverage traditionally made with espresso, steamed milk, and milk foam. It has a strong coffee character combined with creamy texture and foam.
+
+Latte is an espresso-based beverage containing a relatively large amount of steamed milk and a smaller layer of foam. It is generally milder and creamier than a cappuccino.
+
+Flat white is an espresso and steamed milk beverage characterized by a relatively thin layer of fine-textured microfoam. It typically has a stronger coffee-to-milk impression than a large latte.
+
+Macchiato is an espresso beverage with a small amount of milk or milk foam. The term can describe different preparations, including traditional espresso macchiato and larger caramel-style beverages in some commercial contexts.
+
+Mocha is a coffee beverage combining espresso, milk, and chocolate. It may be topped with milk foam, whipped cream, chocolate powder, or chocolate syrup. It has a combination of coffee, cocoa, sweetness, and creamy dairy flavor.
+
+Cortado is a small coffee beverage combining espresso with approximately an equal or similar amount of warm milk. The milk reduces espresso acidity and intensity while preserving a strong coffee character.
+
+Affogato is a dessert-like beverage made by pouring hot espresso over cold ice cream or gelato. The contrast between hot coffee and cold creamy dessert creates a distinctive texture and flavor.
+
+Cold brew coffee is coffee brewed using cool or room-temperature water over a relatively long extraction period. It usually has a smooth, less sharp flavor compared with some hot-brewed coffees. It is commonly served over ice and may be diluted or combined with milk.
+
+Iced coffee is coffee served chilled, usually over ice. It can be prepared by brewing coffee hot and cooling it or by using other methods. It may be served black, with milk, sugar, cream, or flavored syrups.
+
+Frappé is a chilled blended or shaken coffee beverage. Different regional versions exist. It can contain instant coffee, milk, sugar, ice, or other ingredients and is commonly served cold.
+
+Vietnamese iced coffee is commonly prepared using strong coffee brewed through a Vietnamese drip filter and combined with sweetened condensed milk. It is typically served over ice and has a strong, sweet, creamy flavor.
+
+Irish coffee is a coffee beverage traditionally combining hot coffee, whiskey, sugar, and cream. It is served as a layered or topped drink in many preparations.
+
+Turkish coffee is a method of preparing finely ground coffee by simmering or heating it with water, traditionally in a small pot called a cezve or ibrik. The grounds remain in the cup, creating a strong, concentrated beverage with a distinctive texture.
+
+Greek coffee is closely related to the Turkish-style method and is prepared using finely ground coffee heated with water, often with sugar. It is traditionally served in small cups with the grounds settling at the bottom.
+
+Hot chocolate is a warm beverage made from cocoa or chocolate combined with milk or water. It can be thick and rich or relatively light. Common additions include sugar, whipped cream, marshmallows, cinnamon, vanilla, or chocolate shavings.
+
+Cocoa is a beverage made primarily from cocoa powder combined with milk or water and usually sweetener. Compared with melted-chocolate drinks, cocoa powder-based beverages can have a lighter body.
+
+Chocolate milk is milk flavored with cocoa and sweetener. It is commonly served chilled but can also be served warm.
+
+Milkshake is a thick cold beverage generally made by blending milk with ice cream and flavorings. Common flavors include vanilla, chocolate, strawberry, mango, banana, and cookies. Milkshakes may be topped with whipped cream or other ingredients.
+
+Vanilla milkshake is a milkshake flavored primarily with vanilla. It is creamy, sweet, and aromatic and is commonly made using vanilla ice cream and milk.
+
+Chocolate milkshake is a milkshake containing chocolate ice cream, cocoa, chocolate syrup, or melted chocolate. It has a rich chocolate flavor and creamy texture.
+
+Strawberry milkshake is a milkshake flavored with strawberries or strawberry syrup. It combines sweet dairy flavor with fruity strawberry notes.
+
+Mango shake is a thick beverage made by blending mango pulp or mango pieces with milk. It is particularly popular in regions where mangoes are widely consumed. Sugar or ice cream may be added for additional sweetness and richness.
+
+Banana shake is made by blending banana with milk. It has a thick texture and naturally sweet flavor. It may be flavored with cinnamon, honey, dates, or nuts.
+
+Fruit juice is liquid extracted from fruits. It can be consumed fresh or commercially processed. Common varieties include orange juice, apple juice, grape juice, pineapple juice, mango juice, and pomegranate juice.
+
+Orange juice is juice made from oranges. It has a sweet and acidic citrus flavor and is commonly consumed at breakfast. It may be fresh, chilled, pulpy, or filtered.
+
+Apple juice is juice made from apples. It has a sweet, fruity flavor and can range from clear to cloudy depending on processing.
+
+Mango juice is a sweet tropical fruit beverage made from mango pulp or mango juice. It is commonly thick, fragrant, and rich in fruit flavor.
+
+Pineapple juice is juice made from pineapple. It has a sweet and acidic tropical flavor and can be consumed alone or mixed into other beverages.
+
+Grape juice is juice made from grapes. It can be red, purple, green, or white depending on the grape variety. It is generally sweet and fruity.
+
+Pomegranate juice is juice extracted from pomegranate arils. It has a deep red color and a flavor that combines sweetness and acidity with mild astringency.
+
+Guava juice is made from guava pulp or guava fruit. It can be thick and fragrant, with a sweet tropical flavor. It is commonly consumed chilled.
+
+Watermelon juice is made by blending or pressing watermelon. It has a high water content and a naturally sweet, refreshing flavor. It is often served cold.
+
+Papaya juice is made from ripe papaya pulp blended with water or other fruit ingredients. It has a soft tropical flavor and thick texture.
+
+Lychee juice is a sweet fruit beverage made from lychee fruit or lychee juice. It has a fragrant floral and tropical character.
+
+Cranberry juice is made from cranberries or cranberry concentrate. It has a strongly tart flavor and is frequently sweetened or blended with other juices.
+
+Tomato juice is a savory vegetable-based beverage made from tomatoes. It may be seasoned with salt, pepper, celery, lemon, or other ingredients. It is sometimes used in savory mixed drinks.
+
+Carrot juice is made from carrots and has a naturally sweet, earthy flavor. It can be consumed alone or combined with orange, apple, ginger, lemon, or other ingredients.
+
+Beetroot juice is made from beetroot and has a deep red color and earthy, sweet flavor. It is commonly combined with apple, carrot, lemon, or ginger.
+
+Celery juice is made from celery stalks and has a fresh, vegetal, salty, and slightly bitter flavor. It is often consumed chilled.
+
+Lemonade is a drink made primarily from lemon juice, water, and a sweetener. It has a refreshing combination of acidity and sweetness. It can be served chilled and may be flavored with mint, berries, ginger, or other ingredients.
+
+Pink lemonade is lemonade with a pink or reddish color. The color may come from fruit juices, berries, botanical ingredients, or food coloring. It generally retains the sweet and tart character of ordinary lemonade.
+
+Mint lemonade is lemonade flavored with fresh mint. The citrus acidity combines with the cool, herbal aroma of mint. It is commonly served over ice.
+
+Ginger lemonade is lemonade flavored with fresh ginger or ginger syrup. It combines lemon acidity with warm ginger spice.
+
+Limeade is a beverage similar to lemonade but made primarily with lime juice. It has a sharper citrus flavor and is commonly sweetened and served chilled.
+
+Aam panna is a traditional Indian summer beverage made from raw green mangoes, water, sugar or another sweetener, and spices. Common seasonings include roasted cumin, black salt, and mint. It has a tart, sweet, salty, and spicy flavor.
+
+Jaljeera is a spiced Indian beverage commonly made using water and a mixture of cumin, mint, black salt, tamarind, ginger, and other spices. It has a tangy, savory, spicy, and refreshing flavor.
+
+Sugarcane juice is extracted from fresh sugarcane stalks. It is naturally sweet and often served chilled with lemon, ginger, or other flavorings. It is commonly sold as a fresh street beverage in parts of South Asia.
+
+Nimbu pani is a South Asian lemon drink made from lemon juice, water, and sweetener or salt. It may be sweet, salty, or a combination of both. It is commonly served chilled.
+
+Sharbat is a broad category of sweetened fruit, flower, herb, or syrup-based beverages common in South Asia and the Middle East. It is generally diluted with water before serving. Flavors include rose, khus, lemon, sandalwood, and fruit.
+
+Rooh Afza-style rose drink is a sweet rose-flavored beverage prepared by mixing rose-based syrup with water or milk. It has a strong floral aroma and bright color.
+
+Falooda is a layered South Asian dessert beverage. It commonly contains milk, sweet syrup, basil seeds, vermicelli noodles, ice cream or kulfi, and nuts. Different regional versions use different ingredients.
+
+Badam milk is a milk-based beverage flavored with almonds. It may contain saffron, cardamom, sugar, or other nuts. It can be served warm or chilled.
+
+Pista milk is milk flavored with pistachios, often combined with cardamom and saffron. It has a creamy, nutty flavor and can be served cold or warm.
+
+Thandai is a traditional Indian milk-based beverage associated with festivals and celebrations. It commonly contains milk, nuts, seeds, spices, saffron, and sweetener. The spice mixture can include cardamom, fennel, pepper, and rose petals.
+
+Kesar milk is milk flavored with saffron, often sweetened and sometimes combined with cardamom or nuts. It can be served warm or chilled.
+
+Smoothie is a blended beverage made from fruits, vegetables, milk, yogurt, plant-based milk, juice, ice, or other ingredients. Smoothies generally have a thicker texture than juice because much of the fruit or vegetable material remains in the drink.
+
+Fruit smoothie is a smoothie primarily made from fruits. Common combinations include banana and strawberry, mango and pineapple, mixed berries, and peach and yogurt.
+
+Green smoothie is a smoothie containing leafy greens or other green vegetables along with fruit and liquid ingredients. Spinach, kale, cucumber, apple, banana, and lemon are common components.
+
+Berry smoothie is a smoothie made with berries such as strawberries, blueberries, raspberries, or blackberries. It generally has a sweet-tart fruit flavor and colorful appearance.
+
+Mango smoothie is a thick blended drink made with mango and ingredients such as yogurt, milk, coconut milk, or juice. It has a creamy tropical flavor.
+
+Protein shake is a blended beverage containing a concentrated source of protein, such as milk, yogurt, protein powder, or other protein-rich ingredients. It may also contain fruit, oats, nut butter, or other ingredients.
+
+Mocktail is a non-alcoholic mixed beverage designed to resemble a cocktail in presentation or complexity. It may contain fruit juices, syrups, herbs, spices, carbonated water, tea, or other ingredients.
+
+Virgin mojito is a non-alcoholic drink inspired by the mojito. It commonly combines lime juice, fresh mint, sugar or syrup, and soda water. It is usually served over ice.
+
+Virgin piña colada is a non-alcoholic tropical drink made with pineapple juice and coconut cream or coconut milk. It is usually blended or shaken with ice.
+
+Virgin Mary is a non-alcoholic version of the Bloody Mary. It commonly contains tomato juice, lemon juice, spices, hot sauce, and savory seasonings.
+
+Fruit punch is a mixed fruit beverage combining several juices or fruit-flavored ingredients. It may include orange, pineapple, mango, apple, cranberry, or other fruit flavors.
+
+Iced fruit punch is fruit punch served chilled, often over ice. It is commonly used as a party beverage and may be garnished with fresh fruit.
+
+Energy drink is a beverage formulated to provide stimulating or energizing effects, commonly through caffeine and other ingredients. Many energy drinks also contain sugar or artificial sweeteners, flavorings, acids, and vitamins.
+
+Sports drink is a beverage designed to provide fluids and electrolytes, often with carbohydrates. It is commonly consumed during or after prolonged physical activity.
+
+Electrolyte drink is a beverage containing minerals such as sodium and potassium. It may be formulated for hydration during situations involving substantial fluid or electrolyte loss.
+
+Malt drink is a beverage made using malted grains or malt extracts. It can be non-alcoholic or alcoholic depending on the product and fermentation process. Non-alcoholic malt beverages are often sweet and carbonated.
+
+Ginger ale is a carbonated soft drink flavored with ginger. It is generally sweet and lightly spicy. It can be consumed alone or used as a mixer.
+
+Ginger beer is a ginger-flavored beverage traditionally produced through fermentation, although many modern commercial versions are non-alcoholic and carbonated without significant fermentation. It generally has a stronger ginger flavor than ginger ale.
+
+Root beer is a sweet carbonated soft drink traditionally flavored with roots, bark, herbs, and spices. Modern formulations vary widely and are commonly caffeine-free, although some products may contain caffeine.
+
+Cola is a carbonated soft drink typically flavored with caramel color, citrus oils, spices, and other flavorings. Many cola beverages contain caffeine, although caffeine-free versions are also available.
+
+Orange soda is a carbonated soft drink flavored primarily with orange. It generally has a sweet, fruity, citrus flavor and bright orange color.
+
+Lemon-lime soda is a carbonated soft drink flavored with lemon and lime. It is usually clear or lightly colored and has a sweet, acidic, citrus flavor.
+
+Cream soda is a sweet carbonated soft drink traditionally flavored with vanilla. It commonly has a creamy, dessert-like aroma despite not necessarily containing dairy.
+
+Tamarind drink is a beverage made from tamarind pulp diluted with water and sweetened. It has a distinctive sweet-sour flavor and may contain spices.
+
+Kombucha is a fermented tea beverage produced using a culture of microorganisms in sweetened tea. It commonly has a tart, acidic, lightly effervescent character. Commercial versions may be flavored with fruits, herbs, spices, or other ingredients.
+
+Kefir is a fermented milk beverage produced using kefir grains containing bacteria and yeasts. It generally has a tangy, slightly effervescent character and a drinkable yogurt-like texture.
+
+Ayran is a savory yogurt-based drink traditionally associated with Turkey and nearby regions. It is made by mixing yogurt, water, and salt. It is generally served cold and has a salty, tangy, refreshing flavor.
+
+Doogh is a traditional yogurt-based beverage found in Iran and other parts of the region. It is commonly made with yogurt, water, salt, and herbs such as mint. It can be still or lightly carbonated.
+
+Kvass is a fermented beverage traditionally associated with Eastern Europe. It is commonly made from rye bread or other grains and has a mildly sour, malty, and sometimes slightly sweet flavor.
+
+Horchata is a name used for several traditional drinks made from grains, nuts, or seeds. Mexican horchata is commonly prepared using rice, water, cinnamon, and sugar. It is generally sweet, creamy, and served chilled.
+
+Agua fresca is a family of Mexican non-alcoholic beverages made by blending or infusing fruits, grains, flowers, or seeds with water and sugar. Common examples include agua de jamaica, horchata, and fruit-based aguas frescas.
+
+Agua de jamaica is a Mexican-style hibiscus drink. Hibiscus flowers are steeped in water and the liquid is sweetened and chilled. It has a deep red color and tart, fruity flavor.
+
+Agua de tamarindo is a tamarind-based agua fresca. Tamarind pulp is diluted with water and sweetened to create a tart, sweet, refreshing drink.
+
+Agua de limón is a Mexican-style lime or lemon water prepared with citrus juice, water, and sugar. It is commonly served chilled.
+
+Coconut milk drink is a beverage made by diluting coconut milk with water or combining it with other ingredients. It has a creamy texture and characteristic coconut flavor.
+
+Soy milk is a plant-based beverage made by soaking and grinding soybeans and extracting the liquid. It can be consumed plain or flavored and is commonly used as an alternative to dairy milk.
+
+Almond milk is a plant-based beverage made primarily from almonds and water. It usually has a mild nutty flavor and can be sold sweetened, unsweetened, or flavored.
+
+Oat milk is a plant-based beverage made from oats and water. It generally has a creamy texture and mild cereal-like sweetness. It is widely used in coffee drinks and smoothies.
+
+Rice milk is a plant-based beverage made from processed rice and water. It generally has a light body and mild sweetness and is often used as an alternative to dairy milk.
+
+Cashew milk is a plant-based beverage made from cashews and water. It tends to have a creamy texture and mild nutty flavor.
+
+Peanut milk is a beverage made using peanuts and water, sometimes with sweetener or flavoring. It has a distinct nutty flavor and can be consumed chilled or used in blended drinks.
+
+Golden milk is a warm milk beverage flavored with turmeric and often combined with black pepper, ginger, cinnamon, cardamom, or other spices. It is usually sweetened with honey or another sweetener and has a warm, spiced flavor.
+
+Turmeric tea is an infusion or warm beverage containing turmeric. It may include ginger, black pepper, lemon, honey, or other spices. It can be made with water or milk.
+
+Cinnamon tea is an herbal infusion made by steeping cinnamon sticks or cinnamon pieces in hot water. It has a warm, sweet, woody aroma and flavor.
+
+Fennel tea is an herbal infusion made from fennel seeds. It has a sweet, aromatic, licorice-like flavor.
+
+Cardamom tea is tea or herbal infusion flavored with cardamom pods or seeds. It has a sweet, spicy, floral, and aromatic character and is often combined with black tea and milk.
+
+Clove tea is an infusion made using cloves. It has a strong warm, spicy, woody flavor and is often combined with cinnamon, ginger, lemon, or black tea.
+
+Cumin water is a beverage made by steeping or boiling cumin seeds in water. It has a distinctive earthy, warm, slightly bitter flavor.
+
+Jeera water is an Indian beverage based on cumin-infused water. It may be served warm or chilled and can include lemon, salt, or other spices.
+
+Sattu drink is a traditional Indian beverage made using roasted gram flour mixed with water. It may be prepared sweet with sugar or savory with salt, lemon, onion, cumin, and herbs. It is known for its nutty and roasted flavor.
+
+Barley water is a beverage made by boiling barley in water and straining the liquid. It can be sweetened and flavored with lemon or other ingredients. It has a mild grain-like flavor.
+
+Lemon barley water combines barley water with lemon and sweetener. It is traditionally served chilled and has a refreshing citrus character.
+
+Tender coconut drink is a fresh beverage made from young coconut water, sometimes served directly inside the coconut. It has a mild sweet flavor and is commonly consumed chilled.
+
+Sugar-free beverage is a beverage formulated without added sugar or with non-sugar sweeteners. Examples include diet soft drinks, unsweetened tea, black coffee, and some flavored waters.
+
+Carbonated drink is a beverage containing dissolved carbon dioxide. Carbonation creates bubbles and a fizzy sensation. Examples include soda, sparkling water, tonic water, ginger ale, and cola.
+
+Non-carbonated drink is a beverage without intentional carbonation. Examples include still water, juice, milk, tea, coffee, smoothies, and many traditional fruit drinks.
+
+Hot beverage is a drink normally served warm or hot. Common examples include tea, coffee, hot chocolate, mulled beverages, herbal infusions, and warm milk drinks.
+
+Cold beverage is a drink normally served chilled or over ice. Examples include iced tea, iced coffee, lemonade, fruit juice, smoothies, soft drinks, and milkshakes.
+
+Fermented beverage is a drink produced through microbial fermentation. Fermentation may change sugars into acids, gases, or alcohol depending on the microorganisms and process. Examples include kombucha, kefir, kvass, and certain alcoholic beverages.
+
+Alcoholic beverage is a drink containing ethanol produced through fermentation, distillation, or both. Major categories include beer, wine, cider, spirits, and mixed alcoholic drinks.
+
+Beer is an alcoholic beverage generally produced by fermenting malted grains with yeast and flavoring the beverage with hops or other ingredients. Beer styles differ widely in color, bitterness, aroma, alcohol content, and fermentation method.
+
+Lager is a beer style generally fermented and conditioned using lager yeast at relatively cool temperatures. Common lager styles include pilsner, helles, dunkel, and märzen.
+
+Ale is a broad category of beer traditionally produced using ale yeast at warmer fermentation temperatures. Ales can include pale ale, IPA, stout, porter, and many other styles.
+
+Pilsner is a pale lager style originating in Central Europe. It is commonly characterized by a crisp body, noticeable hop aroma or bitterness, and a clean finish.
+
+Stout is a dark ale style often characterized by roasted malt flavors. It may have notes of coffee, cocoa, toast, caramel, or dark grain.
+
+Porter is a dark beer style with roasted and malt-driven flavors. It can have chocolate, coffee, caramel, nutty, or toasted characteristics.
+
+IPA, or India Pale Ale, is a hop-forward beer style. It often has pronounced hop bitterness and aromas of citrus, tropical fruit, pine, flowers, or herbs, depending on the hop varieties and brewing method.
+
+Wheat beer is beer made with a significant proportion of wheat in the grain bill. It can have a soft body and may show bread-like, fruity, spicy, or creamy characteristics.
+
+Cider is an alcoholic beverage made by fermenting apple juice. Cider styles range from sweet to dry and from still to highly carbonated. Some ciders contain other fruits or spices.
+
+Perry is an alcoholic beverage made by fermenting pear juice. It can range from sweet and fruity to dry and complex.
+
+Wine is an alcoholic beverage made primarily by fermenting grapes or grape juice. Wine can be red, white, rosé, sparkling, or fortified, with many regional styles.
+
+Red wine is wine made primarily from dark-colored grape varieties and typically fermented with grape skins. It commonly has flavors and aromas associated with fruit, spices, herbs, oak, earth, or tannins.
+
+White wine is wine usually made from green or yellow grapes, although some dark grapes can also be used when the skins are removed. It commonly ranges from crisp and acidic to rich and creamy.
+
+Rosé wine is wine with a pink color produced through limited contact between grape juice and dark grape skins. It generally has fresh fruit and floral characteristics.
+
+Sparkling wine is wine containing significant dissolved carbon dioxide, creating bubbles. Champagne is one specific type of sparkling wine, while many other regions produce their own sparkling styles.
+
+Fortified wine is wine to which distilled spirit has been added. Examples include port, sherry, Madeira, and certain styles of vermouth.
+
+Whiskey is a distilled alcoholic beverage made from fermented grain mash and generally aged in wooden barrels. Major traditions include Scotch whisky, Irish whiskey, bourbon, rye whiskey, and Japanese whisky.
+
+Vodka is a distilled spirit traditionally produced from grains, potatoes, or other agricultural materials. It is generally relatively neutral in aroma and flavor and is widely used in mixed drinks.
+
+Rum is a distilled spirit made from sugarcane products such as molasses or sugarcane juice. Styles range from light and relatively neutral to dark, aged, rich, and aromatic.
+
+Gin is a distilled spirit characterized primarily by juniper flavor. Different gins may contain botanicals such as coriander, citrus peel, angelica, cardamom, and herbs.
+
+Brandy is a distilled spirit made from fermented fruit juice or wine. Grape brandy is common, but brandy can also be made from apples, pears, cherries, and other fruits.
+
+Tequila is a distilled spirit produced from blue Weber agave and associated with Mexico. It can be classified into styles including blanco, reposado, añejo, and extra añejo based on production and aging.
+
+Mezcal is a Mexican distilled spirit made from agave. Different agave varieties and production methods can create a wide range of flavors, often including earthy, smoky, fruity, vegetal, or mineral notes.
+
+Cocktail is a mixed alcoholic beverage combining spirits, liqueurs, wine, bitters, juices, syrups, soda, herbs, spices, or other ingredients. Cocktails can be shaken, stirred, blended, built directly in a glass, or prepared using other techniques.
+
+Mojito is a cocktail traditionally made with white rum, lime, sugar, mint, and soda water. It is generally served over ice and has a refreshing combination of citrus, mint, sweetness, and rum.
+
+Margarita is a cocktail commonly made with tequila, orange liqueur, and lime juice. It is often served over ice or blended and may be served with a salted rim.
+
+Martini is a classic cocktail generally associated with gin or vodka and vermouth. It may be served with an olive or lemon twist, depending on the preparation.
+
+Old Fashioned is a whiskey cocktail traditionally made with whiskey, sugar, and bitters. It is commonly served over ice and garnished with citrus peel.
+
+Negroni is a cocktail traditionally made with gin, sweet vermouth, and Campari in roughly equal proportions. It has a bitter, herbal, citrusy, and spirit-forward flavor.
+
+Daiquiri is a classic cocktail based on rum, lime juice, and sugar. It is traditionally shaken and served chilled.
+
+Manhattan is a cocktail generally made with whiskey, sweet vermouth, and bitters. It is commonly stirred and served chilled, often with a cherry garnish.
+
+Bloody Mary is a savory cocktail commonly made with vodka and tomato juice, along with ingredients such as lemon juice, Worcestershire sauce, hot sauce, salt, pepper, and celery. Recipes vary widely.
+
+Piña colada is a tropical cocktail traditionally made with rum, pineapple juice, and coconut cream or coconut milk. It is generally blended or shaken with ice.
+
+Moscow Mule is a cocktail commonly made with vodka, ginger beer, and lime juice. It is typically served over ice and is known for its spicy ginger and citrus flavor.
+
+Cosmopolitan is a cocktail commonly made with vodka, orange liqueur, cranberry juice, and lime juice. It has a tart, citrusy, fruity profile and is typically served chilled.
+
+Whiskey sour is a cocktail combining whiskey, lemon juice, and sugar or simple syrup. Some versions include egg white for a richer texture and foamy top.
+
+Tom Collins is a tall cocktail traditionally made with gin, lemon juice, sugar, and soda water. It is served chilled over ice and has a refreshing citrus profile.
+
+Mai Tai is a rum-based tropical cocktail commonly containing lime juice, orange curaçao, orgeat syrup, and rum. Many modern versions vary substantially from traditional recipes.
+
+Sangria is a mixed wine beverage traditionally associated with Spain and Portugal. It commonly combines wine with fruit and other ingredients such as citrus juice, sweetener, or brandy.
+
+Punch is a broad category of mixed beverages made from combinations of spirits, wine, tea, juices, fruit, spices, sugar, and water or other mixers. Both alcoholic and non-alcoholic punches exist.
+
+Mulled wine is wine heated gently with spices and often citrus and sweetener. Common spices include cinnamon, cloves, star anise, and nutmeg. It is typically served warm.
+
+Hot toddy is a warm mixed drink traditionally made with spirits, hot water, honey or sugar, and lemon. Different recipes use whiskey, brandy, rum, or other spirits.
+
+Drink classification can be based on ingredients, preparation method, temperature, carbonation, alcohol content, or cultural tradition. Tea beverages can be divided into true teas made from Camellia sinensis and herbal infusions made from other plants. Drinks can also be grouped as hot beverages, cold beverages, carbonated beverages, juices, dairy drinks, plant-based drinks, fermented drinks, mocktails, and alcoholic beverages.
+Assam Orthodox Tea is a traditionally manufactured tea from Assam, India. The leaves are processed using orthodox methods that preserve a more recognizable whole-leaf structure. It usually produces a strong, malty, brisk, and aromatic cup. It is commonly consumed with milk and sugar and is also used in blended breakfast teas.
+
+Assam CTC Tea is produced using the cut-tear-curl manufacturing process. The tea leaves are mechanically cut, torn, and curled into small granules. It produces a strong, dark, brisk infusion and is widely used for Indian chai because it combines well with milk, sugar, and spices.
+
+Darjeeling First Flush Tea is harvested during the first major tea-growing period of the year. It is generally lighter and more delicate than later Darjeeling harvests. It can have floral, fresh, fruity, green, and aromatic notes and is often preferred without milk so that its delicate character remains noticeable.
+
+Darjeeling Second Flush Tea is harvested later in the season than first-flush tea. It commonly has a fuller body and more developed fruity, muscatel, floral, and slightly woody characteristics. It can be enjoyed plain or with light additions.
+
+Darjeeling Autumn Flush Tea is produced from leaves harvested toward the later part of the growing season. It is generally fuller and darker than early-season Darjeeling teas. Its flavor may include woody, fruity, mellow, and lightly spicy characteristics.
+
+Nilgiri Frost Tea is produced in the Nilgiri region during cooler conditions. The slower growth associated with cooler weather can contribute to distinctive aromatic characteristics. It is commonly described as fragrant, bright, smooth, and refreshing.
+
+Kangra Tea is associated with the Kangra Valley of Himachal Pradesh, India. It can be produced as black or green tea. Kangra tea is often recognized for its delicate aroma and fresh flavor and has a long history of tea cultivation in the region.
+
+Sikkim Tea is produced in the Temi tea garden and surrounding areas of Sikkim, India. It is often made as black tea and can show floral, fruity, sweet, and muscatel-like characteristics. It is generally considered an aromatic Indian tea.
+
+Dooars Tea is produced in the Dooars region of West Bengal. It is commonly used for black tea and can have a strong, brisk, smooth character. It is also used in blends where a robust tea base is needed.
+
+Terai Tea is produced in the Terai region of northern West Bengal. It generally produces a strong and brisk cup and is commonly used for blended teas.
+
+Kumaon Tea is associated with the Kumaon region of Uttarakhand. Historical tea cultivation in the region has produced black and other tea styles. The tea can have a mild, aromatic, and sometimes woody character.
+
+Kashmiri Green Tea is a green tea commonly used as the base for Kashmiri beverages. It can be combined with cardamom, cinnamon, saffron, nuts, and other ingredients. It is generally lighter and more aromatic than black tea.
+
+Chinese Green Tea is a broad category containing many regional and processing styles. Chinese green teas may be pan-fired, steamed, rolled, twisted, or shaped into different forms. Flavor profiles range from vegetal and grassy to nutty, floral, sweet, and roasted.
+
+Bi Luo Chun is a Chinese green tea traditionally associated with Jiangsu Province. Its small curled leaves and strong aroma are characteristic of the style. It can have floral, fruity, vegetal, and sweet flavors.
+
+Huangshan Maofeng is a Chinese green tea from Anhui Province. It is made from young leaves and buds and commonly produces a delicate, fresh, floral, and slightly sweet cup.
+
+Taiping Houkui is a Chinese green tea known for unusually large, flat leaves. It is traditionally associated with Anhui Province. It can have floral, vegetal, fresh, and slightly sweet flavors.
+
+Lu'an Gua Pian is a Chinese green tea made primarily from mature leaves rather than buds. It is associated with Anhui Province. It commonly has a rich vegetal, nutty, roasted, and slightly sweet flavor.
+
+Houjicha Powder is powdered roasted Japanese green tea. It has a toasted, nutty, caramel-like flavor and can be used in lattes, desserts, smoothies, and traditional tea preparations.
+
+Kukicha is a Japanese tea made primarily from stems and stalks of the tea plant rather than only leaves. It generally has a mild, sweet, nutty, and vegetal flavor. It can be enjoyed hot or cold.
+
+Bancha is a Japanese green tea generally made from later-season or more mature leaves than sencha. It tends to have a mild, earthy, vegetal, and slightly roasted character and is commonly consumed as an everyday tea.
+
+Kabusecha is a Japanese shaded green tea. The plants are covered before harvest for a period shorter than that typically used for gyokuro. The shading can increase umami and reduce some bitterness, producing a rich and smooth tea.
+
+Tamaryokucha is a Japanese green tea with curled leaves rather than the needle-like shape common in sencha. It can be produced using steaming or pan-firing methods and may have fresh, vegetal, floral, and slightly roasted characteristics.
+
+Matcha Latte is a beverage prepared by combining matcha powder with water and milk. It has a creamy texture and a characteristic combination of vegetal, umami, sweet, and mildly bitter flavors. It can be served hot or iced.
+
+Strawberry Matcha is a modern beverage combining matcha with strawberry puree, syrup, or fresh strawberries and milk. The vegetal flavor of matcha contrasts with the sweet and acidic strawberry flavor. It is commonly served chilled.
+
+Mango Matcha is a layered or blended beverage combining mango and matcha. Mango contributes sweetness and tropical fruit flavor, while matcha contributes vegetal and umami notes.
+
+Coconut Matcha is a beverage combining matcha with coconut milk or coconut water. It generally has a tropical, creamy character with the grassy and umami flavor of matcha.
+
+Black Tea Latte is a milk-based beverage prepared from strongly brewed black tea and steamed or warm milk. It can be sweetened and flavored with vanilla, cinnamon, honey, or other ingredients.
+
+Chai Latte is a milk-based drink inspired by masala chai. It commonly combines concentrated black tea or chai concentrate with steamed milk and spices. Compared with traditional stovetop chai, café versions may use syrups or prepared concentrates.
+
+Vanilla Chai is a chai beverage flavored with vanilla. It combines the warmth of spices such as cinnamon and cardamom with a sweet vanilla aroma.
+
+Chocolate Chai combines black tea, chai spices, milk, and chocolate or cocoa. It has a richer flavor than ordinary chai and combines warming spices with cocoa sweetness.
+
+Ginger Chai is chai with a pronounced ginger component. Fresh or dried ginger may be used along with black tea, milk, sugar, and other spices. It has a warming, spicy flavor.
+
+Cardamom Chai is chai in which cardamom is a prominent flavor. It has a sweet, floral, aromatic character and may contain ginger, cinnamon, cloves, or black pepper.
+
+Cinnamon Chai is tea prepared with cinnamon as one of the dominant spices. It has a warm, sweet, woody aroma and is often combined with milk and sugar.
+
+Pepper Chai is a spicy tea preparation containing black pepper along with black tea and other chai ingredients. The pepper contributes heat and pungency.
+
+Saffron Chai is a tea beverage flavored with saffron. It can include milk, sugar, cardamom, almonds, or pistachios. Saffron contributes a distinctive floral, honey-like, and aromatic quality.
+
+Rose Chai is tea flavored with rose petals, rose water, or rose syrup. It combines the structure of tea with a floral aroma and may also contain cardamom or other spices.
+
+Mint Chai is tea prepared with fresh or dried mint. It can be made using black tea, green tea, or herbal ingredients. Mint gives the beverage a cooling and refreshing aroma.
+
+Apple Tea is a fruit-flavored tea made using apple pieces, apple juice, apple syrup, dried apple, or apple flavoring. It can be prepared with black, green, or herbal tea and generally has a sweet, fruity aroma.
+
+Berry Tea is tea flavored with berries such as strawberry, raspberry, blueberry, blackberry, or mixed berries. It may be served hot or cold and can use black tea, green tea, white tea, or herbal tea as the base.
+
+Passion Fruit Tea is tea flavored with passion fruit. It has a tropical aroma and combines sweetness with noticeable acidity. It is particularly popular in iced tea preparations.
+
+Lychee Tea is tea flavored with lychee fruit or lychee syrup. It has a sweet floral and tropical aroma and can be prepared with green, black, or white tea.
+
+Peach Oolong is oolong tea flavored with peach. The floral and roasted characteristics of oolong combine with the sweet fruity aroma of peach. It is commonly served iced.
+
+Milk Oolong Latte is a creamy beverage prepared using oolong tea and milk. It may be naturally aromatic or additionally sweetened and flavored. The tea provides floral and roasted notes while milk adds body.
+
+Roasted Oolong is oolong tea that has undergone significant roasting. It can have toasted, nutty, caramelized, woody, and roasted flavors.
+
+Dark Oolong is a more heavily oxidized and often roasted oolong. It generally has a deeper color and fuller flavor than lightly oxidized oolong.
+
+Phoenix Dan Cong is a family of Chinese oolong teas associated with the Phoenix Mountains of Guangdong. Different cultivars and processing styles can produce aromas resembling flowers, fruit, honey, spices, or herbs.
+
+Wuyi Rock Tea is a group of oolong teas produced in the Wuyi Mountains of Fujian, China. The teas are often roasted and can show mineral, roasted, woody, fruity, and nutty characteristics.
+
+Oriental Beauty is a Taiwanese oolong known for its complex fruity, honey-like, floral, and sweet character. It is produced using a process involving insect interaction with the tea plant, which contributes to its distinctive aroma.
+
+Ali Shan Oolong is a Taiwanese high-mountain oolong associated with the Alishan region. It can be floral, creamy, sweet, fresh, and lightly vegetal.
+
+High Mountain Oolong is a broad term for oolong teas grown at relatively high elevations. The teas often have floral aromas, smooth textures, and fresh or creamy characteristics.
+
+Aged Oolong is oolong tea that has been stored for an extended period under appropriate conditions. Aging can change its aroma and flavor, sometimes producing woody, dried-fruit, roasted, or mellow characteristics.
+
+Aged White Tea is white tea stored and aged over a long period. With appropriate storage, it can develop deeper flavors such as dried fruit, herbs, wood, honey, and spice.
+
+Aged Pu-erh is pu-erh that has been stored and allowed to develop over time. Depending on the tea and storage conditions, aging can produce smoother, deeper, woody, earthy, fruity, or camphor-like characteristics.
+
+Tangerine Pu-erh is a tea preparation in which pu-erh tea is stored or processed inside dried citrus peel, traditionally mandarin peel. The tea can absorb citrus aromas and develop earthy, woody, and citrus characteristics.
+
+Chrysanthemum Pu-erh is a combination of pu-erh tea and chrysanthemum flowers. It combines the earthy and woody character of pu-erh with the floral aroma of chrysanthemum.
+
+Chrysanthemum Tea is an herbal infusion made from chrysanthemum flowers. It is commonly consumed in East Asian tea traditions and has a light floral, herbal, and sometimes honey-like flavor.
+
+Osmanthus Tea is tea scented or blended with osmanthus flowers. Osmanthus contributes a sweet, floral, fruity aroma often compared with apricot or peach.
+
+Chrysanthemum Green Tea combines green tea with chrysanthemum flowers. The green tea provides vegetal and fresh notes while chrysanthemum adds floral aroma.
+
+Osmanthus Oolong combines oolong tea with osmanthus flowers. It generally has floral, fruity, honey-like, and lightly roasted characteristics.
+
+Buckwheat Tea is an infusion made from roasted buckwheat grains. It is naturally caffeine-free and has a warm, toasted, nutty, grain-like flavor.
+
+Corn Silk Tea is an herbal infusion made from corn silk. It has a mild grassy and slightly sweet flavor and is usually consumed as a caffeine-free herbal beverage.
+
+Barley Tea is an infusion made from roasted barley grains. It is widely consumed in East Asia and has a toasted, nutty, grain-like flavor. It can be served hot or chilled.
+
+Brown Rice Tea is an infusion or tea blend containing roasted brown rice. It has a toasted, nutty, cereal-like flavor and can be blended with green tea.
+
+Rice Tea is a broad term for beverages in which roasted or infused rice provides the primary flavor. It can be made with rice alone or combined with green tea.
+
+Pandan Tea is an herbal infusion using pandan leaves. It has a sweet, grassy, aromatic character and is commonly associated with Southeast Asian cuisines.
+
+Butterfly Pea Flower Tea is an herbal infusion made from butterfly pea flowers. It produces a naturally blue-colored beverage and has a mild earthy and floral flavor. Its color can change toward purple or pink when acidic ingredients such as lemon are added.
+
+Blueberry Herbal Tea is a caffeine-free infusion flavored with blueberry or made using blueberry pieces and other herbs. It usually has a fruity aroma and can be served hot or iced.
+
+Raspberry Herbal Tea is a fruit-flavored herbal infusion containing raspberry or raspberry flavor. It commonly has a sweet-tart berry character.
+
+Strawberry Herbal Tea is a caffeine-free fruit infusion flavored with strawberry. It can be combined with hibiscus, rosehip, apple, or other fruit ingredients.
+
+Apple Cinnamon Tea is a fruit and spice tea combining apple flavor with cinnamon. It has a warm, sweet, fruity, and woody profile.
+
+Lemon Ginger Tea combines lemon with ginger in an herbal or true tea base. Lemon contributes citrus acidity while ginger provides warmth and spice.
+
+Honey Lemon Tea is a beverage combining tea, lemon, and honey. It can use black tea, green tea, or herbal tea and is commonly served hot.
+
+Mint Lemon Tea combines tea with lemon and mint. It has a fresh citrus aroma with cooling herbal notes.
+
+Ginger Turmeric Tea combines ginger and turmeric in hot water or tea. It can also contain black pepper, lemon, honey, or spices.
+
+Herbal Ginger Lemon Tea is a caffeine-free infusion combining ginger and lemon with herbs. It has a spicy, citrusy, refreshing character.
+
+Licorice Root Tea is an herbal infusion made from licorice root. It has a naturally sweet and distinctive root-like flavor.
+
+Dandelion Tea is an herbal infusion made from dandelion roots or leaves. Roasted dandelion root preparations can have a dark, roasted flavor reminiscent of coffee.
+
+Raspberry Leaf Tea is an herbal infusion made from raspberry leaves rather than the fruit. It has a mild herbal flavor and is generally consumed as a caffeine-free infusion.
+
+Nettle Tea is an herbal infusion made from dried nettle leaves. It has a green, grassy, herbal flavor.
+
+Sage Tea is an herbal infusion made from sage leaves. It has an aromatic, earthy, slightly peppery flavor.
+
+Thyme Tea is an herbal infusion made from thyme. It has a savory, herbal, slightly minty and earthy aroma.
+
+Rosemary Tea is an infusion made from rosemary leaves. It has a strong herbal, woody, pine-like aroma and is usually consumed in relatively mild concentrations.
+
+Basil Tea is an herbal infusion made from basil leaves. It has a fresh, aromatic, slightly sweet and peppery flavor.
+
+Lemon Balm Tea is an herbal infusion made from lemon balm leaves. It has a mild lemon-like aroma combined with soft herbal notes.
+
+Echinacea Tea is an herbal infusion made using parts of echinacea plants. It generally has an earthy, herbal, slightly bitter flavor and is often blended with other herbs.
+
+Elderflower Tea is an infusion made from elderflower blossoms. It has a delicate floral and slightly fruity character.
+
+Rosehip Tea is an herbal fruit infusion made from rosehip fruit. It commonly has a tart, fruity, slightly floral flavor.
+
+Hawthorn Tea is an herbal infusion made from hawthorn plant material. It can have a mild fruity and tart character.
+
+Peppermint Green Tea combines green tea with peppermint. It provides the fresh vegetal character of green tea along with a cooling mint aroma.
+
+Earl Grey Green Tea is a green tea flavored with bergamot. It combines the fresh, vegetal profile of green tea with the floral citrus character of bergamot.
+
+Earl Grey Lavender Tea combines black tea, bergamot, and lavender. It has citrus, floral, aromatic, and slightly sweet characteristics.
+
+Earl Grey Cream Tea is a flavored tea combining Earl Grey-style bergamot with creamy vanilla or other sweet aromatic flavors. It is commonly served hot and may be combined with milk.
+
+Vanilla Black Tea is black tea flavored with vanilla. It has a warm, sweet, creamy aroma and can be served plain or with milk.
+
+Chocolate Black Tea is black tea flavored with cocoa or chocolate. It combines malty tea character with sweet, roasted cocoa notes.
+
+Caramel Tea is tea flavored with caramel. It has a sweet, toasted, buttery aroma and can be made using black tea, green tea, rooibos, or other bases.
+
+Hazelnut Tea is tea flavored with hazelnut. It has nutty, roasted, sweet characteristics and is commonly used with black tea or rooibos.
+
+Almond Tea is tea flavored with almond or blended with almond pieces. It has a nutty and mildly sweet aroma.
+
+Coconut Tea is tea flavored with coconut or blended with coconut pieces. It combines tea flavors with a creamy tropical aroma.
+
+Chocolate Mint Tea combines chocolate flavor with mint and tea. It has a combination of cocoa richness and cooling mint.
+
+DRINK VARIETIES
+
+Plain Cold Water is chilled water served without added flavor or carbonation. It is one of the simplest cold beverages and is commonly consumed for hydration.
+
+Infused Water is water flavored by steeping fruits, vegetables, herbs, or spices in it. Common combinations include lemon and mint, cucumber and lime, strawberry and basil, and orange and rosemary.
+
+Cucumber Water is water infused with cucumber slices. It has a mild, fresh, vegetal flavor and is commonly served chilled.
+
+Strawberry Water is water infused with strawberries. It has a light fruity aroma and can be combined with mint, basil, lemon, or lime.
+
+Mint Water is water infused with fresh mint leaves. It provides a cooling herbal aroma and is often served chilled.
+
+Orange Infused Water is water flavored with orange slices or orange peel. It has a mild citrus aroma and can be combined with other fruits or herbs.
+
+Lime Mint Water combines lime slices or juice with fresh mint and water. It is light, citrusy, refreshing, and commonly served over ice.
+
+Sparkling Lemon Water is carbonated water flavored with lemon juice or lemon slices. It combines acidity with carbonation and is generally served chilled.
+
+Sparkling Lime Water is carbonated water flavored with lime. It has a sharp citrus aroma and fizzy texture.
+
+Berry Sparkling Water is carbonated water flavored with berries. It can contain natural fruit juice, berry extract, or flavoring and generally has a light fruity character.
+
+Grapefruit Soda is a carbonated beverage flavored with grapefruit. It typically has sweet, acidic, and slightly bitter citrus characteristics.
+
+Lemon Soda is a carbonated lemon-flavored beverage. It is usually sweet and acidic and can be served over ice.
+
+Lime Soda is a carbonated beverage flavored with lime. It is commonly sweetened and has a sharp, refreshing citrus flavor.
+
+Apple Soda is a carbonated soft drink flavored with apple. It combines sweetness, acidity, and fruity aroma.
+
+Grape Soda is a carbonated soft drink flavored with grape. It generally has a sweet, fruity flavor and purple or reddish color.
+
+Pineapple Soda is a carbonated beverage flavored with pineapple. It has a sweet tropical aroma and is commonly served chilled.
+
+Mango Soda is a carbonated mango-flavored beverage. It combines tropical fruit sweetness with carbonation.
+
+Passion Fruit Soda is a carbonated beverage flavored with passion fruit. It has a strong tropical aroma and a sweet-tart character.
+
+Lychee Soda is a carbonated lychee-flavored drink. It has a floral, fruity, sweet aroma.
+
+Creamy Soda is a soda prepared with sweet cream or cream-flavored ingredients. It can resemble a cream soda and is usually sweet and dessert-like.
+
+Vanilla Soda is a carbonated beverage flavored with vanilla. It has a sweet, aromatic profile and can be combined with fruit flavors.
+
+Coffee Soda is a carbonated beverage containing coffee or coffee flavor. It combines roasted coffee notes with carbonation and may be sweetened.
+
+Espresso Tonic is a modern coffee beverage combining espresso with tonic water and ice. It has contrasting bitter, citrusy, sweet, and carbonated characteristics.
+
+Coffee Lemonade combines brewed coffee or espresso with lemonade. The acidity and citrus flavor of lemonade contrast with roasted coffee flavors.
+
+Orange Espresso combines espresso with orange juice or orange-flavored ingredients. It produces a combination of bitter roasted coffee and sweet-acidic citrus.
+
+Iced Latte is espresso combined with cold milk and ice. It is creamy, chilled, and generally milder than black iced coffee.
+
+Iced Cappuccino is a chilled espresso and milk beverage with foam. It can contain cold milk foam, ice, and optional sweeteners or flavorings.
+
+Iced Mocha is a cold coffee beverage combining espresso, milk, chocolate, and ice. It is creamy, sweet, and chocolate-forward.
+
+Iced Americano is espresso combined with cold water and ice. It has a clean, strong coffee flavor and is generally less creamy than iced milk coffees.
+
+Vanilla Iced Coffee is chilled coffee flavored with vanilla and commonly sweetened. It may contain milk or cream.
+
+Caramel Iced Coffee is cold coffee combined with caramel syrup and often milk or cream. It has roasted coffee flavors with sweet caramel notes.
+
+Hazelnut Coffee is coffee flavored with hazelnut syrup, extract, or other hazelnut ingredients. It has roasted, nutty, and sweet characteristics.
+
+Cinnamon Coffee is coffee flavored with cinnamon. Cinnamon can be added during brewing or as a syrup or powder after brewing.
+
+Honey Coffee is coffee sweetened or flavored with honey. The honey contributes floral sweetness while the coffee provides roasted bitterness.
+
+Coconut Coffee combines coffee with coconut milk, coconut cream, or coconut flavor. It creates a tropical variation of coffee.
+
+Almond Coffee combines coffee with almond milk or almond flavor. It generally has a mild nutty aroma and can be served hot or cold.
+
+Oat Milk Coffee is coffee prepared with oat milk instead of dairy milk. Oat milk contributes a creamy mouthfeel and mild cereal-like sweetness.
+
+Soy Latte is espresso combined with steamed soy milk. It has a creamy texture and mild bean-like or nutty character depending on the soy milk.
+
+Almond Latte is espresso combined with steamed almond milk. It generally has a lighter body and nutty flavor.
+
+Oat Latte is espresso combined with steamed oat milk. It is popular because oat milk can create a creamy texture and smooth foam.
+
+Coconut Latte is espresso combined with coconut milk or another coconut-based milk. It has a tropical aroma and creamy texture.
+
+Pistachio Latte is espresso combined with steamed milk flavored with pistachio. It has a nutty, creamy, sweet character.
+
+Caramel Latte is espresso combined with steamed milk and caramel syrup. It has a sweet caramel aroma balanced by roasted coffee.
+
+Vanilla Latte is espresso combined with steamed milk and vanilla flavor. It is creamy, sweet, aromatic, and relatively mild compared with straight espresso.
+
+Hazelnut Latte is espresso combined with steamed milk and hazelnut flavoring. It combines coffee bitterness with sweet roasted-nut notes.
+
+Honey Latte is espresso and steamed milk sweetened with honey. It can have floral and caramel-like sweetness.
+
+Turmeric Latte is a milk-based beverage flavored with turmeric and spices. It may contain ginger, cinnamon, black pepper, cardamom, and honey.
+
+Beetroot Latte is a milk-based beverage colored and flavored with beetroot powder or juice. It generally has an earthy, sweet character and a distinctive pink or red color.
+
+Blueberry Latte is a modern flavored milk coffee combining blueberry syrup or puree with espresso and milk. It creates a sweet fruit-and-coffee combination.
+
+Strawberry Latte is a layered beverage combining strawberry puree or syrup, milk, and sometimes espresso or matcha. It has a fruity, creamy flavor.
+
+Banana Coffee is a drink combining coffee with banana, usually in blended or iced form. Banana adds sweetness and body while coffee contributes roasted bitterness.
+
+Dates Coffee is coffee sweetened or blended with dates. Dates provide natural sweetness and a caramel-like flavor.
+
+Cardamom Coffee is coffee flavored with cardamom. It combines roasted coffee with a sweet, floral, spicy aroma.
+
+Ginger Coffee is coffee flavored with ginger. It provides a warm, spicy contrast to the roasted coffee flavor.
+
+Mint Coffee is coffee combined with mint syrup, fresh mint, or mint flavoring. It combines roasted coffee with a cooling herbal character.
+
+Orange Cold Brew is cold brew coffee combined with orange juice, orange peel, or orange syrup. It combines smooth coffee with bright citrus flavors.
+
+Coconut Cold Brew is cold brew coffee combined with coconut water or coconut milk. It creates a chilled coffee beverage with tropical characteristics.
+
+Vanilla Cold Brew is cold brew coffee flavored with vanilla. It is smooth, cold, aromatic, and often lightly sweetened.
+
+Chocolate Cold Brew is cold brew coffee combined with chocolate or cocoa flavor. It combines smooth coffee with roasted cocoa notes.
+
+Strawberry Lemonade is lemonade combined with strawberry puree, syrup, or fresh strawberries. It has a sweet-tart flavor and bright fruit aroma.
+
+Raspberry Lemonade is lemonade flavored with raspberries. The berries add sweetness, color, and tart fruit character.
+
+Blueberry Lemonade combines lemonade with blueberry juice, puree, or syrup. It has a sweet-tart berry flavor and often a deep purple or pink color.
+
+Peach Lemonade combines lemonade with peach juice or peach puree. It has a soft fruity sweetness balanced by lemon acidity.
+
+Mango Lemonade combines mango with lemon juice and water. It has a thick or light tropical fruit character depending on the preparation.
+
+Watermelon Lemonade combines watermelon juice with lemonade. It is sweet, refreshing, and strongly fruit-oriented.
+
+Pineapple Lemonade combines pineapple juice with lemonade. It has tropical sweetness and citrus acidity.
+
+Cucumber Lemonade combines cucumber with lemon juice, water, and sweetener. It has a refreshing vegetal flavor and strong citrus acidity.
+
+Basil Lemonade is lemonade infused with fresh basil. Basil adds an aromatic herbal note to the citrus drink.
+
+Rose Lemonade is lemonade flavored with rose water or rose syrup. It combines citrus acidity with floral sweetness.
+
+Lavender Lemonade combines lemonade with lavender infusion or syrup. It has a floral aroma and tart citrus base.
+
+Hibiscus Lemonade combines hibiscus infusion with lemon juice and sweetener. It has a deep red color and a tart, floral-fruity flavor.
+
+Ginger Lemonade combines lemonade with ginger syrup or fresh ginger. It has a spicy, warming finish.
+
+Mint Lemonade combines lemon juice, water, sweetener, and fresh mint. It is commonly served chilled with ice.
+
+Passion Fruit Lemonade combines passion fruit pulp with lemonade. It has strong tropical aroma, acidity, and sweetness.
+
+Lychee Lemonade combines lychee juice or syrup with lemonade. It has floral fruit notes and citrus acidity.
+
+Green Apple Lemonade is lemonade flavored with green apple. It is generally sweet-tart and strongly fruity.
+
+Peach Iced Tea is black or green iced tea flavored with peach. It is typically sweetened and served cold.
+
+Raspberry Iced Tea is chilled tea flavored with raspberry. It combines tea bitterness or astringency with berry sweetness.
+
+Strawberry Iced Tea combines iced tea with strawberry flavor. It can be prepared with black, green, or herbal tea.
+
+Mango Iced Tea combines chilled tea with mango juice or syrup. It has tropical fruit sweetness and tea flavor.
+
+Passion Fruit Iced Tea combines iced tea with passion fruit. It has a sweet-tart tropical profile.
+
+Lychee Iced Tea combines tea with lychee flavor and is usually served chilled. It is floral, sweet, and refreshing.
+
+Peach Green Tea is green tea flavored with peach. It combines fresh vegetal tea notes with sweet fruit aroma.
+
+Mango Green Tea combines green tea and mango. It is commonly served over ice and sweetened.
+
+Lemon Green Tea combines green tea with lemon juice or lemon slices. Lemon adds acidity and freshness to the green tea.
+
+Mint Green Tea combines green tea and mint. It has a fresh vegetal flavor with a cooling finish.
+
+Honey Green Tea is green tea sweetened with honey. The honey softens green tea's bitterness and adds floral sweetness.
+
+Jasmine Iced Tea is chilled jasmine tea served with ice and often sweetener or fruit. It has floral aroma and refreshing character.
+
+Thai Iced Tea is a chilled sweet tea beverage usually prepared with strongly brewed tea, sweetened condensed milk, evaporated milk, sugar, and sometimes spices. It has a creamy texture and orange-brown appearance.
+
+Hong Kong Iced Milk Tea is a chilled version of Hong Kong-style milk tea. Strong black tea is combined with milk and sweetener and served cold, often with ice.
+
+Bubble Milk Tea is a tea-based milk drink containing chewy tapioca pearls. It can use black tea, green tea, oolong tea, or flavored tea and can be customized by sweetness and toppings.
+
+Taro Milk Tea is a sweet milk tea flavored with taro. It commonly has a pale purple color and creamy, nutty, vanilla-like flavor.
+
+Brown Sugar Bubble Tea combines milk tea with brown sugar syrup and tapioca pearls. It has a caramel-like sweetness and chewy texture.
+
+Matcha Bubble Tea combines matcha with milk and tapioca pearls or other toppings. It has a creamy texture and characteristic matcha flavor.
+
+Fruit Bubble Tea is bubble tea based on fruit tea rather than milk tea. It commonly combines tea, fruit syrup or juice, ice, and tapioca or fruit-based toppings.
+
+Passion Fruit Bubble Tea is a fruit-based bubble tea flavored with passion fruit. It combines tropical acidity with tea and chewy toppings.
+
+Mango Bubble Tea combines mango flavor with tea and toppings. It is generally sweet, fruity, and served cold.
+
+Strawberry Bubble Tea combines strawberry flavor with tea and toppings. It can be milk-based or fruit-tea based.
+
+Lychee Bubble Tea combines lychee with tea and tapioca pearls or other toppings. It has a floral tropical character.
+
+Yakult Tea is a tea-based beverage combined with a cultured milk drink similar to Yakult. It is commonly prepared with fruit tea and has a sweet, tangy, creamy flavor.
+
+Cheese Tea is a modern tea beverage topped with a thick salted or lightly sweetened cheese foam. The tea may be green, black, oolong, or fruit tea. The combination creates a contrast between aromatic tea and creamy salty topping.
+
+Fruit Slush is a partially frozen blended beverage made from fruit, ice, and sweetener. It has a thick, icy texture and strong fruit flavor.
+
+Lemon Slush is a frozen beverage made from lemon juice, water, sugar, and ice. It is tart, sweet, and highly refreshing.
+
+Mango Slush is a frozen blended drink made from mango and ice. It has a thick, icy texture and intense tropical flavor.
+
+Strawberry Slush is a frozen strawberry beverage made by blending strawberries with ice and sweetener. It is sweet-tart and brightly colored.
+
+Watermelon Slush is a frozen beverage made from watermelon and ice. It has a light, sweet, cooling flavor.
+
+Pineapple Slush is a frozen pineapple beverage with a sweet-tart tropical character.
+
+Blueberry Slush is a frozen blended blueberry drink. It generally has a sweet-tart berry flavor and deep purple color.
+
+Frappe Coffee is a cold blended or shaken coffee drink containing ice and sometimes milk, sugar, or cream. It can be flavored with chocolate, vanilla, caramel, or other ingredients.
+
+Chocolate Frappe is a blended cold beverage combining coffee or milk with chocolate and ice. It is creamy and dessert-like.
+
+Caramel Frappe is a blended iced coffee beverage flavored with caramel. It is commonly topped with whipped cream or caramel sauce.
+
+Vanilla Frappe is a blended cold coffee or milk beverage flavored with vanilla. It is sweet, creamy, and aromatic.
+
+Strawberry Frappe is a blended cold beverage using strawberry, milk or cream, and ice. It can be prepared with or without coffee.
+
+Mango Frappe is a blended mango beverage with ice and sometimes milk or yogurt. It has a thick tropical fruit profile.
+
+Chocolate Smoothie combines cocoa or chocolate with milk, yogurt, banana, dates, or other ingredients. It has a creamy and rich flavor.
+
+Strawberry Banana Smoothie combines strawberries and bananas with milk, yogurt, juice, or plant-based milk. Banana provides body and sweetness while strawberry contributes acidity and fruit aroma.
+
+Mango Banana Smoothie combines mango and banana to produce a thick, sweet tropical beverage.
+
+Pineapple Coconut Smoothie combines pineapple with coconut milk or coconut water. It has a tropical flavor and creamy or refreshing texture depending on the ingredients.
+
+Berry Yogurt Smoothie combines mixed berries with yogurt and sometimes milk or juice. It is creamy, tart, and fruity.
+
+Peanut Butter Banana Smoothie combines banana with peanut butter and milk or another liquid. It has a thick texture and roasted nut flavor.
+
+Oatmeal Smoothie combines oats with milk, fruit, yogurt, or nut butter. The oats increase thickness and provide a mild grain flavor.
+
+Avocado Smoothie combines ripe avocado with milk, water, fruit, or sweetener. Avocado creates a thick, creamy texture and mild flavor.
+
+Papaya Smoothie combines ripe papaya with milk, yogurt, or water. It has a smooth tropical flavor.
+
+Kiwi Smoothie combines kiwi with other fruits and liquid ingredients. It has a bright green color and sweet-tart flavor.
+
+Dragon Fruit Smoothie is a smoothie made using dragon fruit and ingredients such as banana, yogurt, milk, or coconut water. It has a mild tropical flavor and can be vividly pink.
+
+Green Apple Smoothie combines green apple with leafy greens, banana, yogurt, or other ingredients. It usually has a crisp fruity and mildly tart flavor.
+
+Spinach Smoothie combines spinach with fruit and liquid ingredients. Fruit is often used to balance the vegetal flavor of spinach.
+
+Kale Smoothie combines kale with fruits such as banana, apple, pineapple, or mango. It has a stronger green vegetable flavor than many spinach smoothies.
+
+Cucumber Smoothie combines cucumber with fruit, herbs, yogurt, or water. It has a fresh and cooling character.
+
+Carrot Smoothie combines carrots with fruits such as orange, apple, pineapple, or mango. It has an earthy sweetness and bright color.
+
+Beet Smoothie combines beetroot with fruit and liquid ingredients. It has earthy sweetness and a deep red or purple color.
+
+Tomato Smoothie is a blended savory drink based on tomatoes. It may include cucumber, celery, lemon, herbs, salt, and pepper.
+
+Lassi Smoothie combines yogurt, fruit, and sometimes milk or ice. It sits between traditional lassi and modern smoothie styles.
+
+Mango Yogurt Drink combines mango pulp with yogurt and water or milk. It is thinner than a mango smoothie and has a creamy, tangy flavor.
+
+Strawberry Yogurt Drink combines strawberries with yogurt and water or milk. It has a creamy texture and sweet-tart fruit flavor.
+
+Blueberry Yogurt Drink combines blueberries with yogurt and a liquid base. It has a creamy texture and berry aroma.
+
+Salted Mango Lassi combines mango, yogurt, water, and salt with optional spices. It creates a savory-sweet variation of mango lassi.
+
+Pineapple Lassi combines pineapple with yogurt and water or milk. It has tropical acidity and creamy dairy flavor.
+
+Banana Lassi combines banana with yogurt. It is thick, sweet, and creamy and may be flavored with cardamom.
+
+Papaya Lassi combines papaya with yogurt and sweetener. It has a smooth tropical character.
+
+Rose Lassi combines yogurt with rose water or rose syrup. It has floral aroma and creamy texture.
+
+Mint Lassi combines yogurt with mint, water, and sometimes salt or spices. It is refreshing and savory.
+
+Cumin Lassi combines yogurt with roasted cumin and salt. It has an earthy, aromatic, savory flavor.
+
+Masala Chaas is a spiced version of chaas containing yogurt, water, salt, roasted cumin, herbs, and sometimes ginger or chili. It is commonly served chilled.
+
+Mint Chaas is chaas flavored with fresh mint. It is cooling, tangy, and refreshing.
+
+Jeera Chaas is chaas with roasted cumin as the dominant flavor. It has a warm, earthy aroma against a cool yogurt base.
+
+Ginger Chaas is yogurt-based chaas flavored with ginger and spices. It has a tangy and mildly spicy flavor.
+
+Coriander Chaas combines diluted yogurt with coriander leaves, salt, cumin, and other spices. It has a fresh herbal aroma.
+
+Coconut Chaas is a variation combining yogurt and coconut ingredients. It can have a creamy tropical flavor.
+
+Aamras Drink is a mango-based beverage made by thinning mango pulp with water or milk. It has intense mango flavor and can be served chilled.
+
+Mango Sharbat is a sweet mango syrup diluted with water. It is generally more liquid and sweeter than mango juice.
+
+Rose Sharbat is rose-flavored syrup diluted with water or milk. It has a strong floral aroma and is often served cold.
+
+Khus Sharbat is a sweet beverage prepared from khus, also known as vetiver, syrup diluted with water. It commonly has a green color and earthy, sweet, aromatic flavor.
+
+Lemon Sharbat is lemon-based syrup mixed with water. It is sweet, acidic, and refreshing.
+
+Kokum Sharbat is a drink made from kokum fruit concentrate, water, and sweetener. It has a deep red color and a distinctive sweet-sour flavor.
+
+Bel Sharbat is a traditional Indian drink made from bael fruit pulp, water, and sweetener. It has a distinctive aromatic, sweet, and slightly earthy flavor.
+
+Jamun Sharbat is made from jamun fruit or concentrate. It has a deep purple color and sweet-tart flavor.
+
+Phalsa Sharbat is made from phalsa berries and sweetener. It has a dark color and tart berry flavor.
+
+Kokum Water is a diluted kokum concentrate beverage. It is generally tart, fruity, and refreshing.
+
+Sol Kadhi is a traditional drink from western India made using kokum and coconut milk. It has a distinctive pink color and combines sour kokum with creamy coconut.
+
+Panakam is a traditional Indian drink made from water, jaggery, lemon or lime, and spices such as ginger and cardamom. It is sweet, citrusy, and aromatic.
+
+Jaggery Lemon Water combines lemon juice, water, and jaggery. It has a deep sweet flavor from jaggery and refreshing citrus acidity.
+
+Jaggery Ginger Drink combines jaggery, ginger, and water. It has warm spice and caramel-like sweetness.
+
+Ragi Malt is a beverage made using ragi or finger millet flour. It can be prepared sweet with milk and jaggery or savory with salt and spices. It has a nutty grain flavor and thick texture.
+
+Badam Shake is a cold blended almond milk beverage. It commonly contains soaked almonds, milk, sugar, cardamom, and sometimes saffron.
+
+Pistachio Shake is a milk-based drink blended with pistachios and sweetener. It has a creamy texture and nutty flavor.
+
+Cashew Shake combines cashews, milk, and sweetener in a blended drink. It is thick, creamy, and nutty.
+
+Dates Shake combines dates with milk and sometimes nuts or spices. Dates provide natural caramel-like sweetness.
+
+Fig Shake combines dried or fresh figs with milk. It has a thick texture and sweet fruity character.
+
+Dry Fruit Shake is a milk-based drink containing combinations of almonds, cashews, pistachios, dates, raisins, and other dried fruits. It is rich, creamy, and nutty.
+
+Chikoo Shake is made by blending chikoo, also called sapodilla, with milk. It has a naturally sweet, caramel-like fruit flavor and thick texture.
+
+Custard Apple Shake is made using custard apple pulp blended with milk. It has a creamy tropical fruit flavor and thick consistency.
+
+Papaya Milkshake combines ripe papaya with milk and sweetener. It is creamy and mildly tropical.
+
+Pineapple Milkshake combines pineapple with milk or ice cream. It has a sweet-tart tropical flavor and creamy texture.
+
+Blueberry Milkshake combines blueberries with milk and ice cream or yogurt. It has a creamy berry flavor and purple color.
+
+Raspberry Milkshake combines raspberries with milk and ice cream. It is sweet-tart and creamy.
+
+Peach Milkshake combines peaches with milk and ice cream. It has a soft fruity aroma and creamy texture.
+
+Coffee Milkshake combines coffee with milk and ice cream. It has strong roasted coffee flavor and a thick, creamy texture.
+
+Chocolate Banana Shake combines chocolate and banana with milk. Banana contributes thickness and sweetness while chocolate adds richness.
+
+Mango Coconut Shake combines mango with coconut milk or coconut cream. It has a rich tropical flavor.
+
+Avocado Milkshake is made by blending avocado with milk and sweetener. It has a thick, creamy texture and mild flavor.
+
+Oreo-style Milkshake is a milkshake made using chocolate sandwich cookies, milk, and ice cream. It has a thick texture and cookie-and-cream flavor.
+
+Caramel Milkshake is a milkshake flavored with caramel syrup. It is sweet, creamy, and dessert-like.
+
+Salted Caramel Milkshake combines caramel with a small amount of salt. The salt balances sweetness and enhances caramel flavor.
+
+Peanut Butter Milkshake combines peanut butter with milk and ice cream. It has a thick texture and strong roasted nut flavor.
+
+Mint Chocolate Milkshake combines mint and chocolate flavors with milk and ice cream. It has a creamy texture and contrasting cool mint and rich cocoa notes.
+
+Malted Milkshake is a milkshake containing malted milk powder. Malt contributes a toasted, cereal-like sweetness.
+
+Fruit Punch is a mixed fruit beverage made from combinations of fruit juices, water, sweeteners, and sometimes spices or herbs. Recipes vary greatly.
+
+Tropical Fruit Punch combines several tropical fruit flavors such as pineapple, mango, passion fruit, orange, and guava. It is generally sweet and strongly aromatic.
+
+Citrus Punch combines orange, lemon, lime, grapefruit, or other citrus juices. It has a bright acidic flavor and is commonly served chilled.
+
+Berry Punch combines berry juices such as cranberry, strawberry, raspberry, and blueberry. It has a colorful appearance and sweet-tart flavor.
+
+Mango Punch combines mango juice with other fruit juices and water. It is rich, sweet, and tropical.
+
+Pineapple Punch combines pineapple juice with citrus or other fruit juices. It has tropical sweetness balanced by acidity.
+
+Watermelon Punch is a fruit punch based on watermelon juice. It can contain lemon, lime, mint, or other fruits.
+
+Apple Punch combines apple juice with citrus, berries, spices, or other ingredients. It can be served cold or warm depending on the recipe.
+
+Ginger Punch is a punch containing ginger juice, ginger syrup, ginger ale, or ginger beer. It has a spicy, warming flavor.
+
+Mint Fruit Punch combines fruit juices with fresh mint. Mint contributes a cooling herbal aroma.
+
+Cucumber Punch combines cucumber juice or slices with citrus, herbs, and water or soda. It is light and refreshing.
+
+Hibiscus Punch is a fruit or floral punch using hibiscus infusion as one of its main components. It has a deep red color and tart floral flavor.
+
+Rose Punch is a sweet punch flavored with rose water or rose syrup. It has a floral aroma and can be combined with lemon, fruit juices, or milk.
+
+Apple Ginger Punch combines apple juice with ginger and sometimes lemon or spices. It balances sweet fruit with warm ginger spice.
+
+Pomegranate Punch combines pomegranate juice with other fruit juices or sparkling water. It has a deep red color and sweet-tart flavor.
+
+Grape Punch combines grape juice with citrus or other fruit flavors. It is sweet and fruity.
+
+Cranberry Punch combines cranberry juice with other juices and often sparkling water. Cranberry contributes strong acidity and tartness.
+
+Non-Alcoholic Sangria is a fruit-based drink inspired by sangria but made without wine. It can use grape juice, citrus juices, berries, apples, sparkling water, and herbs.
+
+Sparkling Fruit Punch is fruit punch combined with carbonated water or another carbonated beverage. Carbonation adds a fizzy texture.
+
+Sparkling Apple Drink is apple juice or apple-flavored beverage combined with carbonation. It is sweet, fruity, and fizzy.
+
+Sparkling Grape Drink is grape juice combined with carbonation. It resembles a non-alcoholic sparkling wine in appearance but has a sweeter grape profile.
+
+Sparkling Peach Drink is peach-flavored juice or syrup combined with carbonated water. It has a sweet fruity aroma.
+
+Sparkling Mango Drink is mango juice or mango flavor combined with carbonation. It provides tropical sweetness with a fizzy sensation.
+
+Coconut Lime Cooler combines coconut water or coconut milk with lime and ice. It has a tropical flavor with bright citrus acidity.
+
+Mango Cooler is a chilled mango-based beverage often diluted with water or soda and served with ice. It is sweet and tropical.
+
+Cucumber Cooler is a chilled beverage made with cucumber, citrus, herbs, water, and ice. It is fresh and lightly vegetal.
+
+Watermelon Cooler combines watermelon juice with citrus, mint, or sparkling water. It is light and refreshing.
+
+Peach Cooler combines peach juice or puree with water, soda, or tea. It is fruity and commonly served cold.
+
+Berry Cooler combines berries with water or soda and ice. It has a sweet-tart fruit flavor.
+
+Lemon Mint Cooler combines lemon, mint, water, sweetener, and ice. It is strongly refreshing and commonly served in warm weather.
+
+Ginger Lime Cooler combines lime juice, ginger, sweetener, water, and ice. It has sharp citrus acidity with spicy ginger.
+
+Passion Fruit Cooler combines passion fruit with water or sparkling water. It is tropical, acidic, and aromatic.
+
+Lychee Cooler combines lychee juice with water, soda, citrus, or mint. It has a floral and sweet tropical flavor.
+
+Green Tea Cooler combines chilled green tea with citrus, mint, fruit, or other flavorings. It is light and refreshing.
+
+Black Tea Cooler combines chilled black tea with fruit, lemon, mint, or spices. It provides stronger tea flavor than many fruit-based coolers.
+
+Hibiscus Cooler is a chilled hibiscus infusion served with ice and often citrus or fruit. It has a vivid color and tart floral flavor.
+
+Rose Cooler is a chilled rose-flavored beverage diluted with water or milk. It has floral sweetness and is commonly served cold.
+
+Kesar Badam Milk is a milk beverage flavored with saffron and almonds. It can be served hot or chilled and has a rich nutty and aromatic flavor.
+
+Masala Milk is warm milk flavored with spices such as cardamom, cinnamon, nutmeg, saffron, and turmeric. It is generally sweetened and has a warm aromatic profile.
+
+Ginger Milk is warm milk infused with ginger and sweetener. It has a creamy base with warm spicy notes.
+
+Cardamom Milk is milk flavored with cardamom. It is commonly sweetened and can be served warm or chilled.
+
+Cinnamon Milk is milk flavored with cinnamon. It has a warm, sweet, woody aroma.
+
+Honey Milk is warm or chilled milk sweetened with honey. It has a simple creamy and floral-sweet profile.
+
+Chocolate Almond Milk is almond milk flavored with cocoa or chocolate. It has a nutty and chocolatey character.
+
+Vanilla Almond Milk is almond milk flavored with vanilla. It has a mild nutty flavor with sweet vanilla aroma.
+
+Chocolate Oat Milk is oat milk flavored with cocoa or chocolate. The oats contribute body and cereal sweetness.
+
+Vanilla Oat Milk is oat milk flavored with vanilla. It is creamy and mildly sweet.
+
+Strawberry Oat Drink combines oat milk with strawberry flavor or puree. It has a creamy plant-based base and fruity aroma.
+
+Mango Coconut Water is coconut water flavored with mango juice or puree. It is lighter than a milk-based mango drink and has a tropical profile.
+
+Pineapple Coconut Water combines coconut water and pineapple. It is refreshing, mildly sweet, and tropical.
+
+Lime Coconut Water combines coconut water with lime juice. It has a light tropical flavor and sharp citrus acidity.
+
+Coconut Pineapple Cooler combines coconut water or coconut milk with pineapple and ice. It is refreshing and tropical.
+
+Kefir Smoothie combines kefir with fruits such as berries, banana, mango, or pineapple. Kefir provides a tangy fermented dairy flavor.
+
+Fruit Kefir Drink is kefir combined with fruit puree or juice. It is tangy, creamy, and fruity.
+
+Strawberry Kefir is kefir flavored with strawberries. It has a tart fermented dairy base and sweet berry flavor.
+
+Mango Kefir is kefir combined with mango. It has tropical fruit sweetness balanced by kefir acidity.
+
+Water Kefir is a fermented beverage made using water kefir grains, sugar, and water, often with fruit or other flavorings. It can be lightly carbonated and has a mildly tart flavor.
+
+Ginger Water Kefir is water kefir flavored with ginger. It combines fermentation acidity with warm ginger spice.
+
+Lemon Water Kefir combines fermented water kefir with lemon. It has a tart, citrusy, lightly sparkling profile.
+
+Berry Water Kefir is water kefir flavored with berries. It has fruity sweetness and fermented acidity.
+
+Kombucha Lemon is kombucha flavored with lemon. It has the acidic character of fermented tea combined with bright citrus flavor.
+
+Ginger Kombucha is kombucha flavored with ginger. It combines tart fermentation notes with spicy ginger.
+
+Berry Kombucha is kombucha flavored with berries. It has fruity sweetness and a tart fermented-tea base.
+
+Mango Kombucha is kombucha flavored with mango. It has tropical fruit aroma combined with tea fermentation acidity.
+
+Pineapple Kombucha is kombucha flavored with pineapple. It has sweet-tart tropical flavor and mild carbonation.
+
+Mint Kombucha is kombucha flavored with mint. It combines fermented tea acidity with fresh herbal aroma.
+
+Peach Kombucha is kombucha flavored with peach. It has soft fruit sweetness balanced by tart fermentation.
+
+Hibiscus Kombucha is kombucha flavored with hibiscus. It has a deep red color, floral aroma, tartness, and light carbonation.
+
+Alcohol-free Beer is a malt-based beverage designed to resemble beer while containing little or no alcohol depending on the product. It can have malt, grain, hop, bitter, and toasted flavors.
+
+Alcohol-free Wine is a wine-style beverage from which alcohol has been removed or a beverage formulated to resemble wine without significant alcohol. It may retain grape, fruit, acidic, and tannic characteristics.
+
+Malt Soda is a sweet carbonated malt beverage without significant alcohol. It typically has toasted grain, caramel, and sweet malt flavors.
+
+Malt Chocolate Drink is a beverage combining malted grain flavors with cocoa, milk, or water. It is sweet, creamy, and has toasted cereal notes.
+
+Barley Malt Drink is a non-alcoholic beverage based on barley malt extract. It can be carbonated and often has sweet, toasted, grain-like flavor.
+
+Ginger Malt Drink combines malt flavors with ginger. It has sweet toasted cereal notes and warm spice.
+
+Fruit Malt Drink combines a malt-based beverage with fruit flavor. Common variations include apple, berry, mango, and tropical fruit.
+
+Root Beer Float is a dessert beverage made by combining root beer with vanilla ice cream. The carbonation, sweet root beer flavor, and melting ice cream create a creamy, fizzy drink.
+
+Cola Float combines cola with vanilla ice cream. It is sweet, carbonated, creamy, and dessert-like.
+
+Orange Float combines orange soda with vanilla ice cream. It has citrus sweetness with creamy vanilla.
+
+Grape Float combines grape soda with vanilla ice cream. It has strong fruit flavor and creamy sweetness.
+
+Chocolate Soda combines carbonated water or soda with chocolate syrup or chocolate flavor. It is sweet, fizzy, and chocolate-forward.
+
+Ice Cream Soda is a carbonated beverage served with ice cream. Different versions can use soda water, flavored syrup, and a scoop of ice cream.
+
+Italian Soda is a flavored sparkling water drink commonly made with carbonated water and flavored syrup. It can be served over ice and may be topped with cream.
+
+French Soda is a carbonated flavored beverage that may contain syrup, cream, or fruit depending on the preparation. The term can describe different café-style drinks.
+
+Creamy Italian Soda combines flavored sparkling water with cream or half-and-half. It has a fizzy, creamy texture.
+
+Fruit Soda Float combines fruit-flavored soda with ice cream. Common combinations include orange, grape, root beer, and strawberry.
+
+These varieties can also be represented as training data using attributes such as name, category, base ingredient, preparation method, serving temperature, carbonation, sweetness, flavor profile, texture, color, common ingredients, regional association, and typical serving style.
