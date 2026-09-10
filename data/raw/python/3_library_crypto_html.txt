@@ -1,0 +1,14 @@
+plistlib â Generate and parse Apple .plist files
+plistlib
+.plist
+hashlib â Secure hashes and message digests
+hashlib
+The modules described in this chapter implement various algorithms of a cryptographic nature. They are available at the discretion of the installation. Hereâs an overview:
+hashlib
+hmac
+secrets
+plistlib â Generate and parse Apple .plist files
+plistlib
+.plist
+hashlib â Secure hashes and message digests
+hashlib

@@ -1,0 +1,51 @@
+Allocating objects on the heapÂ¶
+- 
+PyObject *_PyObject_New(PyTypeObject *type)Â¶
+- Return value: New reference.
+- 
+PyVarObject *_PyObject_NewVar(PyTypeObject *type, Py_ssize_t size)Â¶
+- Return value: New reference.
+- 
+PyObject *PyObject_Init(PyObject *op, PyTypeObject *type)Â¶
+- Return value: Borrowed reference. Part of the Stable ABI.Initialize a newly allocated object op with its type and initial reference. Returns the initialized object. Other fields of the object are not initialized. Despite its name, this function is unrelated to the objectâs __init__() method (tp_init slot).  Specifically, this function does not call the objectâs__init__() method.In general, consider this function to be a low-level routine. Use tp_alloc where possible.
+For implementingtp_alloc for your type, preferPyType_GenericAlloc() orPyObject_New() .Note This function only initializes the objectâs memory corresponding to the initial PyObject structure.  It does not zero the rest.
+- 
+PyVarObject *PyObject_InitVar(PyVarObject *op, PyTypeObject *type, Py_ssize_t size)Â¶
+- Return value: Borrowed reference. Part of the Stable ABI.This does everything PyObject_Init() does, and also initializes the
+length information for a variable-size object.Note This function only initializes some of the objectâs memory. It does not zero the rest.
+- 
+PyObject_New(TYPE, typeobj)Â¶
+- Allocates a new Python object using the C structure type TYPE and the Python type object typeobj ( PyTypeObject* ) by callingPyObject_Malloc() to allocate memory and initializing it likePyObject_Init() .  The caller will own the only reference to the
+object (i.e. its reference count will be one).Avoid calling this directly to allocate memory for an object; call the typeâs tp_alloc slot instead.When populating a typeâs tp_alloc slot,PyType_GenericAlloc() is preferred over a custom function that
+simply calls this macro.This macro does not call tp_alloc ,tp_new (__new__() ), ortp_init (__init__() ).This cannot be used for objects with Py_TPFLAGS_HAVE_GC set intp_flags ; usePyObject_GC_New instead.Memory allocated by this macro must be freed with PyObject_Free() (usually called via the objectâstp_free slot).Note The returned memory is not guaranteed to have been completely zeroed before it was initialized. Note This macro does not construct a fully initialized object of the given type; it merely allocates memory and prepares it for further initialization by tp_init .  To construct a
+fully initialized object, call typeobj instead.  For example:PyObject *foo = PyObject_CallNoArgs((PyObject *)&PyFoo_Type);
+- 
+PyObject_NewVar(TYPE, typeobj, size)Â¶
+- Like PyObject_New except:
+  - It allocates enough memory for the TYPE structure plus size ( Py_ssize_t ) fields of the size given by thetp_itemsize field of typeobj.
+  - The memory is initialized like PyObject_InitVar() .
+ This is useful for implementing objects like tuples, which are able to determine their size at construction time. Embedding the array of fields into the same allocation decreases the number of allocations, improving the memory management efficiency. Avoid calling this directly to allocate memory for an object; call the typeâs tp_alloc slot instead.When populating a typeâs tp_alloc slot,PyType_GenericAlloc() is preferred over a custom function that
+simply calls this macro.This cannot be used for objects with Py_TPFLAGS_HAVE_GC set intp_flags ; usePyObject_GC_NewVar instead.Memory allocated by this function must be freed with PyObject_Free() (usually called via the objectâstp_free slot).Note The returned memory is not guaranteed to have been completely zeroed before it was initialized. Note This macro does not construct a fully initialized object of the given type; it merely allocates memory and prepares it for further initialization by tp_init .  To construct a
+fully initialized object, call typeobj instead.  For example:PyObject *list_instance = PyObject_CallNoArgs((PyObject *)&PyList_Type);
+- 
+PyObject _Py_NoneStructÂ¶
+- Object which is visible in Python as None .  This should only be accessed
+using thePy_None macro, which evaluates to a pointer to this
+object.
+See also
+- Module Objects
+- To allocate and create extension modules.
+Soft-deprecated aliasesÂ¶
+Soft deprecated since version 3.10.
+These are aliases to existing functions and macros. They exist solely for backwards compatibility.
+| Soft-deprecated alias | Function | 
+|---|---|
+|  | PyObject_New | 
+|  | PyObject_NewVar | 
+|  | PyObject_Init() | 
+|  | PyObject_InitVar() | 
+|  | PyObject_Malloc() | 
+|  | PyObject_Realloc() | 
+|  | PyObject_Free() | 
+|  | PyObject_Free() | 
+|  | PyObject_Free() |

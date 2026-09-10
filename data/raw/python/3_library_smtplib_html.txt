@@ -1,0 +1,249 @@
+smtplib â SMTP protocol clientÂ¶
+Source code: Lib/smtplib.py
+The smtplib module defines an SMTP client session object that can be used
+to send mail to any internet machine with an SMTP or ESMTP listener daemon.  For
+details of SMTP and ESMTP operation, consult RFC 821 (Simple Mail Transfer
+Protocol) and RFC 1869 (SMTP Service Extensions).
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See WebAssembly platforms for more information.
+- class smtplib.SMTP(host='', port=0, local_hostname=None, [timeout, ]source_address=None)Â¶
+- An SMTP instance encapsulates an SMTP connection.  It has methods
+that support a full repertoire of SMTP and ESMTP operations. If the optional
+host and port parameters are given, the SMTPconnect() method is
+called with those parameters during initialization.  If specified,
+local_hostname is used as the FQDN of the local host in the HELO/EHLO
+command.  Otherwise, the local hostname is found usingsocket.getfqdn() .  If theconnect() call returns anything other
+than a success code, anSMTPConnectError is raised. The optional
+timeout parameter specifies a timeout in seconds for blocking operations
+like the connection attempt (if not specified, the global default timeout
+setting will be used).  If the timeout expires,TimeoutError is
+raised.  The optional source_address parameter allows binding
+to some specific source address in a machine with multiple network
+interfaces, and/or to some specific source TCP port. It takes a 2-tuple(host, port) , for the socket to bind to as its source address before
+connecting. If omitted (or if host or port are'' and/or0 respectively) the OS default behavior will be used.For normal use, you should only require the initialization/connect, sendmail() , andSMTP.quit() methods.
+An example is included below.The SMTP class supports thewith statement.  When used
+like this, the SMTPQUIT command is issued automatically when thewith statement exits.  E.g.:>>> from smtplib import SMTP >>> with SMTP("domain.org") as smtp: ... smtp.noop() ... (250, b'Ok') >>> All commands will raise an auditing event smtplib.SMTP.send with argumentsself anddata ,
+wheredata is the bytes about to be sent to the remote host.Changed in version 3.3: Support for the with statement was added.Changed in version 3.3: source_address argument was added. Added in version 3.5: The SMTPUTF8 extension (RFC 6531) is now supported. Changed in version 3.9: If the timeout parameter is set to be zero, it will raise a ValueError to prevent the creation of a non-blocking socket.
+- class smtplib.SMTP_SSL(host='', port=0, local_hostname=None, *, [timeout, ]context=None, source_address=None)Â¶
+- An SMTP_SSL instance behaves exactly the same as instances ofSMTP .SMTP_SSL should be used for situations where SSL is
+required from the beginning of the connection and usingstarttls() is not appropriate. If host is not specified, the local host is used. If
+port is zero, the standard SMTP-over-SSL port (465) is used.  The optional
+arguments local_hostname, timeout and source_address have the same
+meaning as they do in theSMTP class.  context, also optional,
+can contain aSSLContext and allows configuring various
+aspects of the secure connection.  Please read Security considerations for
+best practices.Changed in version 3.3: context was added. Changed in version 3.3: The source_address argument was added. Changed in version 3.4: The class now supports hostname check with ssl.SSLContext.check_hostname and Server Name Indication (seessl.HAS_SNI ).Changed in version 3.9: If the timeout parameter is set to be zero, it will raise a ValueError to prevent the creation of a non-blocking socketChanged in version 3.12: The deprecated keyfile and certfile parameters have been removed.
+- class smtplib.LMTP(host='', port=LMTP_PORT, local_hostname=None, source_address=None[, timeout])Â¶
+- The LMTP protocol, which is very similar to ESMTP, is heavily based on the standard SMTP client. Itâs common to use Unix sockets for LMTP, so our connect() method must support that as well as a regular host:port
+server. The optional arguments local_hostname and source_address have the
+same meaning as they do in theSMTP class. To specify a Unix
+socket, you must use an absolute path for host, starting with a â/â.Authentication is supported, using the regular SMTP mechanism. When using a Unix socket, LMTP generally donât support or require any authentication, but your mileage might vary. Changed in version 3.9: The optional timeout parameter was added.
+A nice selection of exceptions is defined as well:
+- exception smtplib.SMTPExceptionÂ¶
+- Subclass of OSError that is the base exception class for all
+the other exceptions provided by this module.Changed in version 3.4: SMTPException became subclass of OSError
+- exception smtplib.SMTPServerDisconnectedÂ¶
+- This exception is raised when the server unexpectedly disconnects, or when an attempt is made to use the SMTP instance before connecting it to a
+server.
+- exception smtplib.SMTPResponseExceptionÂ¶
+- Base class for all exceptions that include an SMTP error code. These exceptions are generated in some instances when the SMTP server returns an error code. 
+  - smtp_codeÂ¶
+  - The error code.
+ 
+  - smtp_errorÂ¶
+  - The error message.
+- exception smtplib.SMTPSenderRefusedÂ¶
+- Sender address refused. In addition to the attributes set by on all SMTPResponseException exceptions, this sets âsenderâ to the string that
+the SMTP server refused.
+- exception smtplib.SMTPRecipientsRefusedÂ¶
+- All recipient addresses refused. 
+  - recipientsÂ¶
+  - A dictionary of exactly the same sort as returned by SMTP.sendmail() containing the errors for
+each recipient.
+- exception smtplib.SMTPDataErrorÂ¶
+- The SMTP server refused to accept the message data.
+- exception smtplib.SMTPConnectErrorÂ¶
+- Error occurred during establishment of a connection with the server.
+- exception smtplib.SMTPHeloErrorÂ¶
+- The server refused our HELO message.
+- exception smtplib.SMTPNotSupportedErrorÂ¶
+- The command or option attempted is not supported by the server. Added in version 3.5.
+- exception smtplib.SMTPAuthenticationErrorÂ¶
+- SMTP authentication went wrong. Most probably the server didnât accept the username/password combination provided.
+See also
+- RFC 821 - Simple Mail Transfer Protocol
+- Protocol definition for SMTP. This document covers the model, operating procedure, and protocol details for SMTP.
+- RFC 1869 - SMTP Service Extensions
+- Definition of the ESMTP extensions for SMTP. This describes a framework for extending SMTP with new commands, supporting dynamic discovery of the commands provided by the server, and defines a few additional commands.
+SMTP ObjectsÂ¶
+An SMTP instance has the following methods:
+- SMTP.set_debuglevel(level)Â¶
+- Set the debug output level. A value of 1 or True for level results in
+debug messages for connection and for all messages sent to and received from
+the server.  A value of 2 for level results in these messages being
+timestamped.Changed in version 3.5: Added debuglevel 2.
+- SMTP.docmd(cmd, args='')Â¶
+- Send a command cmd to the server. The optional argument args is simply concatenated to the command, separated by a space. This returns a 2-tuple composed of a numeric response code and the actual response line (multiline responses are joined into one long line.) In normal operation it should not be necessary to call this method explicitly. It is used to implement other methods and may be useful for testing private extensions. If the connection to the server is lost while waiting for the reply, SMTPServerDisconnected will be raised.
+- SMTP.connect(host='localhost', port=0)Â¶
+- Connect to a host on a given port. The defaults are to connect to the local host at the standard SMTP port (25). If the hostname ends with a colon ( ':' )
+followed by a number, that suffix will be stripped off and the number
+interpreted as the port number to use. This method is automatically invoked by
+the constructor if a host is specified during instantiation.  Returns a
+2-tuple of the response code and message sent by the server in its
+connection response.Raises an auditing event smtplib.connect with argumentsself ,host ,port .
+- SMTP.helo(name='')Â¶
+- Identify yourself to the SMTP server using HELO .  The hostname argument
+defaults to the fully qualified domain name of the local host.
+The message returned by the server is stored as thehelo_resp attribute
+of the object.In normal operation it should not be necessary to call this method explicitly. It will be implicitly called by the sendmail() when necessary.
+- SMTP.ehlo(name='')Â¶
+- Identify yourself to an ESMTP server using EHLO .  The hostname argument
+defaults to the fully qualified domain name of the local host.  Examine the
+response for ESMTP option and store them for use byhas_extn() .
+Also sets several informational attributes: the message returned by
+the server is stored as theehlo_resp attribute,does_esmtp is set toTrue orFalse depending on whether the server supports
+ESMTP, andesmtp_features will be a dictionary containing the names
+of the SMTP service extensions this server supports, and their parameters
+(if any).Unless you wish to use has_extn() before sending mail, it should not be
+necessary to call this method explicitly.  It will be implicitly called bysendmail() when necessary.
+- SMTP.ehlo_or_helo_if_needed()Â¶
+- This method calls ehlo() and/orhelo() if there has been no
+previousEHLO orHELO command this session.  It tries ESMTPEHLO first.
+  - SMTPHeloError
+  - The server didnât reply properly to the HELO greeting.
+- SMTP.has_extn(name)Â¶
+- Return True if name is in the set of SMTP service extensions returned
+by the server,False otherwise. Case is ignored.
+- SMTP.verify(address)Â¶
+- Check the validity of an address on this server using SMTP VRFY . Returns a
+tuple consisting of code 250 and a full RFC 822 address (including human
+name) if the user address is valid. Otherwise returns an SMTP error code of 400
+or greater and an error string.Note Many sites disable SMTP VRFY in order to foil spammers.
+- SMTP.login(user, password, *, initial_response_ok=True)Â¶
+- Log in on an SMTP server that requires authentication. The arguments are the username and the password to authenticate with. If there has been no previous EHLO orHELO command this session, this method tries ESMTPEHLO first. This method will return normally if the authentication was successful, or
+may raise the following exceptions:
+  - SMTPHeloError
+  - The server didnât reply properly to the HELO greeting.
+  - SMTPAuthenticationError
+  - The server didnât accept the username/password combination.
+  - SMTPNotSupportedError
+  - The AUTH command is not supported by the server.
+  - SMTPException
+  - No suitable authentication method was found.
+ Each of the authentication methods supported by smtplib are tried in
+turn if they are advertised as supported by the server.  Seeauth() for a list of supported authentication methods.  initial_response_ok is
+passed through toauth() .Optional keyword argument initial_response_ok specifies whether, for authentication methods that support it, an âinitial responseâ as specified in RFC 4954 can be sent along with the AUTH command, rather than
+requiring a challenge/response.Changed in version 3.5: SMTPNotSupportedError may be raised, and the
+initial_response_ok parameter was added.
+- SMTP.auth(mechanism, authobject, *, initial_response_ok=True)Â¶
+- Issue an SMTPAUTH command for the specified authentication
+mechanism, and handle the challenge response via authobject.mechanism specifies which authentication mechanism is to be used as argument to the AUTH command; the valid values are
+those listed in theauth element ofesmtp_features .authobject must be a callable object taking an optional single argument: data = authobject(challenge=None) If optional keyword argument initial_response_ok is true, authobject() will be called first with no argument.  It can return the
+RFC 4954 âinitial responseâ ASCIIstr which will be encoded and sent with
+theAUTH command as below.  If theauthobject() does not support an
+initial response (e.g. because it requires a challenge), it should returnNone when called withchallenge=None .  If initial_response_ok is
+false, thenauthobject() will not be called first withNone .If the initial response check returns None , or if initial_response_ok is
+false,authobject() will be called to process the serverâs challenge
+response; the challenge argument it is passed will be abytes .  It
+should return ASCIIstr data that will be base64 encoded and sent to the
+server.The SMTP class providesauthobjects for theCRAM-MD5 ,PLAIN ,
+andLOGIN mechanisms; they are namedSMTP.auth_cram_md5 ,SMTP.auth_plain , andSMTP.auth_login respectively.  They all require
+that theuser andpassword properties of theSMTP instance are
+set to appropriate values.User code does not normally need to call auth directly, but can instead
+call thelogin() method, which will try each of the above mechanisms
+in turn, in the order listed.auth is exposed to facilitate the
+implementation of authentication methods not (or not yet) supported
+directly bysmtplib .Added in version 3.5.
+- SMTP.starttls(*, context=None)Â¶
+- Put the SMTP connection in TLS (Transport Layer Security) mode. All SMTP commands that follow will be encrypted. You should then call ehlo() again.If keyfile and certfile are provided, they are used to create an ssl.SSLContext .Optional context parameter is an ssl.SSLContext object; This is
+an alternative to using a keyfile and a certfile and if specified both
+keyfile and certfile should beNone .If there has been no previous EHLO orHELO command this session,
+this method tries ESMTPEHLO first.Changed in version 3.12: The deprecated keyfile and certfile parameters have been removed. 
+  - SMTPHeloError
+  - The server didnât reply properly to the HELO greeting.
+  - SMTPNotSupportedError
+  - The server does not support the STARTTLS extension.
+  - RuntimeError
+  - SSL/TLS support is not available to your Python interpreter.
+ Changed in version 3.3: context was added. Changed in version 3.4: The method now supports hostname check with ssl.SSLContext.check_hostname and Server Name Indicator (seeHAS_SNI ).Changed in version 3.5: The error raised for lack of STARTTLS support is now the SMTPNotSupportedError subclass instead of the baseSMTPException .
+- SMTP.sendmail(from_addr, to_addrs, msg, mail_options=(), rcpt_options=())Â¶
+- Send mail. The required arguments are an RFC 822 from-address string, a list of RFC 822 to-address strings (a bare string will be treated as a list with 1 address), and a message string. The caller may pass a list of ESMTP options (such as "8bitmime" ) to be used inMAIL FROM commands as mail_options.
+ESMTP options (such asDSN commands) that should be used with allRCPT commands can be passed as rcpt_options. Each option should be passed as a string
+containing the full text of the option, including any potential key
+(for instance,"NOTIFY=SUCCESS,FAILURE" ). (If you need to use different ESMTP
+options to different recipients you have to use the low-level methods such asmail() ,rcpt() anddata() to send the message.)Note The from_addr and to_addrs parameters are used to construct the message envelope used by the transport agents. sendmail does not modify the
+message headers in any way.msg may be a string containing characters in the ASCII range, or a byte string. A string is encoded to bytes using the ascii codec, and lone \r and\n characters are converted to\r\n characters.  A byte string is
+not modified.If there has been no previous EHLO orHELO command this session, this
+method tries ESMTPEHLO first. If the server does ESMTP, message size and
+each of the specified options will be passed to it (if the option is in the
+feature set the server advertises).  IfEHLO fails,HELO will be tried
+and ESMTP options suppressed.This method will return normally if the mail is accepted for at least one recipient. Otherwise it will raise an exception. That is, if this method does not raise an exception, then someone should get your mail. If this method does not raise an exception, it returns a dictionary, with one entry for each recipient that was refused. Each entry contains a tuple of the SMTP error code and the accompanying error message sent by the server. If SMTPUTF8 is included in mail_options, and the server supports it,
+from_addr and to_addrs may contain non-ASCII characters.This method may raise the following exceptions: 
+  - SMTPRecipientsRefused
+  - All recipients were refused. Nobody got the mail.
+  - SMTPHeloError
+  - The server didnât reply properly to the HELO greeting.
+  - SMTPSenderRefused
+  - The server didnât accept the from_addr.
+  - SMTPDataError
+  - The server replied with an unexpected error code (other than a refusal of a recipient).
+  - SMTPNotSupportedError
+  - SMTPUTF8 was given in the mail_options but is not supported by the
+server.
+ Unless otherwise noted, the connection will be open even after an exception is raised. Changed in version 3.2: msg may be a byte string. Changed in version 3.5: SMTPUTF8 support added, andSMTPNotSupportedError may be
+raised ifSMTPUTF8 is specified but the server does not support it.
+- SMTP.send_message(msg, from_addr=None, to_addrs=None, mail_options=(), rcpt_options=())Â¶
+- This is a convenience method for calling sendmail() with the message
+represented by anemail.message.Message object.  The arguments have
+the same meaning as forsendmail() , except that msg is aMessage object.If from_addr is None or to_addrs isNone ,send_message fills
+those arguments with addresses extracted from the headers of msg as
+specified in RFC 5322: from_addr is set to the Sender
+field if it is present, and otherwise to the From field.
+to_addrs combines the values (if any) of the To,
+Cc, and Bcc fields from msg.  If exactly one
+set of Resent-* headers appear in the message, the regular
+headers are ignored and the Resent-* headers are used instead.
+If the message contains more than one set of Resent-* headers,
+aValueError is raised, since there is no way to unambiguously detect
+the most recent set of Resent- headers.send_message serializes msg usingBytesGenerator with\r\n as the linesep, and
+callssendmail() to transmit the resulting message.  Regardless of the
+values of from_addr and to_addrs,send_message does not transmit any
+Bcc or Resent-Bcc headers that may appear
+in msg.  If any of the addresses in from_addr and to_addrs contain
+non-ASCII characters and the server does not advertiseSMTPUTF8 support,
+anSMTPNotSupportedError is raised.  Otherwise theMessage is
+serialized with a clone of itspolicy with theutf8 attribute set toTrue , andSMTPUTF8 andBODY=8BITMIME are added to mail_options.Added in version 3.2. Added in version 3.5: Support for internationalized addresses ( SMTPUTF8 ).
+- SMTP.quit()Â¶
+- Terminate the SMTP session and close the connection. Return the result of the SMTP QUIT command.
+Low-level methods corresponding to the standard SMTP/ESMTP commands HELP,
+RSET, NOOP, MAIL, RCPT, and DATA are also supported.
+Normally these do not need to be called directly, so they are not documented
+here.  For details, consult the module code.
+Additionally, an SMTP instance has the following attributes:
+SMTP ExampleÂ¶
+This example prompts the user for addresses needed in the message envelope (âToâ and âFromâ addresses), and the message to be delivered. Note that the headers to be included with the message must be included in the message as entered; this example doesnât do any processing of the RFC 822 headers. In particular, the âToâ and âFromâ addresses must be included in the message headers explicitly:
+import smtplib
+def prompt(title):
+    return input(title).strip()
+from_addr = prompt("From: ")
+to_addrs  = prompt("To: ").split()
+print("Enter message, end with ^D (Unix) or ^Z (Windows):")
+# Add the From: and To: headers at the start!
+lines = [f"From: {from_addr}", f"To: {', '.join(to_addrs)}", ""]
+while True:
+    try:
+        line = input()
+    except EOFError:
+        break
+    else:
+        lines.append(line)
+msg = "\r\n".join(lines)
+print("Message length is", len(msg))
+server = smtplib.SMTP("localhost")
+server.set_debuglevel(1)
+server.sendmail(from_addr, to_addrs, msg)
+server.quit()
+Note
+In general, you will want to use the email packageâs features to
+construct an email message, which you can then send
+via send_message(); see email: Examples.

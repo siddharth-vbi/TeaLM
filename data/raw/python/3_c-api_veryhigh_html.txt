@@ -1,0 +1,270 @@
+The Very High Level LayerÂ¶
+The functions in this chapter will let you execute Python source code given in a file or a buffer, but they will not let you interact in a more detailed way with the interpreter.
+Several of these functions accept a start symbol from the grammar as a
+parameter.  The available start symbols are Py_eval_input,
+Py_file_input, Py_single_input, and
+Py_func_type_input.  These are described following the functions
+which accept them as parameters.
+Note also that several of these functions take FILE* parameters.  One
+particular issue which needs to be handled carefully is that the FILE
+structure for different C libraries can be different and incompatible.  Under
+Windows (at least), it is possible for dynamically linked extensions to actually
+use different libraries, so care should be taken that FILE* parameters
+are only passed to these functions if it is certain that they were created by
+the same library that the Python runtime is using.
+- 
+int PyRun_AnyFile(FILE *fp, const char *filename)Â¶
+- This is a simplified interface to PyRun_AnyFileExFlags() below, leaving
+closeit set to0 and flags set toNULL .
+- 
+int PyRun_AnyFileFlags(FILE *fp, const char *filename, PyCompilerFlags *flags)Â¶
+- This is a simplified interface to PyRun_AnyFileExFlags() below, leaving
+the closeit argument set to0 .
+- 
+int PyRun_AnyFileEx(FILE *fp, const char *filename, int closeit)Â¶
+- This is a simplified interface to PyRun_AnyFileExFlags() below, leaving
+the flags argument set toNULL .
+- 
+int PyRun_AnyFileExFlags(FILE *fp, const char *filename, int closeit, PyCompilerFlags *flags)Â¶
+- If fp refers to a file associated with an interactive device (console or terminal input or Unix pseudo-terminal), return the value of PyRun_InteractiveLoop() , otherwise return the result ofPyRun_SimpleFile() .  filename is decoded from the filesystem
+encoding (sys.getfilesystemencoding() ).  If filename isNULL , this
+function uses"???" as the filename.
+If closeit is true, the file is closed beforePyRun_SimpleFileExFlags() returns.
+- 
+int PyRun_SimpleString(const char *command)Â¶
+- This is a simplified interface to PyRun_SimpleStringFlags() below,
+leaving thePyCompilerFlags * argument set toNULL .
+- 
+int PyRun_SimpleStringFlags(const char *command, PyCompilerFlags *flags)Â¶
+- Executes the Python source code from command in the __main__ module
+according to the flags argument. If__main__ does not already exist, it
+is created.  Returns0 on success or-1 if an exception was raised.  If
+there was an error, there is no way to get the exception information. For the
+meaning of flags, see below.Note that if an otherwise unhandled SystemExit is raised, this
+function will not return-1 , but exit the process, as long asPyConfig.inspect is zero.
+- 
+int PyRun_SimpleFile(FILE *fp, const char *filename)Â¶
+- This is a simplified interface to PyRun_SimpleFileExFlags() below,
+leaving closeit set to0 and flags set toNULL .
+- 
+int PyRun_SimpleFileEx(FILE *fp, const char *filename, int closeit)Â¶
+- This is a simplified interface to PyRun_SimpleFileExFlags() below,
+leaving flags set toNULL .
+- 
+int PyRun_SimpleFileExFlags(FILE *fp, const char *filename, int closeit, PyCompilerFlags *flags)Â¶
+- Similar to PyRun_SimpleStringFlags() , but the Python source code is read
+from fp instead of an in-memory string. filename should be the name of
+the file, it is decoded from filesystem encoding and error handler.
+If closeit is true, the file is closed beforePyRun_SimpleFileExFlags() returns.Note On Windows, fp should be opened as binary mode (e.g. fopen(filename, "rb") ).
+Otherwise, Python may not handle script file with LF line ending correctly.
+- 
+int PyRun_InteractiveOneObject(FILE *fp, PyObject *filename, PyCompilerFlags *flags)Â¶
+- Read and execute a single statement from a file associated with an interactive device according to the flags argument. The user will be prompted using sys.ps1 andsys.ps2 . filename must be a Pythonstr object.Returns 0 when the input was
+executed successfully,-1 if there was an exception, or an error code
+from theerrcode.h include file distributed as part of Python if
+there was a parse error.  (Note thaterrcode.h is not included byPython.h , so must be included specifically if needed.)
+- 
+int PyRun_InteractiveOne(FILE *fp, const char *filename)Â¶
+- This is a simplified interface to PyRun_InteractiveOneFlags() below,
+leaving flags set toNULL .
+- 
+int PyRun_InteractiveOneFlags(FILE *fp, const char *filename, PyCompilerFlags *flags)Â¶
+- Similar to PyRun_InteractiveOneObject() , but filename is a
+const char*, which is decoded from the
+filesystem encoding and error handler.
+- 
+int PyRun_InteractiveLoop(FILE *fp, const char *filename)Â¶
+- This is a simplified interface to PyRun_InteractiveLoopFlags() below,
+leaving flags set toNULL .
+- 
+int PyRun_InteractiveLoopFlags(FILE *fp, const char *filename, PyCompilerFlags *flags)Â¶
+- Read and execute statements from a file associated with an interactive device until EOF is reached. The user will be prompted using sys.ps1 andsys.ps2 .  filename is decoded from the filesystem encoding and
+error handler.  Returns0 at EOF or a negative number upon failure.
+- 
+int (*PyOS_InputHook)(void)Â¶
+-  Part of the Stable ABI.Can be set to point to a function with the prototype int func(void) .  The function will be called when Pythonâs
+interpreter prompt is about to become idle and wait for user input
+from the terminal.  The return value is ignored.  Overriding this
+hook can be used to integrate the interpreterâs prompt with other
+event loops, as done inModules/_tkinter.c in the
+Python source code.Changed in version 3.12: This function is only called from the main interpreter.
+- 
+char *(*PyOS_ReadlineFunctionPointer)(FILE*, FILE*, const char*)Â¶
+- Can be set to point to a function with the prototype char *func(FILE *stdin, FILE *stdout, char *prompt) ,
+overriding the default function used to read a single line of input
+at the interpreterâs prompt.  The function is expected to output
+the string prompt if itâs notNULL , and then read a line of
+input from the provided standard input file, returning the
+resulting string.  For example, Thereadline module sets
+this hook to provide line-editing and tab-completion features.The result must be a string allocated by PyMem_RawMalloc() orPyMem_RawRealloc() , orNULL if an error occurred.Changed in version 3.4: The result must be allocated by PyMem_RawMalloc() orPyMem_RawRealloc() , instead of being allocated byPyMem_Malloc() orPyMem_Realloc() .Changed in version 3.12: This function is only called from the main interpreter.
+- 
+PyObject *PyRun_String(const char *str, int start, PyObject *globals, PyObject *locals)Â¶
+- Return value: New reference.This is a simplified interface to PyRun_StringFlags() below, leaving
+flags set toNULL .
+- 
+PyObject *PyRun_StringFlags(const char *str, int start, PyObject *globals, PyObject *locals, PyCompilerFlags *flags)Â¶
+- Return value: New reference.Execute Python source code from str in the context specified by the objects globals and locals with the compiler flags specified by flags. globals must be a dictionary; locals can be any object that implements the mapping protocol. The parameter start specifies the start symbol and must be one of the available start symbols. Returns the result of executing the code as a Python object, or NULL if an
+exception was raised.
+- 
+PyObject *PyRun_File(FILE *fp, const char *filename, int start, PyObject *globals, PyObject *locals)Â¶
+- Return value: New reference.This is a simplified interface to PyRun_FileExFlags() below, leaving
+closeit set to0 and flags set toNULL .
+- 
+PyObject *PyRun_FileEx(FILE *fp, const char *filename, int start, PyObject *globals, PyObject *locals, int closeit)Â¶
+- Return value: New reference.This is a simplified interface to PyRun_FileExFlags() below, leaving
+flags set toNULL .
+- 
+PyObject *PyRun_FileFlags(FILE *fp, const char *filename, int start, PyObject *globals, PyObject *locals, PyCompilerFlags *flags)Â¶
+- Return value: New reference.This is a simplified interface to PyRun_FileExFlags() below, leaving
+closeit set to0 .
+- 
+PyObject *PyRun_FileExFlags(FILE *fp, const char *filename, int start, PyObject *globals, PyObject *locals, int closeit, PyCompilerFlags *flags)Â¶
+- Return value: New reference.Similar to PyRun_StringFlags() , but the Python source code is read from
+fp instead of an in-memory string. filename should be the name of the file,
+it is decoded from the filesystem encoding and error handler.
+If closeit is true, the file is closed beforePyRun_FileExFlags() returns.
+- 
+PyObject *Py_CompileString(const char *str, const char *filename, int start)Â¶
+- Return value: New reference. Part of the Stable ABI.This is a simplified interface to Py_CompileStringFlags() below, leaving
+flags set toNULL .
+- 
+PyObject *Py_CompileStringFlags(const char *str, const char *filename, int start, PyCompilerFlags *flags)Â¶
+- Return value: New reference.This is a simplified interface to Py_CompileStringExFlags() below, with
+optimize set to-1 .
+- 
+PyObject *Py_CompileStringObject(const char *str, PyObject *filename, int start, PyCompilerFlags *flags, int optimize)Â¶
+- Return value: New reference.Parse and compile the Python source code in str, returning the resulting code object. The start symbol is given by start; this can be used to constrain the code which can be compiled and should be available start symbols. The filename specified by filename is used to construct the code object and may appear in tracebacks or SyntaxError exception messages.  This returnsNULL if the code
+cannot be parsed or compiled.The integer optimize specifies the optimization level of the compiler; a value of -1 selects the optimization level of the interpreter as given by-O options.  Explicit levels are0 (no optimization;__debug__ is true),1 (asserts are removed,__debug__ is false)
+or2 (docstrings are removed too).Added in version 3.4.
+- 
+PyObject *Py_CompileStringExFlags(const char *str, const char *filename, int start, PyCompilerFlags *flags, int optimize)Â¶
+- Return value: New reference.Like Py_CompileStringObject() , but filename is a byte string
+decoded from the filesystem encoding and error handler.Added in version 3.2.
+- 
+PyObject *PyEval_EvalCode(PyObject *co, PyObject *globals, PyObject *locals)Â¶
+- Return value: New reference. Part of the Stable ABI.This is a simplified interface to PyEval_EvalCodeEx() , with just
+the code object, and global and local variables.  The other arguments are
+set toNULL .
+- 
+PyObject *PyEval_EvalCodeEx(PyObject *co, PyObject *globals, PyObject *locals, PyObject *const *args, int argcount, PyObject *const *kws, int kwcount, PyObject *const *defs, int defcount, PyObject *kwdefs, PyObject *closure)Â¶
+- Return value: New reference. Part of the Stable ABI.Evaluate a precompiled code object, given a particular environment for its evaluation. This environment consists of a dictionary of global variables, a mapping object of local variables, arrays of arguments, keywords and defaults, a dictionary of default values for keyword-only arguments and a closure tuple of cells.
+- 
+PyObject *PyEval_EvalFrame(PyFrameObject *f)Â¶
+- Return value: New reference. Part of the Stable ABI.Evaluate an execution frame. This is a simplified interface to PyEval_EvalFrameEx() , for backward compatibility.
+- 
+PyObject *PyEval_EvalFrameEx(PyFrameObject *f, int throwflag)Â¶
+- Return value: New reference. Part of the Stable ABI.This is the main, unvarnished function of Python interpretation. The code object associated with the execution frame f is executed, interpreting bytecode and executing calls as needed. The additional throwflag parameter can mostly be ignored - if true, then it causes an exception to immediately be thrown; this is used for the throw() methods of generator objects.Changed in version 3.4: This function now includes a debug assertion to help ensure that it does not silently discard an active exception.
+- 
+int PyEval_MergeCompilerFlags(PyCompilerFlags *cf)Â¶
+- This function changes the flags of the current evaluation frame, and returns true on success, false on failure.
+- 
+struct PyCompilerFlagsÂ¶
+- This is the structure used to hold compiler flags. In cases where code is only being compiled, it is passed as int flags , and in cases where code is being
+executed, it is passed asPyCompilerFlags *flags .  In this case,from
+__future__ import can modify flags.Whenever PyCompilerFlags *flags isNULL ,cf_flags is treated as
+equal to0 , and any modification due tofrom __future__ import is
+discarded.
+  - 
+int cf_flagsÂ¶
+  - Compiler flags.
+ 
+  - 
+int cf_feature_versionÂ¶
+  - cf_feature_version is the minor Python version. It should be initialized to PY_MINOR_VERSION .The field is ignored by default, it is used if and only if PyCF_ONLY_AST flag is set incf_flags .
+ Changed in version 3.8: Added cf_feature_version field. The available compiler flags are accessible as macros: 
+  - 
+PyCF_ALLOW_TOP_LEVEL_AWAITÂ¶
+  - 
+PyCF_ONLY_ASTÂ¶
+  - 
+PyCF_OPTIMIZED_ASTÂ¶
+  - 
+PyCF_TYPE_COMMENTSÂ¶
+  - See compiler flags in documentation of the ast Python module, which exports these constants under
+the same names.
+ Low-level flags The following flags and masks serve narrow needs of the standard library and interactive interpreters. Code outside the standard library rarely has a reason to use them. They are considered implementation details and may change at any time. 
+  - 
+PyCF_ALLOW_INCOMPLETE_INPUTÂ¶
+  - This flag is a private interface between the compiler and the codeop module.  Do not use it; its behavior is unsupported
+and may change without warning.With this flag set, when compilation fails because the source text ends where more input is expected, for example in the middle of an indented block or an unterminated string literal, the error raised is the undocumented _IncompleteInputError , a subclass ofSyntaxError .  Thecodeop module sets this flag,
+together withPyCF_DONT_IMPLY_DEDENT , to tell input
+that is incomplete apart from input with a real syntax error, so
+that interactive interpreters know when to prompt for another
+line instead of reporting an error.Added in version 3.11.
+ 
+  - 
+PyCF_DONT_IMPLY_DEDENTÂ¶
+  - By default, when compiling with the Py_single_input start
+symbol, reaching the end of the source text implicitly closes any
+open indented blocks.  With this flag set, open blocks are only
+closed if the last line of the source ends with a newline; otherwise,
+compilation fails with aSyntaxError :PyCompilerFlags flags = { .cf_flags = 0, .cf_feature_version = PY_MINOR_VERSION, }; const char *source = "if a:\n pass"; /* The "if" block is closed implicitly; this returns a code object: */ Py_CompileStringFlags(source, "<input>", Py_single_input, &flags); /* With the flag, this fails with a SyntaxError, because the last line does not end with a newline: */ flags.cf_flags = PyCF_DONT_IMPLY_DEDENT; Py_CompileStringFlags(source, "<input>", Py_single_input, &flags); The codeop module uses this flag to detect incomplete
+interactive input.  While the user is still typing inside an
+indented block, the source does not yet end with a newline, so it
+fails to compile and the user is prompted for another line.
+ 
+  - 
+PyCF_IGNORE_COOKIEÂ¶
+  - Read the source text as UTF-8, ignoring its PEP 263 encoding declaration (âcoding cookieâ), if any: PyCompilerFlags flags = { .cf_flags = 0, .cf_feature_version = PY_MINOR_VERSION, }; const char *source = "# coding: latin-1\ns = '\xe9'\n"; /* The coding cookie is honored: byte 0xE9 is decoded as Latin-1, and this returns a code object that sets s to "Ã©": */ Py_CompileStringFlags(source, "<input>", Py_file_input, &flags); /* With the flag, the cookie is ignored and compilation fails with a SyntaxError, because 0xE9 is not valid UTF-8: */ flags.cf_flags = PyCF_IGNORE_COOKIE; Py_CompileStringFlags(source, "<input>", Py_file_input, &flags); The compile() ,eval() andexec() built-in functions
+set this flag when the source is astr object, because they
+pass the text to the parser encoded as UTF-8.
+ 
+  - 
+PyCF_SOURCE_IS_UTF8Â¶
+  - Mark the source text as known to be UTF-8 encoded. The compile() ,eval() andexec() built-in functions
+set this flag, but it currently has no effect.
+ The â PyCF â flags above can be combined with âCO_FUTURE â flags such
+asCO_FUTURE_ANNOTATIONS to enable features normally
+selectable using future statements.
+See Code Object Flags for a complete list.The following masks combine several flags: 
+  - 
+PyCF_MASKÂ¶
+  - Bitmask of all CO_FUTURE flags (see Code Object Flags),
+which select features normally enabled by
+future statements.
+When code compiled with aPyCompilerFlags *flags argument
+contains afrom __future__ import statement, the flag for the
+imported feature is added to flags, so that code executed later
+in the same context inherits it.
+ 
+  - 
+PyCF_MASK_OBSOLETEÂ¶
+  - Do not use this mask in new code. It is kept only so that old code passing its flags to compile() keeps working.Bitmask of flags for obsolete future features that no longer have any effect.
+ 
+  - 
+PyCF_COMPILE_MASKÂ¶
+  - Bitmask of all PyCF flags that change how the source is
+compiled, such asPyCF_ONLY_AST .
+Thecompile() built-in function uses this mask to validate
+its flags argument.
+- 
+int cf_flagsÂ¶
+Available start symbolsÂ¶
+- 
+int Py_eval_inputÂ¶
+- The start symbol from the Python grammar for isolated expressions; for use with Py_CompileString() .
+- 
+int Py_file_inputÂ¶
+- The start symbol from the Python grammar for sequences of statements as read from a file or other source; for use with Py_CompileString() .  This is
+the symbol to use when compiling arbitrarily long Python source code.
+- 
+int Py_single_inputÂ¶
+- The start symbol from the Python grammar for a single statement; for use with Py_CompileString() . This is the symbol used for the interactive
+interpreter loop.
+- 
+int Py_func_type_inputÂ¶
+- The start symbol from the Python grammar for a function type; for use with Py_CompileString() . This is used to parse âsignature type commentsâ
+from PEP 484.This requires the PyCF_ONLY_AST flag to be set.See also Added in version 3.8.
+Stack EffectsÂ¶
+See also
+- 
+PY_INVALID_STACK_EFFECTÂ¶
+- Sentinel value representing an invalid stack effect. This is currently equivalent to INT_MAX .Added in version 3.8.
+- 
+int PyCompile_OpcodeStackEffect(int opcode, int oparg)Â¶
+- Compute the stack effect of opcode with argument oparg. On success, this function returns the stack effect; on failure, this returns PY_INVALID_STACK_EFFECT .Added in version 3.4.
+- 
+int PyCompile_OpcodeStackEffectWithJump(int opcode, int oparg, int jump)Â¶
+- Similar to PyCompile_OpcodeStackEffect() , but donât include the
+stack effect of jumping if jump is zero.If jump is 0 , this will not include the stack effect of jumping, but
+if jump is1 or-1 , this will include it.On success, this function returns the stack effect; on failure, this returns PY_INVALID_STACK_EFFECT .Added in version 3.8.

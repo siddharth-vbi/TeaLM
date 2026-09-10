@@ -1,0 +1,44 @@
+mmap â Memory-mapped file support
+mmap
+email â An email and MIME handling package
+email
+This chapter describes modules which support handling data formats commonly used on the internet.
+email
+email.message
+email.parser
+email.generator
+email.policy
+email.errors
+email.headerregistry
+email.contentmanager
+email
+email.message.Message
+compat32
+email.mime
+email.header
+email.charset
+email.encoders
+email.utils
+email.iterators
+json
+mailbox
+Mailbox
+Maildir
+mbox
+MH
+Babyl
+MMDF
+Message
+MaildirMessage
+mboxMessage
+MHMessage
+BabylMessage
+MMDFMessage
+mimetypes
+base64
+binascii
+quopri
+mmap â Memory-mapped file support
+mmap
+email â An email and MIME handling package
+email

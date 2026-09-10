@@ -1,0 +1,63 @@
+High-level API IndexÂ¶
+This page lists all high-level async/await enabled asyncio APIs.
+TasksÂ¶
+Utilities to run asyncio programs, create Tasks, and await on multiple things with timeouts.
+| run() | Create event loop, run a coroutine, close the loop. | 
+| Runner | A context manager that simplifies multiple async function calls. | 
+| Task | Task object. | 
+| TaskGroup | A context manager that holds a group of tasks. Provides a convenient and reliable way to wait for all tasks in the group to finish. | 
+| create_task() | Start an asyncio Task, then returns it. | 
+| current_task() | Return the current Task. | 
+| all_tasks() | Return all tasks that are not yet finished for an event loop. | 
+| awaitsleep() | Sleep for a number of seconds. | 
+| awaitgather() | Schedule and wait for things concurrently. | 
+| awaitwait_for() | Run with a timeout. | 
+| awaitshield() | Shield from cancellation. | 
+| awaitwait() | Monitor for completion. | 
+| timeout() | Run with a timeout. Useful in cases when wait_for is not suitable. | 
+| to_thread() | Asynchronously run a function in a separate OS thread. | 
+| run_coroutine_threadsafe() | Schedule a coroutine from another OS thread. | 
+| for inas_completed() | Monitor for completion with a for loop. | 
+Examples
+QueuesÂ¶
+Queues should be used to distribute work amongst multiple asyncio Tasks, implement connection pools, and pub/sub patterns.
+| Queue | A FIFO queue. | 
+| PriorityQueue | A priority queue. | 
+| LifoQueue | A LIFO queue. | 
+Examples
+SubprocessesÂ¶
+Utilities to spawn subprocesses and run shell commands.
+| awaitcreate_subprocess_exec() | Create a subprocess. | 
+| awaitcreate_subprocess_shell() | Run a shell command. | 
+Examples
+- Executing a shell command.
+- See also the subprocess APIs documentation.
+StreamsÂ¶
+High-level APIs to work with network IO.
+| awaitopen_connection() | Establish a TCP connection. | 
+| awaitopen_unix_connection() | Establish a Unix socket connection. | 
+| awaitstart_server() | Start a TCP server. | 
+| awaitstart_unix_server() | Start a Unix socket server. | 
+| StreamReader | High-level async/await object to receive network data. | 
+| StreamWriter | High-level async/await object to send network data. | 
+Examples
+- Example TCP client.
+- See also the streams APIs documentation.
+SynchronizationÂ¶
+Threading-like synchronization primitives that can be used in Tasks.
+| Lock | A mutex lock. | 
+| Event | An event object. | 
+| Condition | A condition object. | 
+| Semaphore | A semaphore. | 
+| BoundedSemaphore | A bounded semaphore. | 
+| Barrier | A barrier object. | 
+Examples
+- Using asyncio.Event.
+- Using asyncio.Barrier.
+- See also the documentation of asyncio synchronization primitives.
+ExceptionsÂ¶
+| asyncio.CancelledError | Raised when a Task is cancelled. See also Task.cancel() . | 
+| asyncio.BrokenBarrierError | Raised when a Barrier is broken. See also Barrier.wait() . | 
+Examples
+- Handling CancelledError to run code on cancellation request.
+- See also the full list of asyncio-specific exceptions.

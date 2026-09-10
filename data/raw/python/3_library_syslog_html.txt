@@ -1,0 +1,83 @@
+syslog â Unix syslog library routinesÂ¶
+This module provides an interface to the Unix syslog library routines.
+Refer to the Unix manual pages for a detailed description of the syslog
+facility.
+Availability: Unix, not WASI, not iOS.
+This module wraps the system syslog family of routines.  A pure Python
+library that can speak to a syslog server is available in the
+logging.handlers module as SysLogHandler.
+The module defines the following functions:
+- syslog.syslog(message)Â¶
+- syslog.syslog(priority, message)
+- Send the string message to the system logger. A trailing newline is added if necessary. Each message is tagged with a priority composed of a facility and a level. The optional priority argument, which defaults to LOG_INFO , determines the message priority.  If the facility is
+not encoded in priority using logical-or (LOG_INFO | LOG_USER ), the
+value given in theopenlog() call is used.If openlog() has not been called prior to the call tosyslog() ,openlog() will be called with no arguments.Raises an auditing event syslog.syslog with argumentspriority ,message .Changed in version 3.2: In previous versions, openlog() would not be called automatically if
+it wasnât called prior to the call tosyslog() , deferring to the syslog
+implementation to callopenlog() .Changed in version 3.12: This function is restricted in subinterpreters. (Only code that runs in multiple interpreters is affected and the restriction is not relevant for most users.) openlog() must be called in the main interpreter beforesyslog() may be used
+in a subinterpreter.  Otherwise it will raiseRuntimeError .
+- syslog.openlog([ident[, logoption[, facility]]])Â¶
+- Logging options of subsequent syslog() calls can be set by callingopenlog() .syslog() will callopenlog() with no arguments
+if the log is not currently open.The optional ident keyword argument is a string which is prepended to every message, and defaults to sys.argv[0] with leading path components
+stripped.  The optional logoption keyword argument (default is 0) is a bit
+field â see below for possible values to combine.  The optional facility
+keyword argument (default isLOG_USER ) sets the default facility for
+messages which do not have a facility explicitly encoded.Raises an auditing event syslog.openlog with argumentsident ,logoption ,facility .Changed in version 3.2: In previous versions, keyword arguments were not allowed, and ident was required. Changed in version 3.12: This function is restricted in subinterpreters. (Only code that runs in multiple interpreters is affected and the restriction is not relevant for most users.) This may only be called in the main interpreter. It will raise RuntimeError if called in a subinterpreter.
+- syslog.closelog()Â¶
+- Reset the syslog module values and call the system library closelog() .This causes the module to behave as it does when initially imported. For example, openlog() will be called on the firstsyslog() call (ifopenlog() hasnât already been called), and ident and otheropenlog() parameters are reset to defaults.Raises an auditing event syslog.closelog with no arguments.Changed in version 3.12: This function is restricted in subinterpreters. (Only code that runs in multiple interpreters is affected and the restriction is not relevant for most users.) This may only be called in the main interpreter. It will raise RuntimeError if called in a subinterpreter.
+- syslog.setlogmask(maskpri)Â¶
+- Set the priority mask to maskpri and return the previous mask value. Calls to syslog() with a priority level not set in maskpri are ignored.
+The default is to log all priorities.  The functionLOG_MASK(pri) calculates the mask for the individual priority pri.  The functionLOG_UPTO(pri) calculates the mask for all priorities up to and including
+pri.Raises an auditing event syslog.setlogmask with argumentmaskpri .
+The module defines the following constants:
+- syslog.LOG_EMERGÂ¶
+- syslog.LOG_ALERTÂ¶
+- syslog.LOG_CRITÂ¶
+- syslog.LOG_ERRÂ¶
+- syslog.LOG_WARNINGÂ¶
+- syslog.LOG_NOTICEÂ¶
+- syslog.LOG_INFOÂ¶
+- syslog.LOG_DEBUGÂ¶
+- Priority levels (high to low).
+- syslog.LOG_AUTHÂ¶
+- syslog.LOG_AUTHPRIVÂ¶
+- syslog.LOG_CRONÂ¶
+- syslog.LOG_DAEMONÂ¶
+- syslog.LOG_FTPÂ¶
+- syslog.LOG_INSTALLÂ¶
+- syslog.LOG_KERNÂ¶
+- syslog.LOG_LAUNCHDÂ¶
+- syslog.LOG_LPRÂ¶
+- syslog.LOG_MAILÂ¶
+- syslog.LOG_NETINFOÂ¶
+- syslog.LOG_NEWSÂ¶
+- syslog.LOG_RASÂ¶
+- syslog.LOG_REMOTEAUTHÂ¶
+- syslog.LOG_SYSLOGÂ¶
+- syslog.LOG_USERÂ¶
+- syslog.LOG_UUCPÂ¶
+- syslog.LOG_LOCAL0Â¶
+- syslog.LOG_LOCAL1Â¶
+- syslog.LOG_LOCAL2Â¶
+- syslog.LOG_LOCAL3Â¶
+- syslog.LOG_LOCAL4Â¶
+- syslog.LOG_LOCAL5Â¶
+- syslog.LOG_LOCAL6Â¶
+- syslog.LOG_LOCAL7Â¶
+- Facilities, depending on availability in <syslog.h> forLOG_AUTHPRIV ,LOG_FTP ,LOG_NETINFO ,LOG_REMOTEAUTH ,LOG_INSTALL andLOG_RAS .Changed in version 3.13: Added LOG_FTP ,LOG_NETINFO ,LOG_REMOTEAUTH ,LOG_INSTALL ,LOG_RAS , andLOG_LAUNCHD .
+- syslog.LOG_PIDÂ¶
+- syslog.LOG_CONSÂ¶
+- syslog.LOG_NDELAYÂ¶
+- syslog.LOG_ODELAYÂ¶
+- syslog.LOG_NOWAITÂ¶
+- syslog.LOG_PERRORÂ¶
+- Log options, depending on availability in <syslog.h> forLOG_ODELAY ,LOG_NOWAIT andLOG_PERROR .
+ExamplesÂ¶
+Simple exampleÂ¶
+A simple set of examples:
+import syslog
+syslog.syslog('Processing started')
+if error:
+    syslog.syslog(syslog.LOG_ERR, 'Processing started')
+An example of setting some log options, these would include the process ID in logged messages, and write the messages to the destination facility used for mail logging:
+syslog.openlog(logoption=syslog.LOG_PID, facility=syslog.LOG_MAIL)
+syslog.syslog('E-mail processing initiated...')

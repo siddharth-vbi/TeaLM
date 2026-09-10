@@ -1,0 +1,77 @@
+Mapping ProtocolÂ¶
+See also PyObject_GetItem(), PyObject_SetItem() and
+PyObject_DelItem().
+- 
+int PyMapping_Check(PyObject *o)Â¶
+-  Part of the Stable ABI.Return 1 if the object provides the mapping protocol or supports slicing,
+and0 otherwise.  Note that it returns1 for Python classes with
+a__getitem__() method, since in general it is impossible to
+determine what type of keys the class supports. This function always succeeds.
+- 
+Py_ssize_t PyMapping_Size(PyObject *o)Â¶
+- 
+Py_ssize_t PyMapping_Length(PyObject *o)Â¶
+-  Part of the Stable ABI.Returns the number of keys in object o on success, and -1 on failure.
+This is equivalent to the Python expressionlen(o) .
+- 
+PyObject *PyMapping_GetItemString(PyObject *o, const char *key)Â¶
+- Return value: New reference. Part of the Stable ABI.This is the same as PyObject_GetItem() , but key is
+specified as a const char* UTF-8 encoded bytes string,
+rather than a PyObject*.
+- 
+int PyMapping_GetOptionalItem(PyObject *obj, PyObject *key, PyObject **result)Â¶
+-  Part of the Stable ABI since version 3.13.Variant of PyObject_GetItem() which doesnât raiseKeyError if the key is not found.If the key is found, return 1 and set *result to a new
+strong reference to the corresponding value.
+If the key is not found, return0 and set *result toNULL ;
+theKeyError is silenced.
+If an error other thanKeyError is raised, return-1 and
+set *result toNULL .Added in version 3.13.
+- 
+int PyMapping_GetOptionalItemString(PyObject *obj, const char *key, PyObject **result)Â¶
+-  Part of the Stable ABI since version 3.13.This is the same as PyMapping_GetOptionalItem() , but key is
+specified as a const char* UTF-8 encoded bytes string,
+rather than a PyObject*.Added in version 3.13.
+- 
+int PyMapping_SetItemString(PyObject *o, const char *key, PyObject *v)Â¶
+-  Part of the Stable ABI.This is the same as PyObject_SetItem() , but key is
+specified as a const char* UTF-8 encoded bytes string,
+rather than a PyObject*.
+- 
+int PyMapping_DelItem(PyObject *o, PyObject *key)Â¶
+- This is an alias of PyObject_DelItem() .
+- 
+int PyMapping_DelItemString(PyObject *o, const char *key)Â¶
+- This is the same as PyObject_DelItem() , but key is
+specified as a const char* UTF-8 encoded bytes string,
+rather than a PyObject*.
+- 
+int PyMapping_HasKeyWithError(PyObject *o, PyObject *key)Â¶
+-  Part of the Stable ABI since version 3.13.Return 1 if the mapping object has the key key and0 otherwise.
+This is equivalent to the Python expressionkey in o .
+On failure, return-1 .Added in version 3.13.
+- 
+int PyMapping_HasKeyStringWithError(PyObject *o, const char *key)Â¶
+-  Part of the Stable ABI since version 3.13.This is the same as PyMapping_HasKeyWithError() , but key is
+specified as a const char* UTF-8 encoded bytes string,
+rather than a PyObject*.Added in version 3.13.
+- 
+int PyMapping_HasKey(PyObject *o, PyObject *key)Â¶
+-  Part of the Stable ABI.Return 1 if the mapping object has the key key and0 otherwise.
+This is equivalent to the Python expressionkey in o .
+This function always succeeds.Note Exceptions which occur when this calls the __getitem__() method are silently ignored.
+For proper error handling, usePyMapping_HasKeyWithError() ,PyMapping_GetOptionalItem() orPyObject_GetItem() instead.
+- 
+int PyMapping_HasKeyString(PyObject *o, const char *key)Â¶
+-  Part of the Stable ABI.This is the same as PyMapping_HasKey() , but key is
+specified as a const char* UTF-8 encoded bytes string,
+rather than a PyObject*.Note Exceptions that occur when this calls the __getitem__() method or while creating the temporarystr object are silently ignored.
+For proper error handling, usePyMapping_HasKeyStringWithError() ,PyMapping_GetOptionalItemString() orPyMapping_GetItemString() instead.
+- 
+PyObject *PyMapping_Keys(PyObject *o)Â¶
+- Return value: New reference. Part of the Stable ABI.On success, return a list of the keys in object o. On failure, return NULL .Changed in version 3.7: Previously, the function returned a list or a tuple.
+- 
+PyObject *PyMapping_Values(PyObject *o)Â¶
+- Return value: New reference. Part of the Stable ABI.On success, return a list of the values in object o. On failure, return NULL .Changed in version 3.7: Previously, the function returned a list or a tuple.
+- 
+PyObject *PyMapping_Items(PyObject *o)Â¶
+- Return value: New reference. Part of the Stable ABI.On success, return a list of the items in object o, where each item is a tuple containing a key-value pair. On failure, return NULL .Changed in version 3.7: Previously, the function returned a list or a tuple.

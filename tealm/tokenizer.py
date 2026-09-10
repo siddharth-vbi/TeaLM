@@ -16,7 +16,7 @@ def train_tokenizer():
     # No pre_tokenizer → BPE sees every character including spaces
 
     trainer = BpeTrainer(
-        vocab_size=1000,
+        vocab_size=config.VOCAB_SIZE,
         min_frequency=2,
         special_tokens=["<UNK>", "<PAD>", "<BOS>", "<EOS>"],
     )

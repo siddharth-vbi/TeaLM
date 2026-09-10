@@ -1,0 +1,49 @@
+Built-in ConstantsÂ¶
+A small number of constants live in the built-in namespace. They are:
+- FalseÂ¶
+- The false value of the bool type. Assignments toFalse are illegal and raise aSyntaxError .
+- TrueÂ¶
+- The true value of the bool type. Assignments toTrue are illegal and raise aSyntaxError .
+- NoneÂ¶
+- An object frequently used to represent the absence of a value, as when default arguments are not passed to a function. Assignments to None are illegal and raise aSyntaxError .None is the sole instance of theNoneType type.
+- NotImplementedÂ¶
+- A special value which should be returned by the binary special methods (e.g. __eq__() ,__lt__() ,__add__() ,__rsub__() ,
+etc.) to indicate that the operation is not implemented with respect to
+the other type; may be returned by the in-place binary special methods
+(e.g.__imul__() ,__iand__() , etc.) for the same purpose.
+It should not be evaluated in a boolean context.NotImplemented is the sole instance of thetypes.NotImplementedType type.Note When a binary (or in-place) method returns NotImplemented the
+interpreter will try the reflected operation on the other type (or some
+other fallback, depending on the operator).  If all attempts returnNotImplemented , the interpreter will raise an appropriate exception.
+Incorrectly returningNotImplemented will result in a misleading
+error message or theNotImplemented value being returned to Python code.See Implementing the arithmetic operations for examples. Caution NotImplemented andNotImplementedError are not
+interchangeable. This constant should only be used as described
+above; seeNotImplementedError for details on correct usage
+of the exception.Changed in version 3.9: Evaluating NotImplemented in a boolean context was deprecated.Changed in version 3.14: Evaluating NotImplemented in a boolean context now raises aTypeError .
+It previously evaluated toTrue and emitted aDeprecationWarning since Python 3.9.
+- EllipsisÂ¶
+- The same as the ellipsis literal â ... â, an object frequently used to
+indicate that something is omitted. Assignment toEllipsis is possible, but
+assignment to... raises aSyntaxError .Ellipsis is the sole instance of thetypes.EllipsisType type.
+- __debug__Â¶
+- This constant is true if Python was not started with an -O option.
+See also theassert statement.
+Note
+The names None, False, True and __debug__
+cannot be reassigned (assignments to them, even as an attribute name, raise
+SyntaxError), so they can be considered âtrueâ constants.
+Constants added by the site moduleÂ¶
+The site module (which is imported automatically during startup, except
+if the -S command-line option is given) adds several constants to the
+built-in namespace.  They are useful for the interactive interpreter shell and
+should not be used in programs.
+- quit(code=None)Â¶
+- exit(code=None)Â¶
+- Objects that when printed, print a message like âUse quit() or Ctrl-D (i.e. EOF) to exitâ, and when accessed directly in the interactive interpreter or called as functions, raise SystemExit with the
+specified exit code.
+- help
+- Object that when printed, prints the message âType help() for interactive help, or help(object) for help about object.â, and when accessed directly in the interactive interpreter, invokes the built-in help system (see help() ).
+- copyrightÂ¶
+- creditsÂ¶
+- Objects that when printed or called, print the text of copyright or credits, respectively.
+- licenseÂ¶
+- Object that when printed, prints the message âType license() to see the full license textâ, and when called, displays the full license text in a pager-like fashion (one screen at a time).

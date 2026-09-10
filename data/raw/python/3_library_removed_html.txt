@@ -1,0 +1,33 @@
+getopt â C-style parser for command line options
+getopt
+aifc â Read and write AIFF and AIFC files
+aifc
+The modules described in this chapter have been removed from the Python standard library. They are documented here to help people find replacements.
+aifc
+asynchat
+asyncore
+audioop
+cgi
+cgitb
+chunk
+crypt
+distutils
+imghdr
+imp
+mailcap
+msilib
+nis
+nntplib
+ossaudiodev
+pipes
+smtpd
+sndhdr
+spwd
+sunau
+telnetlib
+uu
+xdrlib
+getopt â C-style parser for command line options
+getopt
+aifc â Read and write AIFF and AIFC files
+aifc

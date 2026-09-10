@@ -1,0 +1,42 @@
+Generator ObjectsÂ¶
+Generator objects are what Python uses to implement generator iterators. They
+are normally created by iterating over a function that yields values, rather
+than explicitly calling PyGen_New() or PyGen_NewWithQualName().
+- 
+type PyGenObjectÂ¶
+- The C structure used for generator objects.
+- 
+PyTypeObject PyGen_TypeÂ¶
+- The type object corresponding to generator objects.
+- 
+int PyGen_Check(PyObject *ob)Â¶
+- Return true if ob is a generator object; ob must not be NULL .  This
+function always succeeds.
+- 
+int PyGen_CheckExact(PyObject *ob)Â¶
+- Return true if obâs type is PyGen_Type ; ob must not beNULL .  This function always succeeds.
+- 
+PyObject *PyGen_New(PyFrameObject *frame)Â¶
+- Return value: New reference.Create and return a new generator object based on the frame object. A reference to frame is âstolenâ by this function (even on error). The argument must not be NULL .
+- 
+PyObject *PyGen_NewWithQualName(PyFrameObject *frame, PyObject *name, PyObject *qualname)Â¶
+- Return value: New reference.Create and return a new generator object based on the frame object, with __name__ and__qualname__ set to name and qualname.
+A reference to frame is âstolenâ by this function (even
+on error).  The frame argument must not beNULL .
+- 
+PyCodeObject *PyGen_GetCode(PyGenObject *gen)Â¶
+- Return a new strong reference to the code object wrapped by gen. This function always succeeds.
+Asynchronous Generator ObjectsÂ¶
+See also
+- 
+PyTypeObject PyAsyncGen_TypeÂ¶
+- The type object corresponding to asynchronous generator objects. This is available as types.AsyncGeneratorType in the Python layer.Added in version 3.6.
+- 
+PyObject *PyAsyncGen_New(PyFrameObject *frame, PyObject *name, PyObject *qualname)Â¶
+- Create a new asynchronous generator wrapping frame, with __name__ and__qualname__ set to name and qualname.
+frame is âstolenâ by this function (even on error) and
+must not beNULL .On success, this function returns a strong reference to the new asynchronous generator. On failure, this function returns NULL with an exception set.Added in version 3.6.
+Deprecated APIÂ¶
+- 
+PyAsyncGenASend_CheckExact(op)Â¶
+- This is an API that was included in Pythonâs C API by mistake. It is solely here for completeness; do not use this API. Soft deprecated since version 3.14.

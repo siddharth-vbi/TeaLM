@@ -1,0 +1,37 @@
+MemoryView objectsÂ¶
+A memoryview object exposes the C level buffer interface as a Python object which can then be passed around like
+any other object.
+- 
+PyTypeObject PyMemoryView_TypeÂ¶
+-  Part of the Stable ABI.This instance of PyTypeObject represents the Python memoryview
+type. This is the same object asmemoryview in the Python layer.
+- 
+PyObject *PyMemoryView_FromObject(PyObject *obj)Â¶
+- Return value: New reference. Part of the Stable ABI.Create a memoryview object from an object that provides the buffer interface. If obj supports writable buffer exports, the memoryview object will be read/write, otherwise it may be either read-only or read/write at the discretion of the exporter.
+- 
+PyBUF_READÂ¶
+-  Part of the Stable ABI since version 3.11.Flag to request a readonly buffer.
+- 
+PyBUF_WRITEÂ¶
+-  Part of the Stable ABI since version 3.11.Flag to request a writable buffer.
+- 
+PyObject *PyMemoryView_FromMemory(char *mem, Py_ssize_t size, int flags)Â¶
+- Return value: New reference. Part of the Stable ABI since version 3.7.Create a memoryview object using mem as the underlying buffer. flags can be one of PyBUF_READ orPyBUF_WRITE .Added in version 3.3.
+- 
+PyObject *PyMemoryView_FromBuffer(const Py_buffer *view)Â¶
+- Return value: New reference. Part of the Stable ABI since version 3.11.Create a memoryview object wrapping the given buffer structure view. For simple byte buffers, PyMemoryView_FromMemory() is the preferred
+function.
+- 
+PyObject *PyMemoryView_GetContiguous(PyObject *obj, int buffertype, char order)Â¶
+- Return value: New reference. Part of the Stable ABI.Create a memoryview object to a contiguous chunk of memory (in either âCâ or âFâortran order) from an object that defines the buffer interface. If memory is contiguous, the memoryview object points to the original memory. Otherwise, a copy is made and the memoryview points to a new bytes object. buffertype can be one of PyBUF_READ orPyBUF_WRITE .
+- 
+int PyMemoryView_Check(PyObject *obj)Â¶
+- Return true if the object obj is a memoryview object. It is not currently allowed to create subclasses of memoryview .  This
+function always succeeds.
+- 
+Py_buffer *PyMemoryView_GET_BUFFER(PyObject *mview)Â¶
+- Return a pointer to the memoryviewâs private copy of the exporterâs buffer. mview must be a memoryview instance; this macro doesnât check its type, you must do it yourself or you will risk crashes.
+- 
+PyObject *PyMemoryView_GET_BASE(PyObject *mview)Â¶
+- Return either a pointer to the exporting object that the memoryview is based on or NULL if the memoryview has been created by one of the functionsPyMemoryView_FromMemory() orPyMemoryView_FromBuffer() .
+mview must be a memoryview instance.

@@ -1,0 +1,47 @@
+PyTime C APIÂ¶
+Added in version 3.13.
+The clock C API provides access to system clocks.
+It is similar to the Python time module.
+For C API related to the datetime module, see DateTime Objects.
+TypesÂ¶
+- 
+type PyTime_tÂ¶
+- A timestamp or duration in nanoseconds, represented as a signed 64-bit integer. The reference point for timestamps depends on the clock used. For example, PyTime_Time() returns timestamps relative to the UNIX epoch.The supported range is around [-292.3 years; +292.3 years]. Using the Unix epoch (January 1st, 1970) as reference, the supported date range is around [1677-09-21; 2262-04-11]. The exact limits are exposed as constants:
+Clock FunctionsÂ¶
+The following functions take a pointer to a PyTime_t that they set to the value of a particular clock. Details of each clock are given in the documentation of the corresponding Python function.
+The functions return 0 on success, or -1 (with an exception set)
+on failure.
+On integer overflow, they set the PyExc_OverflowError exception and
+set *result to the value clamped to the [PyTime_MIN; PyTime_MAX]
+range.
+(On current systems, integer overflows are likely caused by misconfigured
+system time.)
+As any other C API (unless otherwise specified), the functions must be called with an attached thread state.
+- 
+int PyTime_Monotonic(PyTime_t *result)Â¶
+- Read the monotonic clock. See time.monotonic() for important details on this clock.
+- 
+int PyTime_PerfCounter(PyTime_t *result)Â¶
+- Read the performance counter. See time.perf_counter() for important details on this clock.
+- 
+int PyTime_Time(PyTime_t *result)Â¶
+- Read the âwall clockâ time. See time.time() for details important on this clock.
+Raw Clock FunctionsÂ¶
+Similar to clock functions, but donât set an exception on error and donât require the caller to have an attached thread state.
+On success, the functions return 0.
+On failure, they set *result to 0 and return -1, without setting
+an exception. To get the cause of the error, attach a thread state,
+and call the regular (non-Raw) function. Note that the regular function may succeed after
+the Raw one failed.
+- 
+int PyTime_MonotonicRaw(PyTime_t *result)Â¶
+- Similar to PyTime_Monotonic() ,
+but donât set an exception on error and donât require an attached thread state.
+- 
+int PyTime_PerfCounterRaw(PyTime_t *result)Â¶
+- Similar to PyTime_PerfCounter() ,
+but donât set an exception on error and donât require an attached thread state.
+- 
+int PyTime_TimeRaw(PyTime_t *result)Â¶
+- Similar to PyTime_Time() ,
+but donât set an exception on error and donât require an attached thread state.

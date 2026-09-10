@@ -1,0 +1,2 @@
+Software Packaging and DistributionÂ¶
+These libraries help you with publishing and installing Python software. While these modules are designed to work in conjunction with the Python Package Index, they can also be used with a local index server, or without any index server at all.
