@@ -5,8 +5,8 @@
 
 # ----- Model ------------------------------------------------
 BLOCK_SIZE = 64      # context window (tokens)
-N_EMBED    = 32     # embedding dimension
-N_HEAD     = 2     # attention heads  (N_EMBED must be divisible by N_HEAD)
+N_EMBED    = 64      # embedding dimension
+N_HEAD     = 2    # attention heads  (N_EMBED must be divisible by N_HEAD)
 N_LAYER    = 1       # transformer blocks
 DROPOUT    = 0.1     # dropout rate
 

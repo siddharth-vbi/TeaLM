@@ -58,330 +58,330 @@
       "<PAD>": 1,
       "<BOS>": 2,
       "<EOS>": 3,
-      "\n": 4,
-      " ": 5,
-      "'": 6,
-      ",": 7,
-      "-": 8,
-      ".": 9,
-      "A": 10,
-      "B": 11,
-      "C": 12,
-      "D": 13,
-      "E": 14,
-      "F": 15,
-      "G": 16,
-      "H": 17,
-      "I": 18,
-      "J": 19,
-      "K": 20,
-      "L": 21,
-      "M": 22,
-      "N": 23,
-      "O": 24,
-      "P": 25,
-      "R": 26,
-      "S": 27,
-      "T": 28,
-      "U": 29,
-      "V": 30,
-      "W": 31,
-      "Y": 32,
-      "Z": 33,
-      "a": 34,
-      "b": 35,
-      "c": 36,
-      "d": 37,
-      "e": 38,
-      "f": 39,
-      "g": 40,
-      "h": 41,
-      "i": 42,
-      "j": 43,
-      "k": 44,
-      "l": 45,
-      "m": 46,
-      "n": 47,
-      "o": 48,
-      "p": 49,
-      "q": 50,
-      "r": 51,
-      "s": 52,
-      "t": 53,
-      "u": 54,
-      "v": 55,
-      "w": 56,
-      "x": 57,
-      "y": 58,
-      "z": 59,
-      "ä": 60,
-      "ç": 61,
-      "é": 62,
-      "ñ": 63,
-      "ó": 64,
-      "ı": 65,
-      " a": 66,
-      "d ": 67,
-      "er": 68,
-      "e ": 69,
-      "in": 70,
-      " c": 71,
-      "on": 72,
-      "or": 73,
-      "it": 74,
-      "ed ": 75,
-      ", ": 76,
-      "es": 77,
-      "is": 78,
-      " an": 79,
-      "t ": 80,
-      "ea": 81,
-      "om": 82,
-      ". ": 83,
-      " and ": 84,
-      "y ": 85,
-      "la": 86,
-      "ic": 87,
-      "ha": 88,
-      "al": 89,
-      "en": 90,
-      ".\n": 91,
-      " t": 92,
-      "an": 93,
-      ". I": 94,
-      "at": 95,
-      "il": 96,
-      "ith": 97,
-      "with": 98,
-      " s": 99,
-      "ar": 100,
-      "ing": 101,
-      " f": 102,
-      ". It ": 103,
-      "re": 104,
-      "vor": 105,
-      " b": 106,
-      "lavor": 107,
-      " is": 108,
-      "ee": 109,
-      "ro": 110,
-      " m": 111,
-      "ru": 112,
-      "ly ": 113,
-      "mon": 114,
-      "ra": 115,
-      "ion": 116,
-      "wee": 117,
-      " com": 118,
-      "of": 119,
-      "th": 120,
-      "ed with": 121,
-      "has": 122,
-      "ilk": 123,
-      " p": 124,
-      " tea": 125,
-      "bin": 126,
-      "as": 127,
-      "rom": 128,
-      "weet": 129,
-      "us": 130,
-      "de ": 131,
-      "ver": 132,
-      "ol": 133,
-      "ruit": 134,
-      "has a": 135,
-      ", and ": 136,
-      "le": 137,
-      " is a": 138,
-      " or": 139,
-      " flavor": 140,
-      "oc": 141,
-      "flavor": 142,
-      "ater": 143,
-      "ag": 144,
-      "ade ": 145,
-      " w": 146,
-      "ever": 147,
-      "e c": 148,
-      "li": 149,
-      "ter": 150,
-      "everag": 151,
-      ", s": 152,
-      "rea": 153,
-      " combin": 154,
-      ". It is": 155,
-      "ch": 156,
-      "pic": 157,
-      ". It has a": 158,
-      "oth": 159,
-      " with": 160,
-      "res": 161,
-      "ally ": 162,
-      " d": 163,
-      "am": 164,
-      " g": 165,
-      "ed": 166,
-      ", or": 167,
-      "ream": 168,
-      "he ": 169,
-      "ur": 170,
-      "pp": 171,
-      "ang": 172,
-      " in": 173,
-      "ent": 174,
-      "ju": 175,
-      "tea": 176,
-      "ri": 177,
-      "juic": 178,
-      " arom": 179,
-      ". It": 180,
-      ", c": 181,
-      "ut": 182,
-      " can": 183,
-      "el": 184,
-      "ta": 185,
-      "od": 186,
-      "ber": 187,
-      "milk": 188,
-      " common": 189,
-      "ink": 190,
-      "ong": 191,
-      " milk": 192,
-      "s.\n": 193,
-      "erv": 194,
-      " con": 195,
-      "ener": 196,
-      "gh": 197,
-      "from": 198,
-      "dit": 199,
-      "off": 200,
-      " fruit": 201,
-      "e is": 202,
-      "her": 203,
-      "rink": 204,
-      "sweet": 205,
-      "uc": 206,
-      " combines": 207,
-      " as": 208,
-      " st": 209,
-      "everage ": 210,
-      "ed b": 211,
-      "rac": 212,
-      "fruit": 213,
-      "ation": 214,
-      " sweet": 215,
-      "le ": 216,
-      "lemon": 217,
-      "ly": 218,
-      "other": 219,
-      " of": 220,
-      "Tea": 221,
-      "par": 222,
-      "um": 223,
-      " cha": 224,
-      "erved ": 225,
-      "ess": 226,
-      " and c": 227,
-      "racter": 228,
-      "reen": 229,
-      "di": 230,
-      " the ": 231,
-      "offe": 232,
-      "ti": 233,
-      "y, ": 234,
-      "herb": 235,
-      "ombin": 236,
-      "end": 237,
-      "ing ": 238,
-      "un": 239,
-      "resh": 240,
-      "ast": 241,
-      " al": 242,
-      "ed with ": 243,
-      " commonly ": 244,
-      "mo": 245,
-      "served ": 246,
-      "ade from": 247,
-      " water": 248,
-      "ex": 249,
-      "ry ": 250,
-      "water": 251,
-      "ck": 252,
-      "so": 253,
-      "ut ": 254,
-      " car": 255,
-      " aroma": 256,
-      "tain": 257,
-      "lor": 258,
-      "lack": 259,
-      "dition": 260,
-      "loral": 261,
-      "ist": 262,
-      "inger": 263,
-      ". It can": 264,
-      "ligh": 265,
-      " juic": 266,
-      "ve": 267,
-      "ango": 268,
-      " n": 269,
-      " be ": 270,
-      "oco": 271,
-      "enerally ": 272,
-      "itru": 273,
-      "e combin": 274,
-      " character": 275,
-      "itrus": 276,
-      "ow": 277,
-      "ed c": 278,
-      " pro": 279,
-      "ci": 280,
-      "bon": 281,
-      "bas": 282,
-      "ot": 283,
-      "ten": 284,
-      "radition": 285,
-      "st": 286,
-      "ext": 287,
-      "duc": 288,
-      "ool": 289,
-      "ure": 290,
-      "pical": 291,
-      "lu": 292,
-      "to": 293,
-      "gar": 294,
-      "fus": 295,
-      " cream": 296,
-      "lat": 297,
-      "ropical": 298,
-      "herbal": 299,
-      " other": 300,
-      "e, ": 301,
-      " and": 302,
-      "repar": 303,
-      ", and s": 304,
-      ". T": 305,
-      "lend": 306,
-      "pro": 307,
-      "ugar": 308,
-      "roast": 309,
-      " Tea": 310,
-      "drink": 311,
-      "ff": 312,
-      "ma": 313,
-      "si": 314,
-      "ice": 315,
-      "weet ": 316,
-      "offee ": 317,
-      "mooth": 318,
-      "rong": 319,
-      "-li": 320,
-      "yru": 321,
-      " ch": 322,
-      "pices": 323,
-      "berry ": 324,
-      "light": 325,
-      "yrup": 326,
-      " S": 327,
+      " ": 4,
+      "'": 5,
+      ",": 6,
+      "-": 7,
+      ".": 8,
+      "A": 9,
+      "B": 10,
+      "C": 11,
+      "D": 12,
+      "E": 13,
+      "F": 14,
+      "G": 15,
+      "H": 16,
+      "I": 17,
+      "J": 18,
+      "K": 19,
+      "L": 20,
+      "M": 21,
+      "N": 22,
+      "O": 23,
+      "P": 24,
+      "R": 25,
+      "S": 26,
+      "T": 27,
+      "U": 28,
+      "V": 29,
+      "W": 30,
+      "Y": 31,
+      "Z": 32,
+      "a": 33,
+      "b": 34,
+      "c": 35,
+      "d": 36,
+      "e": 37,
+      "f": 38,
+      "g": 39,
+      "h": 40,
+      "i": 41,
+      "j": 42,
+      "k": 43,
+      "l": 44,
+      "m": 45,
+      "n": 46,
+      "o": 47,
+      "p": 48,
+      "q": 49,
+      "r": 50,
+      "s": 51,
+      "t": 52,
+      "u": 53,
+      "v": 54,
+      "w": 55,
+      "x": 56,
+      "y": 57,
+      "z": 58,
+      "ä": 59,
+      "ç": 60,
+      "é": 61,
+      "ñ": 62,
+      "ó": 63,
+      "ı": 64,
+      " a": 65,
+      "d ": 66,
+      "er": 67,
+      "e ": 68,
+      "in": 69,
+      " c": 70,
+      "on": 71,
+      "or": 72,
+      "it": 73,
+      "ed ": 74,
+      ", ": 75,
+      "es": 76,
+      "is": 77,
+      " an": 78,
+      "t ": 79,
+      "ea": 80,
+      "om": 81,
+      ". ": 82,
+      " and ": 83,
+      "y ": 84,
+      "la": 85,
+      "ic": 86,
+      "ha": 87,
+      "al": 88,
+      "en": 89,
+      " t": 90,
+      "an": 91,
+      ". I": 92,
+      "at": 93,
+      "il": 94,
+      "ith": 95,
+      "with": 96,
+      " s": 97,
+      "ar": 98,
+      "ing": 99,
+      " f": 100,
+      ". It ": 101,
+      "re": 102,
+      "vor": 103,
+      " b": 104,
+      "lavor": 105,
+      " is": 106,
+      "ee": 107,
+      "ro": 108,
+      " m": 109,
+      "ru": 110,
+      "ly ": 111,
+      "mon": 112,
+      "ra": 113,
+      "ion": 114,
+      "wee": 115,
+      " com": 116,
+      "of": 117,
+      "th": 118,
+      "ed with": 119,
+      "has": 120,
+      "ilk": 121,
+      " p": 122,
+      " tea": 123,
+      "bin": 124,
+      "as": 125,
+      "rom": 126,
+      "weet": 127,
+      "us": 128,
+      "de ": 129,
+      "ver": 130,
+      "ol": 131,
+      "ruit": 132,
+      "has a": 133,
+      ", and ": 134,
+      "le": 135,
+      " is a": 136,
+      " or": 137,
+      " flavor": 138,
+      "oc": 139,
+      "flavor": 140,
+      "ater": 141,
+      "ag": 142,
+      "ade ": 143,
+      " w": 144,
+      "ever": 145,
+      "e c": 146,
+      "li": 147,
+      "ter": 148,
+      "everag": 149,
+      ", s": 150,
+      "rea": 151,
+      " combin": 152,
+      ". It is": 153,
+      "ch": 154,
+      "pic": 155,
+      ". It has a": 156,
+      "oth": 157,
+      " with": 158,
+      "res": 159,
+      "ally ": 160,
+      " d": 161,
+      "am": 162,
+      " g": 163,
+      "ed": 164,
+      ", or": 165,
+      "ream": 166,
+      "he ": 167,
+      "ur": 168,
+      "pp": 169,
+      "ang": 170,
+      " in": 171,
+      "ent": 172,
+      "ju": 173,
+      "tea": 174,
+      "ri": 175,
+      "juic": 176,
+      " arom": 177,
+      ". It": 178,
+      ", c": 179,
+      "ut": 180,
+      " can": 181,
+      "el": 182,
+      "ta": 183,
+      "od": 184,
+      "ber": 185,
+      "milk": 186,
+      " common": 187,
+      "ink": 188,
+      "ong": 189,
+      " milk": 190,
+      "s.": 191,
+      "erv": 192,
+      " con": 193,
+      "ener": 194,
+      "gh": 195,
+      "from": 196,
+      "dit": 197,
+      "off": 198,
+      " fruit": 199,
+      "e is": 200,
+      "her": 201,
+      "rink": 202,
+      "sweet": 203,
+      "uc": 204,
+      " combines": 205,
+      " as": 206,
+      " st": 207,
+      "everage ": 208,
+      "ed b": 209,
+      "rac": 210,
+      "fruit": 211,
+      "ation": 212,
+      " sweet": 213,
+      "le ": 214,
+      "lemon": 215,
+      "ly": 216,
+      "other": 217,
+      " of": 218,
+      "Tea": 219,
+      "par": 220,
+      "um": 221,
+      " cha": 222,
+      "erved ": 223,
+      "ess": 224,
+      " and c": 225,
+      "racter": 226,
+      "reen": 227,
+      "di": 228,
+      " the ": 229,
+      "offe": 230,
+      "ti": 231,
+      "y, ": 232,
+      "herb": 233,
+      "ombin": 234,
+      "end": 235,
+      "ing ": 236,
+      "un": 237,
+      "resh": 238,
+      "ast": 239,
+      " al": 240,
+      "ed with ": 241,
+      " commonly ": 242,
+      "mo": 243,
+      "served ": 244,
+      "ade from": 245,
+      " water": 246,
+      "ex": 247,
+      "ry ": 248,
+      "water": 249,
+      "ck": 250,
+      "so": 251,
+      "ut ": 252,
+      " car": 253,
+      " aroma": 254,
+      "tain": 255,
+      "lor": 256,
+      "lack": 257,
+      "dition": 258,
+      "loral": 259,
+      "ist": 260,
+      "inger": 261,
+      ". It can": 262,
+      "ligh": 263,
+      " juic": 264,
+      "ve": 265,
+      "ango": 266,
+      " n": 267,
+      " be ": 268,
+      "oco": 269,
+      "enerally ": 270,
+      "itru": 271,
+      "e combin": 272,
+      " character": 273,
+      "itrus": 274,
+      ".C": 275,
+      "ow": 276,
+      "ed c": 277,
+      " pro": 278,
+      "ci": 279,
+      "bon": 280,
+      "bas": 281,
+      "ot": 282,
+      "ten": 283,
+      "radition": 284,
+      "st": 285,
+      "ext": 286,
+      "duc": 287,
+      "ool": 288,
+      "ure": 289,
+      "pical": 290,
+      "lu": 291,
+      "to": 292,
+      "gar": 293,
+      "fus": 294,
+      " cream": 295,
+      "lat": 296,
+      "ropical": 297,
+      "herbal": 298,
+      " other": 299,
+      "e, ": 300,
+      " and": 301,
+      "repar": 302,
+      ", and s": 303,
+      ". T": 304,
+      "lend": 305,
+      "pro": 306,
+      "ugar": 307,
+      "roast": 308,
+      " Tea": 309,
+      "drink": 310,
+      "ff": 311,
+      "ma": 312,
+      "si": 313,
+      "ice": 314,
+      "weet ": 315,
+      "offee ": 316,
+      "mooth": 317,
+      "rong": 318,
+      "-li": 319,
+      "yru": 320,
+      " ch": 321,
+      "pices": 322,
+      "berry ": 323,
+      "light": 324,
+      "yrup": 325,
+      " S": 326,
+      ".M": 327,
       "fresh": 328,
       " made from": 329,
       "ocon": 330,
@@ -402,14 +402,14 @@
       " and is": 345,
       "alt": 346,
       " tradition": 347,
-      "floral": 348,
-      "ness": 349,
-      "ul": 350,
-      " aci": 351,
-      "olor": 352,
-      "ingredient": 353,
-      " beverage ": 354,
-      "flavor.\n": 355,
+      ".P": 348,
+      "floral": 349,
+      "ness": 350,
+      "ul": 351,
+      " aci": 352,
+      "olor": 353,
+      "ingredient": 354,
+      " beverage ": 355,
       "lack tea": 356,
       "-bas": 357,
       "s, ": 358,
@@ -421,78 +421,78 @@
       " carbon": 364,
       ". The ": 365,
       " re": 366,
-      "gur": 367,
-      "id": 368,
-      "ot ": 369,
-      "hak": 370,
-      "exture": 371,
-      " infusion": 372,
-      "et": 373,
-      "pres": 374,
-      " tha": 375,
-      "atic": 376,
-      " flavored with": 377,
-      " aromatic": 378,
-      " strong": 379,
-      "oconut ": 380,
-      " us": 381,
-      "erm": 382,
-      "int": 383,
-      " an ": 384,
-      "Le": 385,
-      "clu": 386,
-      "les": 387,
-      "led": 388,
-      "pple ": 389,
-      "oda": 390,
-      "Lemon": 391,
-      "co": 392,
-      "e.\n": 393,
+      ".S": 367,
+      "gur": 368,
+      "id": 369,
+      "ot ": 370,
+      "hak": 371,
+      "exture": 372,
+      " infusion": 373,
+      "et": 374,
+      "pres": 375,
+      " tha": 376,
+      "atic": 377,
+      " flavored with": 378,
+      " aromatic": 379,
+      " strong": 380,
+      "oconut ": 381,
+      " us": 382,
+      "erm": 383,
+      "int": 384,
+      " an ": 385,
+      "Le": 386,
+      "clu": 387,
+      "les": 388,
+      "led": 389,
+      "pple ": 390,
+      "oda": 391,
+      "Lemon": 392,
+      "co": 393,
       "lea": 394,
       "nut": 395,
       "e s": 396,
       "yogur": 397,
       " r": 398,
       "tar": 399,
-      "y.\n": 400,
-      " citrus": 401,
-      "hol": 402,
-      "y t": 403,
-      " blend": 404,
-      ". It can be ": 405,
-      "moothi": 406,
-      "lightly ": 407,
-      "prepar": 408,
-      "ed in": 409,
-      "ed tea": 410,
-      " and s": 411,
-      "ill": 412,
-      "illed": 413,
-      "istic": 414,
-      "presso": 415,
-      "eti": 416,
-      "iat": 417,
-      "one": 418,
-      ". It is commonly ": 419,
-      "ries": 420,
-      " and can": 421,
-      " carbonat": 422,
-      "erment": 423,
-      " ha": 424,
-      "soc": 425,
-      "illa": 426,
-      "Milk": 427,
-      "generally ": 428,
-      "sum": 429,
-      "es a": 430,
-      "anilla": 431,
-      "amel": 432,
-      " generally ": 433,
-      ", or other": 434,
-      "veg": 435,
-      "clude ": 436,
-      "cohol": 437,
-      "sociat": 438,
+      " citrus": 400,
+      "hol": 401,
+      "y t": 402,
+      " blend": 403,
+      ". It can be ": 404,
+      "moothi": 405,
+      "lightly ": 406,
+      "prepar": 407,
+      "ed in": 408,
+      "ed tea": 409,
+      " and s": 410,
+      "ill": 411,
+      "illed": 412,
+      "istic": 413,
+      "presso": 414,
+      "eti": 415,
+      "iat": 416,
+      "one": 417,
+      ". It is commonly ": 418,
+      "ries": 419,
+      " and can": 420,
+      " carbonat": 421,
+      "erment": 422,
+      " ha": 423,
+      "soc": 424,
+      "illa": 425,
+      "generally ": 426,
+      "sum": 427,
+      "es a": 428,
+      "anilla": 429,
+      "amel": 430,
+      " generally ": 431,
+      ", or other": 432,
+      "fruity": 433,
+      "veg": 434,
+      "clude ": 435,
+      "cohol": 436,
+      "sociat": 437,
+      ".B": 438,
       "for": 439,
       "gra": 440,
       "os": 441,
@@ -512,28 +512,28 @@
       ". It has": 455,
       "often": 456,
       "old ": 457,
-      " flavor.\n": 458,
-      " wh": 459,
-      " associat": 460,
-      "ed beverage ": 461,
-      " and a": 462,
-      "leaves": 463,
-      "yogurt": 464,
-      " k": 465,
-      "dam": 466,
-      "qu": 467,
-      "ran": 468,
-      "wh": 469,
-      " coffee ": 470,
-      " black tea": 471,
-      " drink": 472,
-      " acidit": 473,
-      "etal": 474,
+      " wh": 458,
+      " associat": 459,
+      "ed beverage ": 460,
+      " and a": 461,
+      "leaves": 462,
+      "yogurt": 463,
+      " k": 464,
+      "dam": 465,
+      "qu": 466,
+      "ran": 467,
+      "wh": 468,
+      " coffee ": 469,
+      " black tea": 470,
+      " drink": 471,
+      " acidit": 472,
+      "etal": 473,
+      "Milk": 474,
       "green tea": 475,
       "hone": 476,
       "low": 477,
       "s. ": 478,
-      "y, and ": 479,
+      "ty": 479,
       "inea": 480,
       "ed or": 481,
       ", b": 482,
@@ -547,31 +547,31 @@
       "aff": 490,
       "ood": 491,
       "inn": 492,
-      ", fruit": 493,
-      " mango": 494,
-      " ginger": 495,
-      " include ": 496,
-      " produc": 497,
-      "produc": 498,
-      "freshing": 499,
-      " than": 500,
-      "nutt": 501,
-      "y texture": 502,
-      "cha": 503,
-      "ds": 504,
-      "e or": 505,
-      "e juic": 506,
-      "es.\n": 507,
-      " tropical": 508,
-      " su": 509,
-      " spices": 510,
-      " beverag": 511,
-      "vegetal": 512,
-      "damom": 513,
-      "hot ": 514,
-      "made from": 515,
-      "shak": 516,
-      "var": 517,
+      " mango": 493,
+      " ginger": 494,
+      " include ": 495,
+      " produc": 496,
+      "produc": 497,
+      "freshing": 498,
+      " than": 499,
+      "y texture": 500,
+      ".G": 501,
+      "cha": 502,
+      "ds": 503,
+      "e or": 504,
+      "e juic": 505,
+      "y flavor": 506,
+      " tropical": 507,
+      " su": 508,
+      " spices": 509,
+      " beverag": 510,
+      "vegetal": 511,
+      "damom": 512,
+      "hot ": 513,
+      "made from": 514,
+      "shak": 515,
+      "var": 516,
+      "e flavor": 517,
       "int ": 518,
       "ros": 519,
       "using": 520,
@@ -582,56 +582,56 @@
       "at ": 525,
       "amon": 526,
       "ix": 527,
-      "ed milk": 528,
-      "each": 529,
-      "ometi": 530,
-      ". C": 531,
-      " and sweet": 532,
-      " floral": 533,
-      ". It ma": 534,
-      ". It generally ": 535,
-      " is an ": 536,
-      "e con": 537,
-      "chilled": 538,
-      ", cream": 539,
-      "innamon": 540,
-      "ometim": 541,
-      " P": 542,
-      "Water": 543,
-      "ai": 544,
-      "ap": 545,
-      "em": 546,
-      "over": 547,
-      "tropical": 548,
-      " app": 549,
-      "inc": 550,
-      "ine": 551,
-      " coconut ": 552,
-      "ommon": 553,
-      "rew": 554,
-      "ch as": 555,
-      " with ": 556,
-      "ed as": 557,
-      "berries": 558,
-      "coholic": 559,
-      "Ch": 560,
-      "gion": 561,
-      "ib": 562,
-      "ou": 563,
-      "ry": 564,
-      "vanilla": 565,
-      ", m": 566,
-      "ana": 567,
-      "ild ": 568,
-      "flavored with": 569,
+      "ry": 528,
+      "ine": 529,
+      "ed milk": 530,
+      "each": 531,
+      "ometi": 532,
+      ". C": 533,
+      " and sweet": 534,
+      " floral": 535,
+      ". It ma": 536,
+      ". It generally ": 537,
+      " is an ": 538,
+      "e con": 539,
+      "chilled": 540,
+      ", cream": 541,
+      "innamon": 542,
+      "ometim": 543,
+      " P": 544,
+      "Water": 545,
+      "ai": 546,
+      "ap": 547,
+      "em": 548,
+      "over": 549,
+      "tropical": 550,
+      " app": 551,
+      "inc": 552,
+      " coconut ": 553,
+      "ommon": 554,
+      "rew": 555,
+      "ch as": 556,
+      " with ": 557,
+      "ed as": 558,
+      "berries": 559,
+      "otes": 560,
+      "coholic": 561,
+      ".A": 562,
+      "gion": 563,
+      "ib": 564,
+      "ou": 565,
+      "vanilla": 566,
+      ", m": 567,
+      "ana": 568,
+      "ild ": 569,
       " cont": 570,
       " characteristic": 571,
       "oolong": 572,
-      "-like ": 573,
+      "honey": 573,
       " such as": 574,
       "ometimes": 575,
-      "In": 576,
-      "Mango": 577,
+      ".R": 576,
+      "In": 577,
       "but": 578,
       "ble ": 579,
       "ginger": 580,
@@ -647,8 +647,8 @@
       " dist": 590,
       ". It combines": 591,
       "earth": 592,
-      "y be ": 593,
-      "rawberry ": 594,
+      "rawberry ": 593,
+      ".H": 594,
       "Fruit": 595,
       "cess": 596,
       "fir": 597,
@@ -665,86 +665,86 @@
       " consum": 608,
       "sweeten": 609,
       "parkl": 610,
-      " aroma.\n": 611,
-      " not": 612,
-      "ocoa": 613,
-      "tart ": 614,
-      "honey": 615,
-      " is an herbal infusion": 616,
-      "ec": 617,
-      "eer": 618,
-      "epp": 619,
-      "mer": 620,
-      "ish": 621,
-      "ice cream": 622,
-      "haracter": 623,
-      " syrup": 624,
-      "refreshing": 625,
-      "rap": 626,
-      ", sugar": 627,
-      ". It is generally ": 628,
-      ", car": 629,
-      "Indi": 630,
-      " roast": 631,
-      "efir": 632,
-      "ed drink": 633,
-      "ican": 634,
-      "al ": 635,
-      " is tea": 636,
-      " made ": 637,
-      " mint": 638,
-      " prepar": 639,
-      " is a ": 640,
-      " flavored with ": 641,
-      "ed.\n": 642,
-      "ed beverag": 643,
-      "served chilled": 644,
-      "ocolate ": 645,
-      " thick": 646,
-      " associated with ": 647,
-      "-f": 648,
-      "Ginger": 649,
-      "beverag": 650,
-      "eg": 651,
-      "ep": 652,
-      "op": 653,
-      "ub": 654,
-      " ar": 655,
-      "isk": 656,
-      "ent ": 657,
-      "att": 658,
-      "ock": 659,
-      " sty": 660,
-      " character.\n": 661,
-      "ffer": 662,
-      "lower": 663,
-      "ineapple ": 664,
-      ". It generally has a": 665,
-      " is an herbal infusion made from": 666,
-      " ice": 667,
-      "Ic": 668,
-      "Latt": 669,
-      "avor": 670,
-      "beverage ": 671,
-      "ron": 672,
-      "y and ": 673,
-      "eel": 674,
-      "reat": 675,
-      "che": 676,
-      " green tea": 677,
-      "ed, ": 678,
-      "ribut": 679,
-      "tail": 680,
-      "ucha": 681,
-      "ed by ": 682,
-      "ing on": 683,
-      "sty": 684,
-      "ooler": 685,
-      "made with": 686,
-      "oda is a": 687,
-      "Lemonade ": 688,
-      "epend": 689,
-      "ocktail": 690,
+      "ocoa": 611,
+      "tart ": 612,
+      " acidity": 613,
+      " is an herbal infusion": 614,
+      "ec": 615,
+      "eer": 616,
+      "epp": 617,
+      "mer": 618,
+      "ish": 619,
+      "ice cream": 620,
+      "haracter": 621,
+      " syrup": 622,
+      "refreshing": 623,
+      "rap": 624,
+      ", sugar": 625,
+      ". It is generally ": 626,
+      ", car": 627,
+      "Indi": 628,
+      " roast": 629,
+      "efir": 630,
+      "ed drink": 631,
+      ", nut": 632,
+      "ican": 633,
+      "al ": 634,
+      " is tea": 635,
+      " made ": 636,
+      " mint": 637,
+      " prepar": 638,
+      " is a ": 639,
+      " flavored with ": 640,
+      "ed beverag": 641,
+      "served chilled": 642,
+      " thick": 643,
+      " associated with ": 644,
+      "-f": 645,
+      "beverag": 646,
+      "eg": 647,
+      "ep": 648,
+      "hocolat": 649,
+      "op": 650,
+      "ub": 651,
+      " ar": 652,
+      "isk": 653,
+      "ent ": 654,
+      "att": 655,
+      "ock": 656,
+      " sty": 657,
+      "ffer": 658,
+      "y be ": 659,
+      "lower": 660,
+      "ineapple ": 661,
+      ". It generally has a": 662,
+      " is an herbal infusion made from": 663,
+      " ice": 664,
+      "Ic": 665,
+      "Latt": 666,
+      "avor": 667,
+      "beverage ": 668,
+      "hin": 669,
+      "ron": 670,
+      "eel": 671,
+      "flavored with": 672,
+      "reat": 673,
+      "che": 674,
+      " green tea": 675,
+      "ribut": 676,
+      "tail": 677,
+      "ucha": 678,
+      "ed by ": 679,
+      "ing on": 680,
+      "sty": 681,
+      "ooler": 682,
+      " chocolat": 683,
+      ".Mango": 684,
+      "made with": 685,
+      "oda is a": 686,
+      "Lemonade ": 687,
+      "epend": 688,
+      "ocktail": 689,
+      ".T": 690,
       "Drink": 691,
       "bucha": 692,
       "mal": 693,
@@ -760,16 +760,16 @@
       "offee": 703,
       " sweetness": 704,
       "tive": 705,
-      " chill": 706,
-      " traditionally ": 707,
-      "moothie combines": 708,
-      "over ice": 709,
-      "epending on": 710,
-      " K": 711,
-      " h": 712,
-      " la": 713,
-      " espresso": 714,
-      "St": 715,
+      " notes": 706,
+      " chill": 707,
+      " traditionally ": 708,
+      "moothie combines": 709,
+      "over ice": 710,
+      "epending on": 711,
+      " K": 712,
+      " h": 713,
+      " la": 714,
+      " espresso": 715,
       "ad": 716,
       "brew": 717,
       "cent": 718,
@@ -780,216 +780,216 @@
       "ssi": 723,
       "vid": 724,
       "warm": 725,
-      "ild": 726,
-      " spic": 727,
-      "ark": 728,
-      " ferment": 729,
-      " bas": 730,
-      " tea is a": 731,
-      "lue": 732,
-      " Tea is a": 733,
-      "vari": 734,
-      "epper": 735,
-      "ness.\n": 736,
-      " A": 737,
-      " B": 738,
-      " it": 739,
-      "-flavor": 740,
-      "Mint ": 741,
-      "dic": 742,
-      "e a": 743,
-      "pir": 744,
-      "ern": 745,
-      " cold ": 746,
-      ", p": 747,
-      "es, ": 748,
-      "y flavor.\n": 749,
-      "hai": 750,
-      "ily ": 751,
-      " sugar": 752,
-      " ma": 753,
-      "oft ": 754,
-      "liqu": 755,
-      " combination": 756,
-      "ange ": 757,
-      "team": 758,
-      "ombines": 759,
-      " juice": 760,
-      " lemonade ": 761,
-      "grain": 762,
-      " ingredients": 763,
-      "affron": 764,
-      " contribut": 765,
-      " distinc": 766,
-      "served chilled.\n": 767,
-      "Iced ": 768,
-      " G": 769,
-      "-er": 770,
-      "-tart ": 771,
-      "fil": 772,
-      "gn": 773,
-      "nut ": 774,
-      "s and ": 775,
-      "u-er": 776,
-      " a c": 777,
-      "on-": 778,
-      "ed for": 779,
-      ", lemon": 780,
-      "region": 781,
-      " plan": 782,
-      ". It has a sweet": 783,
-      " deep": 784,
-      " grap": 785,
-      " caramel": 786,
-      " juice, ": 787,
-      " nut": 788,
-      ", and slightly ": 789,
-      " chocolat": 790,
-      " acidic": 791,
-      "-based beverage ": 792,
-      "Milkshak": 793,
-      "parkling": 794,
-      "oda is a carbonat": 795,
-      "versions": 796,
-      "u-erh": 797,
-      " ic": 798,
-      ", aromatic": 799,
-      "eth": 800,
-      "iffer": 801,
-      "lo": 802,
-      "mar": 803,
-      "mel": 804,
-      "ox": 805,
-      "rat": 806,
-      "tion": 807,
-      "tur": 808,
-      " cocoa": 809,
-      " cocktail": 810,
-      "ed water": 811,
-      ", floral": 812,
-      "isc": 813,
-      ". D": 814,
-      "lar": 815,
-      "lain": 816,
-      "lative": 817,
-      "anese ": 818,
-      "ile ": 819,
-      " salt": 820,
-      "art": 821,
-      " for": 822,
-      " mild ": 823,
-      "mond ": 824,
-      "ras": 825,
-      "assion": 826,
-      " or other": 827,
-      ", citrus": 828,
-      " of ": 829,
-      " chai": 830,
-      " and cream": 831,
-      "offee is": 832,
-      "served hot ": 833,
-      "owder": 834,
-      ", and sometimes": 835,
-      "made b": 836,
-      " and can be ": 837,
-      " have ": 838,
-      "affe": 839,
-      "e juice": 840,
-      ". Common": 841,
-      "Chocolate ": 842,
-      " characteristics.\n": 843,
-      "style ": 844,
-      "epending on the ": 845,
-      "Strawberry ": 846,
-      "primar": 847,
-      "latively ": 848,
-      " M": 849,
-      " ligh": 850,
-      "-style ": 851,
-      "Car": 852,
-      "Coconut ": 853,
-      "combines": 854,
-      "hin": 855,
-      "id ": 856,
-      "lus": 857,
-      "s. It is": 858,
-      "sweet ": 859,
-      "ty": 860,
-      "tradition": 861,
-      "y aroma": 862,
-      "y contain": 863,
-      " creat": 864,
-      "ed to": 865,
-      "ed using": 866,
-      ", milk": 867,
-      ", ginger": 868,
-      " and ma": 869,
-      "y flavor": 870,
-      "alt ": 871,
-      "ens": 872,
-      "anth": 873,
-      "ilut": 874,
-      "ing a": 875,
-      " ber": 876,
-      " bro": 877,
-      " many ": 878,
-      "ed with water": 879,
-      " peach": 880,
-      "ash": 881,
-      "flavored with ": 882,
-      "amp": 883,
-      ", or ": 884,
-      ". It commonly ": 885,
-      "odern": 886,
-      "berry": 887,
-      "ucum": 888,
-      "esser": 889,
-      " cardamom": 890,
-      "ve a": 891,
-      "e combined with": 892,
-      "own": 893,
-      "ed coffee ": 894,
-      " and is commonly ": 895,
-      "ulp": 896,
-      " commonly consum": 897,
-      " and sweetener": 898,
-      " apple": 899,
-      "ibisc": 900,
-      "oolong tea": 901,
-      "haracteristic": 902,
-      "Indian": 903,
-      "-fre": 904,
-      "ubble ": 905,
-      " are ": 906,
-      "Lemonade combines": 907,
-      "pirit": 908,
-      "affeine": 909,
-      "lush": 910,
-      "ucumber": 911,
-      "ibiscus": 912,
-      ", al": 913,
-      "Jap": 914,
-      "Ros": 915,
-      "cold": 916,
-      "ger": 917,
-      "mango": 918,
-      "nown": 919,
-      "oo": 920,
-      "plain": 921,
-      "y, s": 922,
-      " ag": 923,
-      "e of": 924,
-      "ina": 925,
-      ", wh": 926,
-      " and b": 927,
-      "han": 928,
-      "alcoholic": 929,
-      " served ": 930,
-      " smal": 931,
-      "arbon": 932,
-      " black": 933,
-      " meth": 934,
-      ", and c": 935,
+      ", fruit": 726,
+      "ild": 727,
+      " spic": 728,
+      "ark": 729,
+      " ferment": 730,
+      " bas": 731,
+      " tea is a": 732,
+      " juice": 733,
+      "lue": 734,
+      " Tea is a": 735,
+      "vari": 736,
+      "sweetened": 737,
+      "epper": 738,
+      "ness.": 739,
+      " A": 740,
+      " B": 741,
+      " G": 742,
+      " it": 743,
+      "-flavor": 744,
+      ".L": 745,
+      "dic": 746,
+      "e a": 747,
+      "pir": 748,
+      "y, and ": 749,
+      "ern": 750,
+      " cold ": 751,
+      ", p": 752,
+      "es, ": 753,
+      " and ma": 754,
+      "hai": 755,
+      "ily ": 756,
+      " sugar": 757,
+      " ma": 758,
+      "oft ": 759,
+      "liqu": 760,
+      " combination": 761,
+      "ange ": 762,
+      "team": 763,
+      "ombines": 764,
+      "-like": 765,
+      " lemonade ": 766,
+      "grain": 767,
+      " ingredients": 768,
+      "affron": 769,
+      " contribut": 770,
+      " distinc": 771,
+      "Iced ": 772,
+      "-er": 773,
+      "-tart ": 774,
+      ".K": 775,
+      "fil": 776,
+      "gn": 777,
+      "nut ": 778,
+      "u-er": 779,
+      " a c": 780,
+      "on-": 781,
+      "ed for": 782,
+      ", lemon": 783,
+      "region": 784,
+      " plan": 785,
+      ". It has a sweet": 786,
+      " deep": 787,
+      " grap": 788,
+      "berry": 789,
+      " caramel": 790,
+      " juice, ": 791,
+      " nut": 792,
+      ", and slightly ": 793,
+      " acidic": 794,
+      "-based beverage ": 795,
+      "e juice": 796,
+      "parkling": 797,
+      "hocolate ": 798,
+      "oda is a carbonat": 799,
+      "versions": 800,
+      "u-erh": 801,
+      " M": 802,
+      " ic": 803,
+      ", aromatic": 804,
+      "eth": 805,
+      "eine": 806,
+      "iffer": 807,
+      "lo": 808,
+      "mar": 809,
+      "mel": 810,
+      "ox": 811,
+      "rat": 812,
+      "s and ": 813,
+      "tion": 814,
+      "tur": 815,
+      "trawberry ": 816,
+      " cocoa": 817,
+      " cocktail": 818,
+      "ed water": 819,
+      ", floral": 820,
+      "isc": 821,
+      ". D": 822,
+      "lar": 823,
+      "lain": 824,
+      "lative": 825,
+      "anese ": 826,
+      "ile ": 827,
+      " salt": 828,
+      "art": 829,
+      " for": 830,
+      " mild ": 831,
+      "mond ": 832,
+      "ras": 833,
+      "assion": 834,
+      " or other": 835,
+      ", citrus": 836,
+      "s.C": 837,
+      " of ": 838,
+      " chai": 839,
+      " and cream": 840,
+      "offee is": 841,
+      "served hot ": 842,
+      "owder": 843,
+      ", and sometimes": 844,
+      "-like flavor": 845,
+      "made b": 846,
+      " and can be ": 847,
+      " have ": 848,
+      "Milkshak": 849,
+      "affeine": 850,
+      ".Ginger": 851,
+      ". Common": 852,
+      "style ": 853,
+      "epending on the ": 854,
+      "primar": 855,
+      "latively ": 856,
+      " ligh": 857,
+      "-style ": 858,
+      ".D": 859,
+      ".O": 860,
+      "combines": 861,
+      "id ": 862,
+      "lus": 863,
+      "s. It is": 864,
+      "sweet ": 865,
+      "tradition": 866,
+      "y contain": 867,
+      " creat": 868,
+      "ed to": 869,
+      "ed using": 870,
+      ", milk": 871,
+      ", fruity": 872,
+      ", wh": 873,
+      ", ginger": 874,
+      "alt ": 875,
+      "ens": 876,
+      "anth": 877,
+      "ilut": 878,
+      "arbon": 879,
+      "ing a": 880,
+      " ber": 881,
+      " bro": 882,
+      " many ": 883,
+      "ed with water": 884,
+      " peach": 885,
+      "ash": 886,
+      ", and c": 887,
+      "flavored with ": 888,
+      "amp": 889,
+      ", or ": 890,
+      ". It commonly ": 891,
+      "odern": 892,
+      "ucum": 893,
+      "esser": 894,
+      " cardamom": 895,
+      "ve a": 896,
+      "e combined with": 897,
+      "own": 898,
+      "ed coffee ": 899,
+      " and is commonly ": 900,
+      "ulp": 901,
+      ".Strawberry ": 902,
+      " commonly consum": 903,
+      " and sweetener": 904,
+      " apple": 905,
+      "ibisc": 906,
+      "oolong tea": 907,
+      "haracteristic": 908,
+      "Indian": 909,
+      "-fre": 910,
+      "ubble ": 911,
+      " are ": 912,
+      "Lemonade combines": 913,
+      "pirit": 914,
+      "lush": 915,
+      "ucumber": 916,
+      "ibiscus": 917,
+      ", al": 918,
+      ".Lemon": 919,
+      "Jap": 920,
+      "cold": 921,
+      "ger": 922,
+      "mango": 923,
+      "nown": 924,
+      "oo": 925,
+      "plain": 926,
+      " ag": 927,
+      "e of": 928,
+      " and b": 929,
+      "han": 930,
+      "alcoholic": 931,
+      " served ": 932,
+      " smal": 933,
+      " black": 934,
+      " meth": 935,
       " is a f": 936,
       " orang": 937,
       ", spices": 938,
@@ -997,9 +997,9 @@
       ". It is sweet": 940,
       "pically ": 941,
       " green": 942,
-      "ed and ": 943,
-      "righ": 944,
-      "elic": 945,
+      "righ": 943,
+      "elic": 944,
+      " fruit flavor": 945,
       " straw": 946,
       "umin": 947,
       "herbs": 948,
@@ -1008,7 +1008,7 @@
       " natur": 951,
       " process": 952,
       " Tea is": 953,
-      "-like": 954,
+      ".Mint ": 954,
       "e is a milk": 955,
       " Chin": 956,
       " and is often": 957,
@@ -1021,39 +1021,39 @@
       "unch combines": 964,
       "e consum": 965,
       "airy ": 966,
-      " styles": 967,
-      "on-alcoholic": 968,
-      "served hot or": 969,
-      " small": 970,
-      " leaves": 971,
-      ", and": 972,
-      "Al": 973,
-      "Pineapple ": 974,
-      "green": 975,
-      "ian": 976,
-      "oam": 977,
-      "oun": 978,
-      "ua": 979,
-      "vel": 980,
-      "y, sweet": 981,
+      "earthy": 967,
+      " styles": 968,
+      "file": 969,
+      "on-alcoholic": 970,
+      "served hot or": 971,
+      " small": 972,
+      " leaves": 973,
+      ", and": 974,
+      ".V": 975,
+      "green": 976,
+      "ian": 977,
+      "oam": 978,
+      "oun": 979,
+      "ua": 980,
+      "vel": 981,
       "ins": 982,
-      "ine ": 983,
-      " coffe": 984,
-      "y with": 985,
-      " texture": 986,
-      "and": 987,
-      " smoothi": 988,
-      "ings": 989,
-      " from": 990,
-      " be consum": 991,
-      " is k": 992,
-      "rou": 993,
-      "rag": 994,
-      " tea is": 995,
-      "usually ": 996,
-      "pple": 997,
-      "berr": 998,
-      "sweetness": 999
+      " coffe": 983,
+      " caffeine": 984,
+      " and often": 985,
+      "y with": 986,
+      " texture": 987,
+      "and": 988,
+      " smoothi": 989,
+      "ings": 990,
+      " from": 991,
+      " be consum": 992,
+      " is k": 993,
+      "rou": 994,
+      "rag": 995,
+      " tea is": 996,
+      "usually ": 997,
+      " win": 998,
+      "pple": 999
     },
     "merges": [
       [
@@ -1155,10 +1155,6 @@
       [
         "e",
         "n"
-      ],
-      [
-        ".",
-        "\n"
       ],
       [
         " ",
@@ -1566,7 +1562,7 @@
       ],
       [
         "s",
-        ".\n"
+        "."
       ],
       [
         "er",
@@ -1901,6 +1897,10 @@
         "s"
       ],
       [
+        ".",
+        "C"
+      ],
+      [
         "o",
         "w"
       ],
@@ -2105,6 +2105,10 @@
         "S"
       ],
       [
+        ".",
+        "M"
+      ],
+      [
         "f",
         "resh"
       ],
@@ -2185,6 +2189,10 @@
         "radition"
       ],
       [
+        ".",
+        "P"
+      ],
+      [
         "f",
         "loral"
       ],
@@ -2211,10 +2219,6 @@
       [
         " b",
         "everage "
-      ],
-      [
-        "flavor",
-        ".\n"
       ],
       [
         "lack",
@@ -2259,6 +2263,10 @@
       [
         " ",
         "re"
+      ],
+      [
+        ".",
+        "S"
       ],
       [
         "g",
@@ -2365,10 +2373,6 @@
         "o"
       ],
       [
-        "e",
-        ".\n"
-      ],
-      [
         "l",
         "ea"
       ],
@@ -2391,10 +2395,6 @@
       [
         "t",
         "ar"
-      ],
-      [
-        "y",
-        ".\n"
       ],
       [
         " c",
@@ -2501,10 +2501,6 @@
         "la"
       ],
       [
-        "M",
-        "ilk"
-      ],
-      [
         "g",
         "enerally "
       ],
@@ -2533,6 +2529,10 @@
         " other"
       ],
       [
+        "fruit",
+        "y"
+      ],
+      [
         "ve",
         "g"
       ],
@@ -2547,6 +2547,10 @@
       [
         "soc",
         "iat"
+      ],
+      [
+        ".",
+        "B"
       ],
       [
         "f",
@@ -2625,10 +2629,6 @@
         "d "
       ],
       [
-        " flavor",
-        ".\n"
-      ],
-      [
         " w",
         "h"
       ],
@@ -2693,6 +2693,10 @@
         "al"
       ],
       [
+        "M",
+        "ilk"
+      ],
+      [
         "g",
         "reen tea"
       ],
@@ -2709,8 +2713,8 @@
         ". "
       ],
       [
-        "y",
-        ", and "
+        "t",
+        "y"
       ],
       [
         "in",
@@ -2765,10 +2769,6 @@
         "n"
       ],
       [
-        ", ",
-        "fruit"
-      ],
-      [
         " m",
         "ango"
       ],
@@ -2797,12 +2797,12 @@
         "n"
       ],
       [
-        "nut",
-        "t"
-      ],
-      [
         "y t",
         "exture"
+      ],
+      [
+        ".",
+        "G"
       ],
       [
         "c",
@@ -2821,8 +2821,8 @@
         "juic"
       ],
       [
-        "es",
-        ".\n"
+        "y ",
+        "flavor"
       ],
       [
         " t",
@@ -2865,6 +2865,10 @@
         "ar"
       ],
       [
+        "e ",
+        "flavor"
+      ],
+      [
         "in",
         "t "
       ],
@@ -2903,6 +2907,14 @@
       [
         "i",
         "x"
+      ],
+      [
+        "r",
+        "y"
+      ],
+      [
+        "in",
+        "e"
       ],
       [
         "ed ",
@@ -2997,10 +3009,6 @@
         "c"
       ],
       [
-        "in",
-        "e"
-      ],
-      [
         " c",
         "oconut "
       ],
@@ -3029,12 +3037,16 @@
         "ries"
       ],
       [
+        "ot",
+        "es"
+      ],
+      [
         "cohol",
         "ic"
       ],
       [
-        "C",
-        "h"
+        ".",
+        "A"
       ],
       [
         "g",
@@ -3047,10 +3059,6 @@
       [
         "o",
         "u"
-      ],
-      [
-        "r",
-        "y"
       ],
       [
         "v",
@@ -3069,10 +3077,6 @@
         "d "
       ],
       [
-        "flavor",
-        "ed with"
-      ],
-      [
         " con",
         "t"
       ],
@@ -3085,8 +3089,8 @@
         "ong"
       ],
       [
-        "-lik",
-        "e "
+        "hone",
+        "y"
       ],
       [
         " su",
@@ -3097,12 +3101,12 @@
         "es"
       ],
       [
-        "I",
-        "n"
+        ".",
+        "R"
       ],
       [
-        "M",
-        "ango"
+        "I",
+        "n"
       ],
       [
         "b",
@@ -3165,12 +3169,12 @@
         "th"
       ],
       [
-        "y b",
-        "e "
-      ],
-      [
         "raw",
         "berry "
+      ],
+      [
+        ".",
+        "H"
       ],
       [
         "F",
@@ -3237,14 +3241,6 @@
         "kl"
       ],
       [
-        " aroma",
-        ".\n"
-      ],
-      [
-        " n",
-        "ot"
-      ],
-      [
         "oco",
         "a"
       ],
@@ -3253,7 +3249,7 @@
         "t "
       ],
       [
-        "hone",
+        " acidit",
         "y"
       ],
       [
@@ -3329,6 +3325,10 @@
         "drink"
       ],
       [
+        ", ",
+        "nut"
+      ],
+      [
         "ic",
         "an"
       ],
@@ -3361,20 +3361,12 @@
         "ed with "
       ],
       [
-        "ed",
-        ".\n"
-      ],
-      [
         "ed b",
         "everag"
       ],
       [
         "served ",
         "chilled"
-      ],
-      [
-        "ocolat",
-        "e "
       ],
       [
         " th",
@@ -3389,10 +3381,6 @@
         "f"
       ],
       [
-        "G",
-        "inger"
-      ],
-      [
         "b",
         "everag"
       ],
@@ -3403,6 +3391,10 @@
       [
         "e",
         "p"
+      ],
+      [
+        "h",
+        "ocolat"
       ],
       [
         "o",
@@ -3437,12 +3429,12 @@
         "y"
       ],
       [
-        " character",
-        ".\n"
-      ],
-      [
         "ff",
         "er"
+      ],
+      [
+        "y b",
+        "e "
       ],
       [
         "low",
@@ -3481,16 +3473,20 @@
         "everage "
       ],
       [
+        "h",
+        "in"
+      ],
+      [
         "r",
         "on"
       ],
       [
-        "y",
-        " and "
-      ],
-      [
         "ee",
         "l"
+      ],
+      [
+        "flavor",
+        "ed with"
       ],
       [
         "rea",
@@ -3503,10 +3499,6 @@
       [
         " g",
         "reen tea"
-      ],
-      [
-        "ed",
-        ", "
       ],
       [
         "ri",
@@ -3537,6 +3529,14 @@
         "er"
       ],
       [
+        " ch",
+        "ocolat"
+      ],
+      [
+        ".M",
+        "ango"
+      ],
+      [
         "made ",
         "with"
       ],
@@ -3555,6 +3555,10 @@
       [
         "ock",
         "tail"
+      ],
+      [
+        ".",
+        "T"
       ],
       [
         "D",
@@ -3617,6 +3621,10 @@
         "ve"
       ],
       [
+        " n",
+        "otes"
+      ],
+      [
         " ch",
         "ill"
       ],
@@ -3651,10 +3659,6 @@
       [
         " ",
         "espresso"
-      ],
-      [
-        "S",
-        "t"
       ],
       [
         "a",
@@ -3697,6 +3701,10 @@
         "arm"
       ],
       [
+        ", ",
+        "fruit"
+      ],
+      [
         "il",
         "d"
       ],
@@ -3721,6 +3729,10 @@
         " is a"
       ],
       [
+        " juic",
+        "e"
+      ],
+      [
         "lu",
         "e"
       ],
@@ -3733,12 +3745,16 @@
         "i"
       ],
       [
+        "sweeten",
+        "ed"
+      ],
+      [
         "epp",
         "er"
       ],
       [
         "nes",
-        "s.\n"
+        "s."
       ],
       [
         " ",
@@ -3750,6 +3766,10 @@
       ],
       [
         " ",
+        "G"
+      ],
+      [
+        " ",
         "it"
       ],
       [
@@ -3757,8 +3777,8 @@
         "flavor"
       ],
       [
-        "M",
-        "int "
+        ".",
+        "L"
       ],
       [
         "d",
@@ -3771,6 +3791,10 @@
       [
         "p",
         "ir"
+      ],
+      [
+        "y",
+        ", and "
       ],
       [
         "er",
@@ -3789,8 +3813,8 @@
         ", "
       ],
       [
-        "y ",
-        "flavor.\n"
+        " and ",
+        "ma"
       ],
       [
         "ha",
@@ -3833,7 +3857,7 @@
         "es"
       ],
       [
-        " juic",
+        "-lik",
         "e"
       ],
       [
@@ -3861,16 +3885,8 @@
         "inc"
       ],
       [
-        "served chilled",
-        ".\n"
-      ],
-      [
         "Ic",
         "ed "
-      ],
-      [
-        " ",
-        "G"
       ],
       [
         "-",
@@ -3879,6 +3895,10 @@
       [
         "-",
         "tart "
+      ],
+      [
+        ".",
+        "K"
       ],
       [
         "f",
@@ -3891,10 +3911,6 @@
       [
         "n",
         "ut "
-      ],
-      [
-        "s",
-        " and "
       ],
       [
         "u",
@@ -3937,6 +3953,10 @@
         "rap"
       ],
       [
+        "ber",
+        "ry"
+      ],
+      [
         " car",
         "amel"
       ],
@@ -3953,10 +3973,6 @@
         "lightly "
       ],
       [
-        " ch",
-        "ocolat"
-      ],
-      [
         " aci",
         "dic"
       ],
@@ -3965,12 +3981,16 @@
         "ed beverage "
       ],
       [
-        "Milk",
-        "shak"
+        "e juic",
+        "e"
       ],
       [
         "parkl",
         "ing"
+      ],
+      [
+        "hocolat",
+        "e "
       ],
       [
         "oda is a",
@@ -3986,6 +4006,10 @@
       ],
       [
         " ",
+        "M"
+      ],
+      [
+        " ",
         "ic"
       ],
       [
@@ -3995,6 +4019,10 @@
       [
         "e",
         "th"
+      ],
+      [
+        "e",
+        "ine"
       ],
       [
         "i",
@@ -4021,12 +4049,20 @@
         "at"
       ],
       [
+        "s",
+        " and "
+      ],
+      [
         "t",
         "ion"
       ],
       [
         "t",
         "ur"
+      ],
+      [
+        "t",
+        "rawberry "
       ],
       [
         " c",
@@ -4109,6 +4145,10 @@
         "itrus"
       ],
       [
+        "s.",
+        "C"
+      ],
+      [
         " of",
         " "
       ],
@@ -4137,6 +4177,10 @@
         "ometimes"
       ],
       [
+        "-lik",
+        "e flavor"
+      ],
+      [
         "made ",
         "b"
       ],
@@ -4149,24 +4193,20 @@
         "ve "
       ],
       [
-        "aff",
-        "e"
+        "Milk",
+        "shak"
       ],
       [
-        "e juic",
-        "e"
+        "aff",
+        "eine"
+      ],
+      [
+        ".G",
+        "inger"
       ],
       [
         ". C",
         "ommon"
-      ],
-      [
-        "Ch",
-        "ocolate "
-      ],
-      [
-        " characteristic",
-        "s.\n"
       ],
       [
         "sty",
@@ -4175,10 +4215,6 @@
       [
         "epending on",
         " the "
-      ],
-      [
-        "St",
-        "rawberry "
       ],
       [
         "pri",
@@ -4190,10 +4226,6 @@
       ],
       [
         " ",
-        "M"
-      ],
-      [
-        " ",
         "ligh"
       ],
       [
@@ -4201,20 +4233,16 @@
         "style "
       ],
       [
-        "C",
-        "ar"
+        ".",
+        "D"
       ],
       [
-        "C",
-        "oconut "
+        ".",
+        "O"
       ],
       [
         "c",
         "ombines"
-      ],
-      [
-        "h",
-        "in"
       ],
       [
         "i",
@@ -4234,15 +4262,7 @@
       ],
       [
         "t",
-        "y"
-      ],
-      [
-        "t",
         "radition"
-      ],
-      [
-        "y",
-        " aroma"
       ],
       [
         "y",
@@ -4266,15 +4286,15 @@
       ],
       [
         ", ",
+        "fruity"
+      ],
+      [
+        ", ",
+        "wh"
+      ],
+      [
+        ", ",
         "ginger"
-      ],
-      [
-        " and ",
-        "ma"
-      ],
-      [
-        "y ",
-        "flavor"
       ],
       [
         "al",
@@ -4291,6 +4311,10 @@
       [
         "il",
         "ut"
+      ],
+      [
+        "ar",
+        "bon"
       ],
       [
         "ing",
@@ -4321,6 +4345,10 @@
         "h"
       ],
       [
+        ", and ",
+        "c"
+      ],
+      [
         "flavor",
         "ed with "
       ],
@@ -4339,10 +4367,6 @@
       [
         "od",
         "ern"
-      ],
-      [
-        "ber",
-        "ry"
       ],
       [
         "uc",
@@ -4379,6 +4403,10 @@
       [
         "ul",
         "p"
+      ],
+      [
+        ".S",
+        "trawberry "
       ],
       [
         " commonly",
@@ -4429,10 +4457,6 @@
         "it"
       ],
       [
-        "affe",
-        "ine"
-      ],
-      [
         "lus",
         "h"
       ],
@@ -4449,12 +4473,12 @@
         " al"
       ],
       [
-        "J",
-        "ap"
+        ".",
+        "Lemon"
       ],
       [
-        "R",
-        "os"
+        "J",
+        "ap"
       ],
       [
         "c",
@@ -4481,24 +4505,12 @@
         "lain"
       ],
       [
-        "y",
-        ", s"
-      ],
-      [
         " a",
         "g"
       ],
       [
         "e ",
         "of"
-      ],
-      [
-        "in",
-        "a"
-      ],
-      [
-        ", ",
-        "wh"
       ],
       [
         " and ",
@@ -4521,20 +4533,12 @@
         "mal"
       ],
       [
-        "ar",
-        "bon"
-      ],
-      [
         " b",
         "lack"
       ],
       [
         " m",
         "eth"
-      ],
-      [
-        ", and ",
-        "c"
       ],
       [
         " is a",
@@ -4565,16 +4569,16 @@
         "reen"
       ],
       [
-        "ed",
-        " and "
-      ],
-      [
         "ri",
         "gh"
       ],
       [
         "el",
         "ic"
+      ],
+      [
+        " fruit",
+        " flavor"
       ],
       [
         " st",
@@ -4609,8 +4613,8 @@
         " is"
       ],
       [
-        "-lik",
-        "e"
+        ".M",
+        "int "
       ],
       [
         "e is a",
@@ -4661,8 +4665,16 @@
         "ry "
       ],
       [
+        "earth",
+        "y"
+      ],
+      [
         " sty",
         "les"
+      ],
+      [
+        "fil",
+        "e"
       ],
       [
         "on-",
@@ -4685,12 +4697,8 @@
         " and"
       ],
       [
-        "A",
-        "l"
-      ],
-      [
-        "P",
-        "ineapple "
+        ".",
+        "V"
       ],
       [
         "g",
@@ -4717,20 +4725,20 @@
         "el"
       ],
       [
-        "y",
-        ", sweet"
-      ],
-      [
         "in",
         "s"
       ],
       [
-        "in",
-        "e "
+        " c",
+        "offe"
       ],
       [
         " c",
-        "offe"
+        "affeine"
+      ],
+      [
+        " and ",
+        "often"
       ],
       [
         "y ",
@@ -4781,16 +4789,12 @@
         "ually "
       ],
       [
+        " w",
+        "in"
+      ],
+      [
         "pp",
         "le"
-      ],
-      [
-        "ber",
-        "r"
-      ],
-      [
-        "sweet",
-        "ness"
       ]
     ]
   }
