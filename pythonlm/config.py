@@ -4,11 +4,11 @@
 # ============================================================
 
 # ----- Model ------------------------------------------------
-VOCAB_SIZE = 8000     # tokenizer vocabulary size
-BLOCK_SIZE = 64       # context window (tokens)
-N_EMBED    = 128      # embedding dimension
-N_HEAD     = 4    # attention heads  (N_EMBED must be divisible by N_HEAD)
-N_LAYER    = 2       # transformer blocks
+VOCAB_SIZE = 1000     # tokenizer vocabulary size
+BLOCK_SIZE = 64      # context window (tokens)
+N_EMBED    = 64      # embedding dimension
+N_HEAD     = 2    # attention heads  (N_EMBED must be divisible by N_HEAD)
+N_LAYER    = 1       # transformer blocks
 DROPOUT    = 0.1     # dropout rate
 
 # ----- Training ---------------------------------------------
@@ -20,8 +20,8 @@ WEIGHT_DECAY   = 0.1
 PATIENCE       = 3    # early-stopping patience (eval steps)
 
 # ----- Paths ------------------------------------------------
-DATA_PATH       = "data/processed/python_train.txt"
-TOKENIZER_PATH  = "data/bpe_tokenizer.json"
+DATA_PATH       = "data/test.txt"
+TOKENIZER_PATH  = "data/test_tokenizer.json"
 CHECKPOINT_DIR  = "checkpoints"
-BEST_CHECKPOINT = "checkpoints/pythonlm_best.pt"
-LAST_CHECKPOINT = "checkpoints/pythonlm_last.pt"
+BEST_CHECKPOINT = "checkpoints/test_pythonlm_best.pt"
+LAST_CHECKPOINT = "checkpoints/test_pythonlm_last.pt"
