@@ -1,4 +1,4 @@
-"""Train TeaLM and save the best checkpoint.
+"""Train PythonLM and save the best checkpoint.
 
 Usage:
     python scripts/train.py
@@ -7,9 +7,9 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import torch
-from tealm import config
-from tealm.model import TeaLM
-from tealm.dataset import get_batch, tokenizer
+from pythonlm import config
+from pythonlm.model import PythonLM
+from pythonlm.dataset import get_batch, tokenizer
 
 os.makedirs(config.CHECKPOINT_DIR, exist_ok=True)
 
@@ -20,7 +20,7 @@ os.makedirs(config.CHECKPOINT_DIR, exist_ok=True)
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Device     : {device}")
 
-model = TeaLM(vocab_size=tokenizer.get_vocab_size()).to(device)
+model = PythonLM(vocab_size=tokenizer.get_vocab_size()).to(device)
 print(f"Parameters : {model.num_parameters():,}")
 
 optimizer = torch.optim.AdamW(

@@ -1,6 +1,6 @@
-# TeaLM
+# PythonLM
 
-A small transformer language model trained on tea recipes.  
+A small transformer language model trained on python.  
 Uses **BPE tokenization**, **RoPE positional embeddings**, and **causal self-attention**.
 
 ## Setup
@@ -28,13 +28,13 @@ python scripts/train.py
 ### 3 — Generate text
 ```bash
 python scripts/generate.py
-python scripts/generate.py --prompt "How to make green tea" --tokens 150
+python scripts/generate.py --prompt "What is python" --tokens 150
 python scripts/generate.py --temperature 0.5 --top_k 10
 ```
 
 ## Configuration
 
-All hyperparameters live in [`tealm/config.py`](tealm/config.py). Change values there — every script picks them up automatically.
+All hyperparameters live in [`pythonlm/config.py`](pythonlm/config.py). Change values there — every script picks them up automatically.
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
@@ -51,10 +51,10 @@ All hyperparameters live in [`tealm/config.py`](tealm/config.py). Change values 
 ## Project Structure
 
 ```
-TeaLM/
-├── tealm/                   # core package
+PythonLM/
+├── pythonlm/                # core package
 │   ├── config.py            # all hyperparameters
-│   ├── model.py             # TeaLM transformer (RoPE + causal attention)
+│   ├── model.py             # PythonLM transformer (RoPE + causal attention)
 │   ├── dataset.py           # data loading and batch sampler
 │   └── tokenizer.py         # BPE tokenizer (train + load)
 ├── scripts/
@@ -62,7 +62,7 @@ TeaLM/
 │   ├── train.py             # step 2: train the model
 │   └── generate.py          # step 3: generate text
 ├── data/
-│   ├── tea.txt              # training corpus
+│   ├── raw/
 │   └── bpe_tokenizer.json   # saved tokenizer
 ├── checkpoints/             # saved model weights (.pt)
 └── requirements.txt

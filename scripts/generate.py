@@ -1,4 +1,4 @@
-"""Generate text from a trained TeaLM checkpoint.
+"""Generate text from a trained PythonLM checkpoint.
 
 Usage:
     python scripts/generate.py
@@ -9,13 +9,13 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import argparse
 import torch
-from tealm import config
-from tealm.model import TeaLM
-from tealm.tokenizer import load_tokenizer, decode
+from pythonlm import config
+from pythonlm.model import PythonLM
+from pythonlm.tokenizer import load_tokenizer, decode
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Generate text with TeaLM")
+    parser = argparse.ArgumentParser(description="Generate text with PythonLM")
     parser.add_argument("--prompt",      type=str,   default="To make tea")
     parser.add_argument("--tokens",      type=int,   default=200)
     parser.add_argument("--temperature", type=float, default=0.8)
@@ -30,7 +30,7 @@ def main():
     device    = "cuda" if torch.cuda.is_available() else "cpu"
     tokenizer = load_tokenizer()
 
-    model = TeaLM(vocab_size=tokenizer.get_vocab_size()).to(device)
+    model = PythonLM(vocab_size=tokenizer.get_vocab_size()).to(device)
     model.load_state_dict(torch.load(args.checkpoint, map_location=device))
     model.eval()
 

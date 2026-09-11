@@ -1,6 +1,6 @@
 import torch
-from tealm import config
-from tealm.tokenizer import load_tokenizer
+from pythonlm import config
+from pythonlm.tokenizer import load_tokenizer
 
 
 # ============================================================

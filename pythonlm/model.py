@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from tealm import config
+from pythonlm import config
 
 
 # ============================================================
@@ -123,10 +123,10 @@ class TransformerBlock(nn.Module):
 
 
 # ============================================================
-# TeaLM
+# PythonLM
 # ============================================================
 
-class TeaLM(nn.Module):
+class PythonLM(nn.Module):
 
     def __init__(self, vocab_size):
         super().__init__()

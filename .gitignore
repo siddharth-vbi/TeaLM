@@ -63,3 +63,5 @@ venv.bak/
 # Local sensitive settings
 .env.local
 .env.*.local
+
+data/raw

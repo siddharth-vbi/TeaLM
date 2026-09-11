@@ -23,5 +23,5 @@ PATIENCE       = 3    # early-stopping patience (eval steps)
 DATA_PATH       = "data/processed/python_train.txt"
 TOKENIZER_PATH  = "data/bpe_tokenizer.json"
 CHECKPOINT_DIR  = "checkpoints"
-BEST_CHECKPOINT = "checkpoints/tealm_best.pt"
-LAST_CHECKPOINT = "checkpoints/tealm_last.pt"
+BEST_CHECKPOINT = "checkpoints/pythonlm_best.pt"
+LAST_CHECKPOINT = "checkpoints/pythonlm_last.pt"

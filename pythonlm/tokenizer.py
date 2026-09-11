@@ -1,7 +1,7 @@
 from tokenizers import Tokenizer
 from tokenizers.models import BPE
 from tokenizers.trainers import BpeTrainer
-from tealm import config
+from pythonlm import config
 
 
 def train_tokenizer():
